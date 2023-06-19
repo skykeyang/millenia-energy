@@ -18,7 +18,7 @@ function IndexPage() {
             <tbody>
               <tr>
                 <td style={{position:'relative'}}>
-                  <img style={{width:'100%', height:'40%'}} src={require("../images/logobanner.jpeg").default} alt='Logo' />
+                  <img style={{width:'100%', height:'40%'}} src={require("../images/logobanner.jpg").default} alt='Logo' />
                   {/* <table cellpadding="0" cellspacing="0" style={{width:'100%'}} className="font_position">
                   <tbody>
                     <tr> */}
