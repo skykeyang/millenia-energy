@@ -1,0 +1,28 @@
+.td1 {
+    padding-bottom: 5px;
+    font-size: 2.917vw; 
+    font-family:Roboto;
+    font-weight:700;
+    color:#fff;
+    text-shadow: 1px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.tblOutter {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+    border-spacing: 0;
+}
+
+.font_position {
+    text-align: center;
+    position: absolute;
+    top: 45px;
+}
+
+table.tblContent {
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
