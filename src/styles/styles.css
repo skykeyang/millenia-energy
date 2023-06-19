@@ -1,10 +1,11 @@
 .td1 {
     padding-bottom: 5px;
     font-size: 2.917vw; 
-    font-family:Roboto;
-    font-weight:700;
-    color:#86b00e;
-    text-shadow: 1px 3px 7px rgba(0, 0, 0, 0.5);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+    /* color:#86b00e; */
+    color: black;
+    /* text-shadow: 1px 3px 7px rgba(0, 0, 0, 0.5); */
 }
 
 .tblOutter {
