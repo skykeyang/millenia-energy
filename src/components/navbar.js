@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import "./css/header.css"
 const Navbar = () => {
     return (
+        <div className='container'>
+            <div className='row'>
         <nav>
             <ul>
                 <li><Link to="/"> Home </Link></li>
@@ -11,6 +13,8 @@ const Navbar = () => {
                 <li><Link to ="/media"> Media </Link></li>
             </ul>
         </nav>
+        </div>
+        </div>
     )
 }
 
