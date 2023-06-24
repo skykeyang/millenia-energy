@@ -2,9 +2,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  // flags: {
-  //   DEV_SSR: true
-  // },
+  flags: {
+    DEV_SSR: true
+  },
   siteMetadata: {
     title: `millenia-energy`,
     siteUrl: `https://www.millenia-energy.com`
