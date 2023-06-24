@@ -1,0 +1,10 @@
+.homebanner {
+    position: static;
+    top: 0px;
+    overflow: visible;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+  }
