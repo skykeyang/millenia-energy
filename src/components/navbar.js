@@ -35,17 +35,17 @@ const Navbar = () => {
         setShowing(!isShowing);
     };
 
-    const isAtscrollTop = () => {
-        if (document.scrollTop()) {
-            return true
-        }
-        return false
-    }
+    // const isAtscrollTop = () => {
+    //     if (document.scrollTop()) {
+    //         return true
+    //     }
+    //     return false
+    // }
 
-    var navClasses = classNames(
-        'black',
-        ''
-    )
+    // var navClasses = classNames(
+    //     'black',
+    //     ''
+    // )
 
     return (
         // <div className='container'>
