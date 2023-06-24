@@ -35,6 +35,7 @@ const Footer = () => {
               </div>
               <div className='col-md-6'>
                 <table className='footertable'>
+                  <tbody>
                   <tr>
                     <td className='footertd'>
                       <h1><i className='bi bi-geo-alt-fill'></i></h1>
@@ -51,6 +52,7 @@ const Footer = () => {
                       info@millenia-energy.com
                     </td>
                   </tr>
+                  </tbody>
                 </table>
               </div>
           <div className='row'>
