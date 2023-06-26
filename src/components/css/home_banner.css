@@ -2,6 +2,8 @@
     position: relative;
     top: 0px;
     overflow: visible;
+    width: 100%;
+    height: auto;
 }
 
 .container-fluid{
