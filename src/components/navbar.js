@@ -63,14 +63,15 @@ const Navbar = () => {
         <div className="wrapper">
          <header>
             <nav className='container-fluid'>
-            <div style={{width:'100%'}} >
+            <div>
                <div className = 'menu-icon' onClick={toggleShowing} >
-                    <div className='smalllogo'><Link to="/"><img src={require("../images/logobanner_nobg.png").default} className= 'navlogo'></img></Link></div>
-                    <i className="bi bi-list"></i>
-               </div>
-               <div className="logo col-4">
-                  <Link to="/"><img src={require("../images/logobanner_nobg.png").default} className= 'navlogo'></img></Link>
-               </div>
+                  <div className='smalllogo col-sm-4'>
+                     <Link to="/"><img src={require("../images/logobanner_nobg.png").default} className= 'navlogo'></img></Link></div>
+                  <i className="bi bi-list"></i>
+                  </div>
+                  <div className="logo col-4">
+                     <Link to="/"><img src={require("../images/logobanner_nobg.png").default} className= 'navlogo'></img></Link>
+                  </div>
                <div className="menu row">
                   <ul className= {isShowing ? 'showing':null}>
                     <li className= {isCol ? 'col-md-2':'col'} id="about"><Link to ="/about"> ABOUT </Link></li>

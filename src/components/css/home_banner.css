@@ -1,5 +1,5 @@
 .homebanner {
-    position: static;
+    position: relative;
     top: 0px;
     overflow: visible;
 }
