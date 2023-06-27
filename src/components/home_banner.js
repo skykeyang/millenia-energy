@@ -7,9 +7,9 @@ import "../styles/styles.css";
 
 export default function HomeBanner({children}) {
     return (
-        <div style={{position:'relative'}}>
+        <div>
             {children}
-            <img width={'1920px'} height={'auto'} className='homebanner' src={require("../images/solarbackground.jpg").default} alt='Logo'/>
+            <img className='homebanner' src={require("../images/solarbackground.jpg").default} alt='Logo'/>
         </div>
     )
 }
