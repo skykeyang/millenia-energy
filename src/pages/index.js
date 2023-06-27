@@ -17,7 +17,11 @@ const IndexPage = () => {
     <div className="row">
     <HomeBanner>
     <Navbar /> 
-    <h1 className="maintitle col-lg-4">We are Millenia Energy</h1>
+    <div className=" col-lg-4">
+      <h1 className="maintitle">We are Millenia Energy</h1>
+      <h2 className="subtitle">The Future Is Green</h2>
+      <button type="button" class="btn btn-primary morebutton rounded-pill">Read More</button>
+    </div>
     </HomeBanner>
     </div>
     <div className="row">
