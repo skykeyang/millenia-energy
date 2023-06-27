@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import HomeBanner from "../components/home_banner"
@@ -13,11 +13,16 @@ import "../assets/vendor/boxicons/css/boxicons.min.css"
 
 const IndexPage = () => {
   return (
-    <div>  
+    <div>
+    <div className="row">
     <HomeBanner>
     <Navbar /> 
+    <h1 className="maintitle col-lg-4">We are Millenia Energy</h1>
     </HomeBanner>
-    <Footer />
+    </div>
+    <div className="row">
+    {/* <Footer /> */}
+    </div>
     </div>
   )
 }

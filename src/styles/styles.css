@@ -1,73 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-.td1 {
-    padding-bottom: 5px;
-    font-size: 2.917vw; 
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:800;
-    /* color:#86b00e; */
-    color: black;
-    /* text-shadow: 1px 3px 7px rgba(0, 0, 0, 0.5); */
-}
-
-.tblOutter {
+html,body
+{
     width: 100%;
-    vertical-align: middle;
-    text-align: center;
-    padding: 0;
-    border-spacing: 0;
-    margin: 0;
-}
-
-.font_position {
-    text-align: center;
-    position: absolute;
-    top: 45px;
-}
-
-table.tblContent {
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-
-html, 
-body {
-    width: 100% !important;
     height: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     overflow-x: hidden; 
 }
 
-h2 {
-    font-size: 24px;
-    line-height: 24px;
-    margin-bottom: 10px;
-    font-weight: 700;
+.maintitle {
     color: #000;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 700;
+    position: relative;
+    top: 453px;
+    left: 153px;
+    z-index: 5;
 }
 
-table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    white-space: collapse;
-    flex-wrap: wrap;
-    line-height: normal;
-    font-weight: normal;
-    font-size: medium;
-    font-style: normal;
-    color: -internal-quirk-inherit;
-    text-align: start;
-    border-spacing: 2px;
-    border-color: gray;
-    font-variant: normal;
+@media(max-width: 1180px) {
+    .maintitle {
+       top: 40vh;
+       justify-self: left;
+       /* font-size: auto; */
+       font-size: 2.4rem ;
+    }
 }
 
-a {
-    color: black;
-    text-decoration: none;
-    font-style:normal;
+@media(max-width: 350px) {
+    .maintitle {
+       top: 20vh;
+       left: 5vb;
+       /* font-size: auto; */
+       font-size: 1.5rem ;
+    }
 }
