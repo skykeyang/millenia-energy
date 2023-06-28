@@ -68,7 +68,7 @@ html,body
     }
 }
 
-@media(max-width: 350px) {
+@media(max-width: 400px) {
     .maintitle {
        top: 20vh;
        left: 5vb;

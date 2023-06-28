@@ -126,7 +126,7 @@ nav ul li a:hover {
 .navbarrow {
     max-width: 1920px !important;
     padding-top: 79px;
-    padding-right: 143px;
+    padding-right: 140px;
 }
 
 @media(max-width: 1919px) {
