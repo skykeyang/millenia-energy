@@ -1,0 +1,63 @@
+.section-two {
+    /* background-color: #FFFFFF; */
+    /* height: 100vh; */
+    display: block;
+    position: absolute;
+    top:100vh;
+    width: 100%;
+}
+.missionvision {
+    background-color: #FFFFFF;
+    height: 100vh;
+    position: relative;
+}
+
+.image-wrapper {
+    background-color: #FFFFFF;
+    height: 100vh;
+    position: relative;
+}
+
+.missiontitle {
+    color: #3A4A01;
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 600;
+    padding-left: 92px;
+    padding-top: 10vh;
+}
+
+.together {
+    padding-top: 17px;
+    padding-left: 89px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #3A4A01;
+    font-size: 26px;
+    font-family: Montserrat;
+}
+
+.ourmission {
+    padding-top: 97px;
+    padding-left: 89px;
+    color: #3A4A01;
+    font-size: 22px;
+    font-family: Montserrat;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.missioncontent {
+    color: #6E992E;
+    font-size: 16px;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    padding-left: 89px;
+}
+
+.solar-image {
+    width: 100%;
+}

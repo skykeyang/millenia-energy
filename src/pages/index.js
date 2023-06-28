@@ -3,6 +3,7 @@ import * as React from "react"
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import HomeBanner from "../components/home_banner"
+import Mission from "../components/mission"
 import "./../styles/styles.css"
 // import "../assets/vendor/aos/aos.css"
 import "../assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -20,10 +21,11 @@ const IndexPage = () => {
     <div className=" col-lg-4">
       <h1 className="maintitle">We are Millenia Energy</h1>
       <h2 className="subtitle">The Future Is Green</h2>
-      <button type="button" class="btn btn-primary morebutton rounded-pill">Read More</button>
+      <button type="button" class="btn btn-primary morebutton rounded-pill" href='#mission'>Read More</button>
     </div>
     </HomeBanner>
     </div>
+    <Mission />
     <div className="row">
     {/* <Footer /> */}
     </div>
