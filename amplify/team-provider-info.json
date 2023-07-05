@@ -1,0 +1,29 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify912f78195bc04-staging-80157-authRole",
+      "UnauthRoleArn": "arn:aws:iam::748255803124:role/amplify-amplify912f78195bc04-staging-80157-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::748255803124:role/amplify-amplify912f78195bc04-staging-80157-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-amplify912f78195bc04-staging-80157-deployment",
+      "UnauthRoleName": "amplify-amplify912f78195bc04-staging-80157-unauthRole",
+      "StackName": "amplify-amplify912f78195bc04-staging-80157",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:748255803124:stack/amplify-amplify912f78195bc04-staging-80157/e2417f90-1977-11ee-8f95-067f442b8c94",
+      "AmplifyAppId": "doovmhext8pzn"
+    },
+    "categories": {
+      "function": {
+        "milleniaenergy9b718375": {
+          "deploymentBucketName": "amplify-amplify912f78195bc04-staging-80157-deployment",
+          "s3Key": "amplify-builds/milleniaenergy9b718375-674d563171416344414b-build.zip"
+        }
+      },
+      "auth": {
+        "milleniaenergy9121cc07": {}
+      },
+      "api": {
+        "getmetrics": {}
+      }
+    }
+  }
+}

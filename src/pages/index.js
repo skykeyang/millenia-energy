@@ -4,6 +4,7 @@ import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import HomeBanner from "../components/home_banner"
 import Mission from "../components/mission"
+import Metrics from "../components/metrics"
 import "./../styles/styles.css"
 // import "../assets/vendor/aos/aos.css"
 import "../assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -26,6 +27,7 @@ const IndexPage = () => {
     </HomeBanner>
     </div>
     <Mission />
+    <Metrics />
     <div className="row">
     {/* <Footer /> */}
     </div>
