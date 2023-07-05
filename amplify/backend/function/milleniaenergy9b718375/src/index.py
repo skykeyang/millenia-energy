@@ -42,7 +42,6 @@ CORS(app)
 
 @app.route(BASE_ROUTE, methods=["GET"])
 def list_metrics():
-    s3 = boto3.client('s3')
     """Shows basic usage of the Sheets API.
     Prints values from a sample spreadsheet.
     """

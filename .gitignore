@@ -23,3 +23,5 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
+amplify/backend/function/milleniaenergy9b718375/src/token.json
+amplify/backend/function/milleniaenergy9b718375/src/client_secret.json
