@@ -1,0 +1,6 @@
+.metrics {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 200vh;
+}

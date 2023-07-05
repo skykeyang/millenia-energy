@@ -1,0 +1,70 @@
+{
+  "api": {
+    "getmetrics": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "milleniaenergy9b718375"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "auth": {
+    "milleniaenergy9121cc07": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "milleniaenergy9b718375": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_milleniaenergy9b718375_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "milleniaenergy9b718375"
+        }
+      ]
+    },
+    "AMPLIFY_function_milleniaenergy9b718375_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "milleniaenergy9b718375"
+        }
+      ]
+    }
+  },
+  "storage": {}
+}
