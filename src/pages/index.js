@@ -19,11 +19,12 @@ const IndexPage = () => {
     <div className="row">
     <HomeBanner>
     <Navbar /> 
-    <div className=" col-lg-4">
+    <div className="title-wrapper col-lg-4">
       <h1 className="maintitle">We are Millenia Energy</h1>
       <h2 className="subtitle">The Future Is Green</h2>
       <button type="button" class="btn btn-primary morebutton rounded-pill" href='#mission'>Read More</button>
     </div>
+    <div className="col-lg-8"></div>
     </HomeBanner>
     </div>
     <Mission />

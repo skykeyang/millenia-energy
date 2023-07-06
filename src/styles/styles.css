@@ -50,6 +50,10 @@ html,body
     outline: none !important;
 }
 
+.title-wrapper {
+    position: absolute;
+}
+
 @media(max-width: 1180px) {
     .maintitle {
        top: 40vh;

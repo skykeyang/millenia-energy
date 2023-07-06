@@ -34,7 +34,7 @@ const Navbar = () => {
                   <div className="logo col-4">
                      <Link to="/"><img src={require("../images/logobanner_nobg.png").default} className= 'navlogo' alt='logo'></img></Link>
                   </div>
-               <div className="menu row navbarrow">
+               <div className="menu row navbarrow gx-0">
                   <ul className= {isShowing ? 'showing':null}>
                     <li className= {isCol ? 'col-md-2':'col'} id="about"><Link to ="/about"> ABOUT </Link></li>
                     <li className={isCol ? 'col-md-2':'col'} id="investors"><Link to ="/investors"> INVESTORS </Link></li>
