@@ -7,11 +7,10 @@ import "../../styles/styles.css"
 const Footer = () => {
     return (
       <footer className="footer">
-      <div className="container">
+      <div className="container-fluid">
           <div className="row">
               <div className="col-md-6">
-                  <h5><img src={require("./images/logo_nobg.png").default} className='greyscale'></img> MILLENIA ENERGY</h5>
-                  {/* <img src={require("../images/logobanner_nobg.png").default} className='img-responsive fit-image'></img> */}
+                  <img src={require("../../images/logobanner_nobg.png").default} className='footer-logo'></img>
                   <div className="row">
                   
                       <div className="col-6">

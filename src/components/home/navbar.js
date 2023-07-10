@@ -28,11 +28,11 @@ const Navbar = () => {
             <div>
                <div className = 'menu-icon' onClick={toggleShowing} >
                   <div className='smalllogo col-sm-4'>
-                     <Link to="/"><img src={require("./images/logobanner_nobg.png").default} className= 'navlogo' alt='logo'></img></Link></div>
+                     <Link to="/"><img src={require("../../images/logobanner_nobg.png").default} className= 'navlogo' alt='logo'></img></Link></div>
                   <i className="bi bi-list"></i>
                   </div>
                   <div className="logo col-4">
-                     <Link to="/"><img src={require("./images/logobanner_nobg.png").default} className= 'navlogo' alt='logo'></img></Link>
+                     <Link to="/"><img src={require("../../images/logobanner_nobg.png").default} className= 'navlogo' alt='logo'></img></Link>
                   </div>
                <div className="menu row navbarrow gx-0">
                   <ul className= {isShowing ? 'showing':null}>

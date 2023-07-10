@@ -21,7 +21,7 @@ const AboutPage = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col about-image">
-                        <img src={require("../components/about/images/nature-solar-panels.jpg").default} />
+                        <img src={require("../images/nature-solar-panels.jpg").default} />
                     </div>
                     <div className="col about-text align-self-center">
                     <h3>“Quote”</h3><br/>
@@ -31,7 +31,7 @@ const AboutPage = () => {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
