@@ -1,7 +1,7 @@
 import React from "react";
 import { Component } from 'react';
 import "./css/mission.css";
-import "../styles/styles.css";
+import "../../styles/styles.css";
 
 // 770px for top section
 // 560px for metrics
@@ -25,7 +25,7 @@ export default function Mission() {
                 </p>
             </section>
             <section id='image' className="image-wrapper col-sm-6">
-                <img className="solar-image" src={require("../images/solar_image.png").default}></img>
+                <img className="solar-image" src={require("./images/solar_image.png").default}></img>
             </section>
         </div>
     )

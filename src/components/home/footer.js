@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import "./css/footer.css"
-import "../assets/vendor/bootstrap-icons/bootstrap-icons.css"
-import "../styles/styles.css"
+import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+import "../../styles/styles.css"
 
 const Footer = () => {
     return (
@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
           <div className="row">
               <div className="col-md-6">
-                  <h5><img src={require("../images/logo_nobg.png").default} className='greyscale'></img> MILLENIA ENERGY</h5>
+                  <h5><img src={require("./images/logo_nobg.png").default} className='greyscale'></img> MILLENIA ENERGY</h5>
                   {/* <img src={require("../images/logobanner_nobg.png").default} className='img-responsive fit-image'></img> */}
                   <div className="row">
                   
