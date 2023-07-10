@@ -1,5 +1,5 @@
 .homebanner {
-    position: absolute;
+    position: relative;
     top: 0px;
     overflow: visible;
     width: 100%;
@@ -10,6 +10,12 @@
     margin: 0;
     padding: 0;
   }
+
+.banner-wrapper {
+    max-height: 1vh;
+    overflow:visible;
+    position: absolute;
+}
 
 @media(max-width: 768px) {
     .homebanner {

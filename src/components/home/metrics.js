@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState, useEffect} from "react";
 import "./css/metrics.css";
-import "../styles/styles.css";
+import "../../styles/styles.css";
 
 export default function Metrics() {
 

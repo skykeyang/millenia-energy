@@ -1,10 +1,10 @@
 import * as React from "react"
 // import { Link } from "gatsby"
-import Navbar from "../components/navbar"
-import Footer from "../components/footer"
-import HomeBanner from "../components/home_banner"
-import Mission from "../components/mission"
-import Metrics from "../components/metrics"
+import Navbar from "../components/home/navbar"
+import Footer from "../components/home/footer"
+import HomeBanner from "../components/home/home_banner"
+import Mission from "../components/home/mission"
+import Metrics from "../components/home/metrics"
 import "./../styles/styles.css"
 // import "../assets/vendor/aos/aos.css"
 import "../assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -19,11 +19,12 @@ const IndexPage = () => {
     <div className="row">
     <HomeBanner>
     <Navbar /> 
-    <div className=" col-lg-4">
+    <div className="title-wrapper col-lg-4">
       <h1 className="maintitle">We are Millenia Energy</h1>
       <h2 className="subtitle">The Future Is Green</h2>
       <button type="button" class="btn btn-primary morebutton rounded-pill" href='#mission'>Read More</button>
     </div>
+    <div className="col-lg-8"></div>
     </HomeBanner>
     </div>
     <Mission />

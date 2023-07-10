@@ -1,15 +1,15 @@
 import React, { useEffect, useRef } from 'react';
 import { Component } from 'react';
 import { Link } from 'gatsby';
-import Preloader from "../images/solarbackgroundmoving.mp4";
+// import Preloader from "./images/solarbackgroundmoving.mp4";
 import "./css/home_banner.css";
-import "../styles/styles.css";
+import "../../styles/styles.css";
 
 export default function HomeBanner({children}) {
     return (
-        <div>
+        <div className='banner-wrapper'>
             {children}
-            <img className='homebanner' src={require("../images/solarbackground.jpg").default} alt='Logo'/>
+            <img className='homebanner' src={require("./images/solarbackground.jpg").default} alt='Logo'/>
         </div>
     )
 }
