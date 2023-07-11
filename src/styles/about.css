@@ -31,5 +31,26 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin: 5em;
 }
 
+.about-image {
+    margin: 5em;
+}
+
+@media(max-width: 450px)   {
+    .about-image > img {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .about-image {
+        margin: 0;
+    }
+
+    .about-text {
+       margin: 2em 0em 3em 0em;
+       text-align: left;
+}
+
+}

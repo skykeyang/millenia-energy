@@ -2,8 +2,8 @@
     /* background-color: #FFFFFF; */
     /* height: 100vh; */
     display: block;
-    position: absolute;
-    top:100vh;
+    position: relative;
+    /* top:100vh; */
     width: 100%;
 }
 .missionvision {

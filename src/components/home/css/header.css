@@ -240,7 +240,7 @@ nav ul li a:hover {
     }
 
     .navlogo {
-        max-width: 85%;
+        max-width: 85% !important;
         height: auto;
         position: relative;
         top: 10px;
