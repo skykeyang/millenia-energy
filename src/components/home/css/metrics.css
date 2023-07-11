@@ -2,4 +2,21 @@
     display: block;
     position: relative;
     width: 100%;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.square {
+    height:400px;
+    width: 400px;
+    border-radius: 5px;
+    background: #e2f1e3;
+}
+.metric-value {
+    color: #3A4A01;
+    font-family: Montserrat;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100px;
 }
