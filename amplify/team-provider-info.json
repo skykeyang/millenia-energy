@@ -15,7 +15,7 @@
       "function": {
         "milleniaenergy9b718375": {
           "deploymentBucketName": "amplify-amplify912f78195bc04-staging-80157-deployment",
-          "s3Key": "amplify-builds/milleniaenergy9b718375-674d563171416344414b-build.zip"
+          "s3Key": "amplify-builds/milleniaenergy9b718375-2b51756d487a316b5833-build.zip"
         }
       },
       "auth": {

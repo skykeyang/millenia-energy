@@ -22,7 +22,7 @@ const IndexPage = () => {
     <div className="title-wrapper col-lg-4">
       <h1 className="maintitle">We are Millenia Energy</h1>
       <h2 className="subtitle">The Future Is Green</h2>
-      <a href='#mission'><button type="button" class="btn btn-primary morebutton rounded-pill">Read More</button></a>
+      <a href='#mission'><button type="button" className="btn btn-primary morebutton rounded-pill">Read More</button></a>
     </div>
     <div className="col-lg-8"></div>
     </HomeBanner>
