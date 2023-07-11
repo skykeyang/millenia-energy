@@ -33,9 +33,12 @@ export default function Metrics() {
             <div className='col d-flex justify-content-center'>
               <div className='square'>
                 <div className='row value-wrapper'>
-              {trees ? <pre className='metric-value'>{JSON.stringify(trees, null, 2)}</pre> : 'Loading...'}
+              {trees ? <pre className='metric-value'>{trees}</pre> : 'Loading...'}
                 </div>
-                <div className='row'>
+                <div className='row line'>
+                  <hr />
+                </div>
+                <div className='row title'>
                   Number of Trees Saved
                 </div>
               </div>
@@ -44,9 +47,12 @@ export default function Metrics() {
             <div className='col d-flex justify-content-center'>
               <div className='square'>
                 <div className='row value-wrapper'>
-              {cars ? <pre className='metric-value'>{JSON.stringify(cars, null, 2)}</pre> : 'Loading...'}
+              {cars ? <pre className='metric-value'>{cars}</pre> : 'Loading...'}
                 </div>
-                <div className='row'>
+                <div className='row line'>
+                  <hr />
+                </div>
+                <div className='row title'>
                   Number of Cars Powered
                 </div>
               </div>
@@ -55,9 +61,12 @@ export default function Metrics() {
             <div className='col d-flex justify-content-center'>
              <div className='square'>
               <div className='row value-wrapper'>
-              {houses ? <pre className='metric-value'>{JSON.stringify(houses, null, 2)}</pre> : 'Loading...'}
+              {houses ? <pre className='metric-value'>{houses}</pre> : 'Loading...'}
               </div>
-              <div className='row'>
+              <div className='row line'>
+                  <hr />
+              </div>
+              <div className='row title'>
                 Number of Houses Powered
               </div>
               </div>
