@@ -15,24 +15,24 @@ import "../assets/vendor/boxicons/css/boxicons.min.css"
 
 const IndexPage = () => {
   return (
-    <div>
-    <div className="row">
+    <>
+    <div className="row main">
     <HomeBanner>
     <Navbar /> 
     <div className="title-wrapper col-lg-4">
       <h1 className="maintitle">We are Millenia Energy</h1>
       <h2 className="subtitle">The Future Is Green</h2>
-      <button type="button" class="btn btn-primary morebutton rounded-pill" href='#mission'>Read More</button>
+      <a href='#mission'><button type="button" class="btn btn-primary morebutton rounded-pill">Read More</button></a>
     </div>
     <div className="col-lg-8"></div>
     </HomeBanner>
     </div>
     <Mission />
     <Metrics />
-    <div className="row">
-    {/* <Footer /> */}
-    </div>
-    </div>
+    <Footer />
+
+    
+    </>
   )
 }
 

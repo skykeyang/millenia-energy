@@ -26,10 +26,10 @@ const Navbar = () => {
          <header>
             <nav>
             <div>
-               <div className = 'menu-icon' onClick={toggleShowing} >
+               <div className = 'menu-icon' >
                   <div className='smalllogo col-sm-4'>
                      <Link to="/"><img src={require("../../images/logobanner_nobg.png").default} className= 'navlogo' alt='logo'></img></Link></div>
-                  <i className="bi bi-list"></i>
+                  <i className="bi bi-list" onClick={toggleShowing}></i>
                   </div>
                   <div className="logo col-4">
                      <Link to="/"><img src={require("../../images/logobanner_nobg.png").default} className= 'navlogo' alt='logo'></img></Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
                     <li className= {isCol ? 'col-md-2':'col'} id="about"><Link to ="/about"> ABOUT </Link></li>
                     <li className={isCol ? 'col-md-2':'col'} id="investors"><Link to ="/investors"> INVESTORS </Link></li>
                     <li className={isCol ? 'col-md-2':'col'} id="media"><Link to ="/media"> MEDIA </Link></li>
-                    <li className={isCol ? 'col-md-2':'col'} id="portfolio"><Link to ="/"> PORTFOLIO </Link></li>
+                    <li className={isCol ? 'col-md-2':'col'} id="portfolio"><Link to ="/portfolio"> PORTFOLIO </Link></li>
                   </ul>
                </div>
             </div>

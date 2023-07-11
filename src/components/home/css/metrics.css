@@ -1,6 +1,5 @@
 .metrics {
     display: block;
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 200vh;
 }

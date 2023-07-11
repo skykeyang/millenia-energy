@@ -7,7 +7,6 @@ import "../styles/about.css"
 import "../assets/vendor/bootstrap/css/bootstrap.min.css"
 import "../assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "../assets/vendor/boxicons/css/boxicons.min.css"
-import HomeBanner from "../components/home/home_banner"
 
 const AboutPage = () => {
     return (
@@ -20,7 +19,7 @@ const AboutPage = () => {
             </div>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col about-image">
+                    <div className="col-xl about-image">
                         <img src={require("../images/nature-solar-panels.jpg").default} />
                     </div>
                     <div className="col about-text align-self-center">

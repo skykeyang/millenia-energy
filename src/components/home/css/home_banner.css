@@ -12,9 +12,9 @@
   }
 
 .banner-wrapper {
-    max-height: 1vh;
+    /* max-height: 1vh; */
     overflow:visible;
-    position: absolute;
+    position: relative;
 }
 
 @media(max-width: 768px) {
