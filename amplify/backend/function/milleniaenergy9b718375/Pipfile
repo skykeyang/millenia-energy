@@ -12,6 +12,7 @@ aws-wsgi = "*"
 flask = "*"
 flask-cors = "*"
 boto3 = "*"
+google-auth = "*"
 
 [requires]
 python_version = "3.8"
