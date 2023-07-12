@@ -8,6 +8,7 @@ import "../../styles/styles.css";
 export default function Mission() {
 
     return (
+        <div className="container">
         <div className="row section-two">
             <section id='mission' className="missionvision col-sm-6">
                 <h2 className="missiontitle">Millenia Energy</h2>
@@ -26,6 +27,7 @@ export default function Mission() {
             <section id='image' className="image-wrapper col-sm-6">
                 <img className="solar-image" src={require("../../images/solar_image.png").default}></img>
             </section>
+        </div>
         </div>
     )
 }
