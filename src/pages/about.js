@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Navbar from "../components/home/navbar"
 import Footer from "../components/home/footer"
 import "../styles/about.css"
@@ -13,6 +12,7 @@ const AboutPage = () => {
         <div>
             <div className="banner row">
             <Navbar />
+            
             </div>
             <div className="d-flex justify-content-center">
                 <h2 className="about-title">WHO ARE WE?</h2>
@@ -20,7 +20,7 @@ const AboutPage = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-xl about-image">
-                        <img src={require("../images/nature-solar-panels.jpg").default} />
+                        <img src={require("../images/nature-solar-panels.jpg").default} alt="" />
                     </div>
                     <div className="col about-text align-self-center">
                     <h3>“Quote”</h3><br/>

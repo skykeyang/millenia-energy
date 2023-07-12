@@ -7,10 +7,10 @@
 }
 
 .square {
-    height:400px;
-    width: 400px;
-    border-radius: 5px;
-    background: #e2f1e3;
+    height: 329px;
+    width: 349px;
+    border-radius: 20px;
+    background: #A4C0A6;
 }
 
 .value-wrapper {
@@ -45,17 +45,20 @@ hr {
 }
 
 .title {
-    display: flex;
-    width: 334px;
-    height: 102px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
     color: #3A4A01;
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 46px;
-    padding-left: 26px;
+    line-height: 30px;
+    padding-left: 22px;
+}
+
+.metric-icon {
+    align-items: end;
+}
+
+.metric-icon > svg {
+    width: 100px;
+    justify-self: end;
 }

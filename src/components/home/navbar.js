@@ -25,21 +25,21 @@ const Navbar = () => {
         <div className="wrapper">
          <header>
             <nav>
-            <div>
+            <div className='navbar-wrap'>
                <div className = 'menu-icon' >
                   <div className='smalllogo col-sm-4'>
-                     <Link to="/"><img src={require("../../images/logobanner_nobg.png").default} className= 'navlogo' alt='logo'></img></Link></div>
+                     <Link to="/"><img src={require("../../images/logobanner_nobg2.png").default} className= 'navlogo' alt='logo'></img></Link></div>
                   <i className="bi bi-list" onClick={toggleShowing}></i>
                   </div>
                   <div className="logo col-4">
-                     <Link to="/"><img src={require("../../images/logobanner_nobg.png").default} className= 'navlogo' alt='logo'></img></Link>
+                     <Link to="/"><img src={require("../../images/logobanner_nobg2.png").default} className= 'navlogo' alt='logo'></img></Link>
                   </div>
-               <div className="menu row navbarrow gx-0">
+               <div className="menu col-8 navbarrow">
                   <ul className= {isShowing ? 'showing':null}>
-                    <li className= {isCol ? 'col-md-2':'col'} id="about"><Link to ="/about"> ABOUT </Link></li>
-                    <li className={isCol ? 'col-md-2':'col'} id="investors"><Link to ="/investors"> INVESTORS </Link></li>
-                    <li className={isCol ? 'col-md-2':'col'} id="media"><Link to ="/media"> MEDIA </Link></li>
-                    <li className={isCol ? 'col-md-2':'col'} id="portfolio"><Link to ="/portfolio"> PORTFOLIO </Link></li>
+                    <li id="about"><Link to ="/about"> about </Link></li>
+                    <li id="investors"><Link to ="/investors"> investors </Link></li>
+                    <li id="media"><Link to ="/media"> media </Link></li>
+                    <li id="portfolio"><Link to ="/portfolio"> portfolio </Link></li>
                   </ul>
                </div>
             </div>

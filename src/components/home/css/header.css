@@ -36,8 +36,8 @@ header {
 }
 
 .navlogo {
-    max-height: 191px;
-    max-width: 519px;
+    max-height: 78px;
+    max-width: 316px;
     
 }
 
@@ -57,6 +57,7 @@ nav ul {
     text-align: right;
     margin: 0;
     transition: 1s;
+    
 }
 
 nav.black ul {
@@ -69,16 +70,15 @@ nav ul li {
 }
 
 #about {
-    padding-left: 203px;
-    padding-right: 149px;
+    padding-right: 81px;
 }
 
 #investors {
-    padding-right: 149px;
+    padding-right: 81px;
 }
 
 #media {
-    padding-right: 149px;
+    padding-right: 81px;
 }
 
 
@@ -89,7 +89,6 @@ nav ul li a {
     font-weight: 500;
     font-family: Montserrat;
     text-align: center;
-    text-transform: uppercase;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
@@ -116,8 +115,9 @@ nav ul li a:hover {
     z-index: 5;
     position: absolute;
     top: 0vh;
-    width: 100%;
+    width:inherit;
 }
+
 
 .navcontainer {
     margin: 0px !important;
@@ -128,9 +128,10 @@ nav ul li a:hover {
 }
 
 .navbarrow {
-    max-width: 1920px !important;
-    padding-top: 79px;
-    padding-right: 140px;
+    /* max-width: 1920px !important; */
+    padding-top: 67px;
+    justify-content: right;
+    
 }
 
 @media(max-width: 1919px) {
@@ -188,7 +189,7 @@ nav ul li a:hover {
     .navbarrow {
         padding-top: 90px;
         margin:0;
-        position: absolute;
+        position: relative;
     }
 
     nav ul {
@@ -201,7 +202,6 @@ nav ul li a:hover {
 
     nav.black ul {
           background: rgba(0, 0, 0, 0.50);
-          z-index: 10;
     }
 
     .showing {
@@ -218,6 +218,7 @@ nav ul li a:hover {
 
     nav ul li a {
         color:#fff;
+        z-index: 10;
     }
 
     .menu-icon {
@@ -244,10 +245,15 @@ nav ul li a:hover {
         height: auto;
         position: relative;
         top: 10px;
+        margin-left: 5%;
     }
 
     .bi-list {
         padding-right: 5%;
+    }
+
+    .navbar-wrap > .col-8 {
+        width: 100%;
     }
 
 }

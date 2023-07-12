@@ -18,6 +18,7 @@ const IndexPage = () => {
     <>
     <div className="row main">
     <HomeBanner>
+    <div className="container">
     <Navbar /> 
     <div className="title-wrapper col-lg-4">
       <h1 className="maintitle">We are Millenia Energy</h1>
@@ -25,6 +26,7 @@ const IndexPage = () => {
       <a href='#mission'><button type="button" className="btn btn-primary morebutton rounded-pill">Read More</button></a>
     </div>
     <div className="col-lg-8"></div>
+    </div>
     </HomeBanner>
     </div>
     <Mission />
