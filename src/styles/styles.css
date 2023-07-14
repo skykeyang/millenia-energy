@@ -5,7 +5,7 @@ html,body
     /* height: 100%; */
     /* margin: 0px;
     padding: 0px; */
-    /* overflow-x: hidden;  */
+    overflow-x: hidden; 
     scroll-behavior: smooth;
 }
 
@@ -15,24 +15,24 @@ html,body
 }
 
 .maintitle {
-    color: #000;
-    font-size: 50px;
+    color: #3a4a01;
+    font-size: 70px;
     font-family: Montserrat;
     font-weight: 700;
     position: relative;
-    top: 40vh;
+    top: 352px;
     z-index: 5;
     white-space: nowrap;
 }
 
 .subtitle {
-    color: #000;
-    font-size: 40px;
+    color: #3a4a01;
+    font-size: 20px;
     font-family: Montserrat;
-    padding-top: 15px;
+    /* padding-top: 5px; */
     position: relative;
     z-index: 5;
-    top: 40vh;
+    top: 352px;
     white-space: nowrap;
 }
 
@@ -40,13 +40,14 @@ html,body
     background-color: #58a528 !important;
     border-color: #58a528 !important;
     position: relative;
-    top: 40vh;
+    top: 352px;
     padding-top: 91px;
     z-index: 5;
     font-weight: 700;
-    width: 148px;
+    width: 179px;
+    height: 53px;
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .btn {

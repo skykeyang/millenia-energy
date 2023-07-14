@@ -1,8 +1,8 @@
 .homebanner {
-    position: relative;
+    position: static;
     top: 0px;
-    overflow: visible;
-    width: 100%;
+    overflow: hidden;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -13,7 +13,7 @@
 
 .banner-wrapper {
     /* max-height: 1vh; */
-    overflow:visible;
+    overflow:hidden;
     position: relative;
 }
 

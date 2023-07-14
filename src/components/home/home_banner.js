@@ -5,7 +5,7 @@ import "../../styles/styles.css";
 
 export default function HomeBanner({children}) {
     return (
-        <div className='banner-wrapper'>
+        <div className='banner-wrapper gx-0'>
             {children}
             <img className='homebanner' src={require("../../images/solarbackground.jpg").default} alt='Logo'/>
         </div>

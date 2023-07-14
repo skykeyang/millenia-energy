@@ -56,6 +56,7 @@ hr {
 
 .metric-icon {
     align-items: end;
+    margin-top: 3.5em;
 }
 
 .metric-icon > svg {
