@@ -7,9 +7,9 @@ import "./css/header.css"
 
 const Navbar = () => {
 
-    const [isCol, setCol] = useState(false);
-    const toggleCol = () => {
-        setCol(!isCol);
+    const [IsMobile, setIsMobile] = useState(false);
+    const toggleMobile = () => {
+        setIsMobile(!IsMobile);
     }
 
 
@@ -34,7 +34,8 @@ const Navbar = () => {
                   <div className="logo col-4">
                      <Link to="/"><img src={require("../../images/logobanner_nobg2.png").default} className= 'navlogo' alt='logo'></img></Link>
                   </div>
-               <div className="menu col-8 navbarrow">
+               {/* <div className={`menu navbarrow ${IsMobile ? 'col-8':''}`}> */}
+               <div className= 'menu navbarrow col-8'>
                   <ul className= {isShowing ? 'showing':null}>
                     <li id="about"><Link to ="/about"> about </Link></li>
                     <li id="investors"><Link to ="/investors"> investors </Link></li>

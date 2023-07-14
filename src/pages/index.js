@@ -5,6 +5,7 @@ import Footer from "../components/home/footer"
 import HomeBanner from "../components/home/home_banner"
 import Mission from "../components/home/mission"
 import Metrics from "../components/home/metrics"
+import Whatwedo from "../components/home/whatwedo"
 import "./../styles/styles.css"
 // import "../assets/vendor/aos/aos.css"
 import "../assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -16,7 +17,7 @@ import "../assets/vendor/boxicons/css/boxicons.min.css"
 const IndexPage = () => {
   return (
     <>
-    <div className="row main">
+    <div className="row main gx-0">
     <HomeBanner>
     <div className="container">
     <Navbar /> 
@@ -30,7 +31,9 @@ const IndexPage = () => {
     </HomeBanner>
     </div>
     <Mission />
+    <Whatwedo />
     <Metrics />
+    
     <Footer />
 
     

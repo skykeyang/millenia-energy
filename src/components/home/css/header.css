@@ -3,12 +3,9 @@
 html, body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    /* width: 100%; */
 }
 
-.row {
-    --bs-gutter-x: 0rem !important;
-}
 
 body {
     font-family: "Helvetica Neue",sans-serif;
@@ -33,6 +30,7 @@ header {
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 2px;
+    z-index: 10;
 }
 
 .navlogo {
@@ -115,7 +113,7 @@ nav ul li a:hover {
     z-index: 5;
     position: absolute;
     top: 0vh;
-    width:inherit;
+    width: inherit;
 }
 
 
@@ -128,10 +126,17 @@ nav ul li a:hover {
 }
 
 .navbarrow {
-    /* max-width: 1920px !important; */
     padding-top: 67px;
     justify-content: right;
-    
+    position: relative;
+}
+
+.banner-wrapper {
+    overflow: hidden;
+}
+
+.banner-wrapper > .container {
+    overflow: hidden;
 }
 
 @media(max-width: 1919px) {
@@ -178,7 +183,7 @@ nav ul li a:hover {
           visibility: hidden;
     }
     .menu {
-        width: 100vw;
+        width: 100vw !important;
         position: relative;
         margin: 0px;
         padding:0px;
@@ -252,8 +257,10 @@ nav ul li a:hover {
         padding-right: 5%;
     }
 
-    .navbar-wrap > .col-8 {
-        width: 100%;
+    /* BAND-AID FIX FOR MOBILE BELOW */
+    .wrapper {
+        width: 100vw;
+        left:0px;
     }
 
 }

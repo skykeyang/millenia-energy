@@ -6,8 +6,8 @@ import "../../styles/styles.css"
 
 const Footer = () => {
     return (
-      <footer className="row footer">
-      <div className="container-fluid">
+      <footer className="footer">
+      <div className="container">
           <div className="row">
               <div className="col-md-6">
                   <img src={require("../../images/logobanner_nobg.png").default} className='footer-logo'></img>
@@ -57,15 +57,10 @@ const Footer = () => {
                   </tbody>
                 </table>
               </div>
-          {/* <div className='row'> */}
             <div className='col-xl copyright'>
             <span>Copyright 2023 Millenia Energy. All rights reserved</span>
             </div>
-          {/* </div> */}
-
-              
           </div>
-          
       </div>
   </footer>
     )
