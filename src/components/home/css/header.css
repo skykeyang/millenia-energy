@@ -261,6 +261,7 @@ nav ul li a:hover {
     .wrapper {
         width: 100vw;
         left:0px;
+        z-index: 100;
     }
 
 }
