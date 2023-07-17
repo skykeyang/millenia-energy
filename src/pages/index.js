@@ -9,8 +9,6 @@ import "./../styles/styles.css"
 import "../assets/vendor/bootstrap/css/bootstrap.min.css"
 import "../assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "../assets/vendor/boxicons/css/boxicons.min.css"
-import sal from 'sal.js'
-import '../../node_modules/sal.js/dist/sal.css'
 
 
 const IndexPage = () => {
