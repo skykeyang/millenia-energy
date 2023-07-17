@@ -44,7 +44,7 @@ const Footer = () => {
                       <h1><i className='bi bi-geo-alt-fill'></i></h1>
                     </td>
                     <td className='footertd'>
-                      1 Yishun Industrial Street 1, #08-16 A POSH Bizhub, Singapore 768160
+                      1 Yishun Industrial Street 1, #08-16A POSH Bizhub, Singapore 768160
                     </td>
                   
                     <td className='footertd'>
