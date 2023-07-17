@@ -145,10 +145,12 @@ nav ul li a:hover {
     }
 }
 
-@media(max-width: 1800px) {
+@media(max-width: 1903px) {
     .navbarrow {
         padding-top: 79px;
         padding-right: 0px;
+        width: auto !important;
+        justify-content: center;
     }
 
     nav ul {
