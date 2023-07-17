@@ -20,17 +20,25 @@ const AboutPage = () => {
                 <h2 className="about-title">WHO ARE WE?</h2>
             </div>
             <div className="row justify-content-center">
-                <h3 className="about-quote">"QUOTE"</h3>
-            </div>
-                <div className="row">
-                    <div className="col-xl about-image"></div>
-                    <div className="col align-self-center">
-                        <div className="about-text">
-                            "At every stage of the process, including acquisition, development, 
+                <h3 className="about-quote" id="about-quote"> "At every stage of the process, including acquisition, development, 
                             construction, financing, operations, and asset management, we are dedicated to mitigating climate change and creating a positive environmental, 
-                            social, and governance (ESG) impact that will pave the way for a brighter future."
+                            social, and governance (ESG) impact that will pave the way for a brighter future."</h3>
+            </div>
+                <div className="row squares-wrapper">
+                    <div className="col d-flex justify-content-center">
+                        <div className="about-square">
+
                         </div>
-                    
+                    </div>
+                    <div className="col d-flex justify-content-center">
+                        <div className="about-square">
+                            
+                        </div>
+                    </div>
+                    <div className="col d-flex justify-content-center">
+                        <div className="about-square">
+                            
+                        </div>
                     </div>
                 </div>
             </div>
