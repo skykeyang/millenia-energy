@@ -169,6 +169,10 @@ nav ul li a:hover {
         padding: 30px;
     }
 
+    #portfolio {
+        padding:30px;
+    }
+
     nav ul li {
         display: inline;
         padding-top: 49px;
