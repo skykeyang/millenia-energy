@@ -4,7 +4,7 @@ import "./css/metrics.css";
 import CountUp from 'react-countup';
 import { countUpRef } from 'react-countup'
 import Loader from './loader';
-import ReactVisibilitySensor from 'react-visibility-sensor';
+
 
 
 export default function Metrics() {
@@ -41,11 +41,9 @@ export default function Metrics() {
               <div className='square'>
                 <div className='row value-wrapper'>
               {trees ? <pre className='metric-value'>
-                <CountUp start={state ? 0: trees} end={trees} duration={1.5} onEnd = {() => setActive(false)} delayedCall>
+                <CountUp start={0} end={trees} duration={1.5} scrollSpyDelay={10} enableScrollSpy={true} scrollSpyOnce={true}>
                   {({countUpRef, start}) => (
-                    <ReactVisibilitySensor onChange={start} delayedCall>
-                      <span ref={countUpRef} />
-                    </ReactVisibilitySensor>
+                    <span ref={countUpRef} ></span>
                   )}
                 </CountUp>
                 </pre> : <Loader />}
@@ -77,13 +75,11 @@ export default function Metrics() {
               <div className='square'>
                 <div className='row value-wrapper'>
               {cars ? <pre className='metric-value'>
-              <CountUp start={state ? 0: cars} end={cars} duration={1.5} onEnd = {()=> setActive(false)}>
-                  {({countUpRef, start}) => (
-                    <ReactVisibilitySensor onChange={start} delayedCall>
-                      <span ref={countUpRef} />
-                    </ReactVisibilitySensor>
-                  )}
-                </CountUp>
+              <CountUp start={state ? 0: cars} end={cars} duration={1.5} scrollSpyDelay={10} enableScrollSpy={true} scrollSpyOnce={true}>
+                {({countUpRef, start}) => (
+                  <span ref={countUpRef} ></span>
+                )}
+              </CountUp>
               </pre> : <Loader />}
                 </div>
                 <div className='row line'>
@@ -113,11 +109,9 @@ export default function Metrics() {
              <div className='square'>
               <div className='row value-wrapper'>
               {houses ? <pre className='metric-value'>
-              <CountUp start={state ? 0: houses} end={houses} duration={1.5} onEnd = {() => setActive(false)}>
+              <CountUp start={state ? 0: houses} end={houses} duration={1.5} scrollSpyDelay={10} enableScrollSpy={true} scrollSpyOnce={true}>
                   {({countUpRef, start}) => (
-                    <ReactVisibilitySensor onChange={start} delayedCall>
-                      <span ref={countUpRef} />
-                    </ReactVisibilitySensor>
+                    <span ref={countUpRef} ></span>
                   )}
                 </CountUp>
               </pre> : <Loader />}
