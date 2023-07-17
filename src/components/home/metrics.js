@@ -51,7 +51,7 @@ export default function Metrics() {
                 <div className='row line'>
                   <hr />
                 </div>
-                <div className='row title'>
+                <div className='row title gx-0'>
                   Number of Trees Saved
                 </div>
                 <div className='row'>
@@ -85,7 +85,7 @@ export default function Metrics() {
                 <div className='row line'>
                   <hr />
                 </div>
-                <div className='row title'>
+                <div className='row title gx-0'>
                   Number of Cars Powered
                 </div>
                 <div className='row'>
@@ -119,7 +119,7 @@ export default function Metrics() {
               <div className='row line'>
                   <hr />
               </div>
-              <div className='row title'>
+              <div className='row title gx-0'>
                 Number of Houses Powered
               </div>
               <div className='row'>
