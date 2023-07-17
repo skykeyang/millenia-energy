@@ -51,10 +51,10 @@ export default function Whatwedo() {
                         </h3>
                         </div>
                         <div className="row">
-                            <div className="col whatwedo-text" id="whatwedo-text-2">
-                            Millenia Energy is actively promoting the global transition towards sustainable energy infrastructure and has introduced various 
+                            <div className="col whatwedo-text" >
+                            We actively promote the global transition towards sustainable energy infrastructure and has introduced various 
                             initiatives to drive the advancement of renewable energy development. These initiatives include the implementation of on-site 
-                            solar installations across our real estate portfolio, whenever feasible, alongside the integration of battery storage systems 
+                            solar installations across our real estate portfolio, alongside the integration of battery storage systems 
                             and depot charging solutions for electric vehicles.
                             </div>
                         </div>
@@ -74,7 +74,7 @@ export default function Whatwedo() {
                         </h3>
                         </div>
                         <div className="row">
-                            <div className="col whatwedo-text" id="whatwedo-text-2">
+                            <div className="col whatwedo-text">
                             Millenia Energy offers clean energy to our customers at a substantial discount compared to standard utility rates. 
                             Any excess energy is directed back into the electricity grid, thereby alleviating the burden on local power grids 
                             and creating positive effects within our communities.
