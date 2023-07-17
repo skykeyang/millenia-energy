@@ -34,6 +34,7 @@ html,body
     z-index: 5;
     top: 352px;
     white-space: nowrap;
+    margin-bottom: 20px;
 }
 
 .morebutton {
