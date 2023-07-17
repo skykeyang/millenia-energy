@@ -52,11 +52,14 @@ hr {
     font-weight: 500;
     line-height: 30px;
     padding-left: 22px;
+    margin-bottom: 0 !important;
 }
 
 .metric-icon {
     align-items: end;
     margin-top: 3.5em;
+    justify-content: right;
+    margin-right: 1em;
 }
 
 .metric-icon > svg {
