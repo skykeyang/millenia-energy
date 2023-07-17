@@ -21,15 +21,19 @@
     padding: 38px 0px 15px 0px;
 }
 
+#about-quote {
+    max-width: 855px;
+    text-align: center !important;
+}
+
 .about-quote {
-    color: #3A4A01;
+    color: #000;
     text-align: center;
     font-family: Montserrat;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 46px;
-    text-transform: capitalize;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 32px;
 }
 
 .about-text {
@@ -51,14 +55,22 @@
     justify-content: center;
 }
 
-.about-image {
-    border-radius: 15px;
-    background: url("../images/nature-solar-panels.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 525px;
-    height: 504px;
+.squares-col {
+    justify-content: center;
+    align-items: center;
+}
+
+.about-square {
+    width: 345px;
+    height: 329px;
     flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(164, 192, 166, 0.60);
+}
+
+.squares-wrapper {
+    margin-bottom: 265px;
+    margin-top: 125px !important;
 }
 
 @media(max-width: 450px)   {
