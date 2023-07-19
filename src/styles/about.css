@@ -13,7 +13,7 @@
     color: #3A4A01;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: 46px;
@@ -30,7 +30,7 @@
     color: #000;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     font-weight: 500;
     line-height: 32px;
@@ -118,6 +118,9 @@
 }
 
 @media(max-width: 450px)   {
+    .about-text {
+        font-size: 14px;
+    }
 
     .squares-wrapper {
         overflow-x:  visible !important;
