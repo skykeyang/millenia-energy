@@ -75,7 +75,7 @@ footer a:hover, footer a:focus {
       margin-bottom: 700px;
     }
     .footer {
-      height: 465px;
+      height: 500px;
     }
 
     .socials {
@@ -84,6 +84,19 @@ footer a:hover, footer a:focus {
 
     .copyright {
       text-align: center;
+    }
+
+    .site-links {
+      width: 50% !important;
+      text-align: center;
+    }
+
+    .site-link-item {
+      margin-inline: 0 !important;
+    }
+
+    .socials {
+      margin: 0px;
     }
 }
 
