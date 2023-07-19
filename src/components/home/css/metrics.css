@@ -69,8 +69,12 @@ hr {
 }
 
 @media(max-width: 420px) {
+    .metrics-container {
+        box-sizing: content-box;
+    }
+
     .metrics {
-        overflow-x: scroll !important;
+        overflow-x: scroll visible !important;
         overflow-y: hidden !important;
         white-space: nowrap;
         flex-wrap: unset !important; 
