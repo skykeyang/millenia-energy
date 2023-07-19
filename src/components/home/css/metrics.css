@@ -15,7 +15,7 @@
 
 .value-wrapper {
     color: #3A4A01;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 70px;
     font-style: normal;
     font-weight: 500;
@@ -25,7 +25,7 @@
 
 .metric-value {
     color: #3A4A01;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
@@ -46,7 +46,7 @@ hr {
 
 .square > .title {
     color: #3A4A01;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;

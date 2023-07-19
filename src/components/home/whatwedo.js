@@ -15,8 +15,8 @@ export default function Whatwedo() {
 
     return (
         <div className="container section-three">
-            <div className="row title" id="section-three-title">
-                <h2 className="col">WHAT WE DO?</h2>
+            <div className="row" id="section-three-title">
+                <h2 className="col title">WHAT WE DO?</h2>
             </div>
 
             <div className="row" ref={row1}>

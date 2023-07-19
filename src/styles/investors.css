@@ -1,7 +1,7 @@
 .investors-title {
     color: #3A4A01;
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -26,7 +26,7 @@
     justify-content: center;
     flex-shrink: 0;
     color: #000;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -48,6 +48,6 @@
     background: #58A528 !important;
     border-color: #58A528 !important;
     color: #000 !important;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }

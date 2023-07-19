@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family='Montserrat', sans-serif');
 
 html, body {
     margin: 0;
@@ -54,7 +54,7 @@ nav ul {
     padding: 0;
     text-align: right;
     margin: 0;
-    transition: 1s;
+    transition:  0.5s cubic-bezier(0.17, 0.55, 0.55, 1);
     
 }
 
@@ -85,7 +85,7 @@ nav ul li a {
     color: black;
     font-size: 20px;
     font-weight: 500;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
@@ -102,9 +102,9 @@ nav ul li a:hover {
     background: #000;
     text-align: right;
     box-sizing: border-box;
-    padding: 15px 0px;
+    padding: 15px 15px;
     cursor: pointer;
-    color: #fff;
+    color: #000;
     display: none;
 }
 
@@ -205,14 +205,15 @@ nav ul li a:hover {
 
     nav ul {
           max-height: 0px;
-          background: rgba(0, 0, 0, 0.50);
+          background: rgba(255, 255, 255, 0.5);
           z-index: 9;
           justify-content: center;
           padding:0;
+          backdrop-filter: blur(5px);
     }
 
     nav.black ul {
-          background: rgba(0, 0, 0, 0.50);
+          background: rgba(255, 255, 255, 0.5);
     }
 
     .showing {
@@ -228,13 +229,13 @@ nav ul li a:hover {
     }
 
     nav ul li a {
-        color:#fff;
+        color: black;
         z-index: 10;
     }
 
     .menu-icon {
           display: block;
-          background: rgba(0, 0, 0, 0.50);
+          background: rgba(255, 255, 255, 0.5);
           padding-left: 0;
           position: absolute;
           width: 100%;
@@ -270,4 +271,14 @@ nav ul li a:hover {
         z-index: 100;
     }
 
+}
+
+@media(max-width: 420px) {
+    .navlogo {
+        max-width: 50% !important;
+    }
+
+    [class*=" bi-"]::before {
+        vertical-align: 0em !important;
+    }
 }

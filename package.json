@@ -19,6 +19,7 @@
     "boto": "^0.0.1",
     "framer-motion": "^10.12.21",
     "gatsby": "^5.11.0",
+    "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-image": "^3.11.0",
     "gatsby-plugin-sharp": "^5.11.0",
     "gatsby-plugin-sitemap": "^6.11.0",
@@ -29,6 +30,7 @@
     "react": "^18.2.0",
     "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^6.13.0",
     "styled-components": "^5.3.10"
   }

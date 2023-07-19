@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat'); */
 html,body
 {
     /* width: 100%; */
@@ -7,6 +7,7 @@ html,body
     padding: 0px; */
     overflow-x: hidden; 
     scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main {
@@ -17,7 +18,7 @@ html,body
 .maintitle {
     color: #3a4a01;
     font-size: 70px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     position: relative;
     top: 352px;
@@ -28,7 +29,7 @@ html,body
 .subtitle {
     color: #3a4a01;
     font-size: 20px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     /* padding-top: 5px; */
     position: relative;
     z-index: 5;
@@ -47,7 +48,7 @@ html,body
     font-weight: 700;
     width: 179px;
     height: 53px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
@@ -57,6 +58,20 @@ html,body
 
 .title-wrapper {
     position: absolute;
+}
+
+@media(max-width: 1500px)   {
+    .maintitle {
+        top: 30vh;
+    }
+    
+    .subtitle {
+        top: 30vh;
+    }
+    
+    .morebutton {
+        top: 30vh;
+    }
 }
 
 @media(max-width: 1180px) {
@@ -80,23 +95,40 @@ html,body
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 420px) {
+    .navlogo {
+        margin-left: 0;
+        left: 5vb;
+    }
+
+
     .maintitle {
-       top: 20vh;
-       left: 5vb;
-       /* font-size: auto; */
-       font-size: 1.5rem ;
+        top: 20vh;
+        left: 5vb;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        height: 150px; /* 120.833% */
+        width: 30vb;
+        white-space: normal;
+        word-break: keep-all;
+        text-transform: capitalize;
+        
     }
 
     .subtitle {
         top: 20vh;
         left: 5vb;
-        font-size: 1rem;
+        font-size: 20px;
+        margin-top: 34px;
     }
 
     .morebutton {
         top: 20vh;
         left: 5vb;
-        font-size: 0.7rem;
+        font-size: 18px;
+        width: 40vw;
+        height: 47px;
+        font-weight: 700;
     }
 }
