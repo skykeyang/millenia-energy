@@ -16,7 +16,7 @@
 .missiontitle {
     color: #3A4A01;
     font-size: 36px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     padding-left: 92px;
     padding-top: 10vh;
@@ -30,7 +30,7 @@
     flex-shrink: 0;
     color: #3A4A01;
     font-size: 26px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .ourmission {
@@ -38,7 +38,7 @@
     padding-left: 89px;
     color: #3A4A01;
     font-size: 22px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     line-height: 26px;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
 .missioncontent {
     color: #6E992E;
     font-size: 16px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     padding-left: 89px;
@@ -55,4 +55,52 @@
 
 .solar-image {
     width: 100%;
+}
+
+#image-main {
+    display: unset;
+}
+
+#image-mobile {
+    display: none;
+}
+
+@media(max-width:420px) {
+
+    .missiontitle {
+        display: none;
+    }
+
+    .together {
+        display: none;
+    }
+
+    .ourmission {
+        color: #3A4A01;
+        /* text-align: center; */
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px; /* 184% */
+        text-transform: uppercase;
+        padding: 0;
+        margin-top: 56px;
+        margin-left: 26px;
+    }
+
+    #image-main {
+        display: none;
+    }
+
+    #image-mobile {
+        display: unset;
+        margin-left: 10px;
+    }
+
+    .missioncontent {
+        padding: 0;
+        margin-left: 26px;
+    }
+
 }

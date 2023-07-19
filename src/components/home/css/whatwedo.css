@@ -1,7 +1,7 @@
-.title {
+#section-three-title > .title {
     color: #3A4A01;
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
@@ -31,11 +31,15 @@
 
 .whatwedo-title {
     margin-top: 26px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
 }
 
 .whatwedo-text {
     color: #3A4A01;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -72,4 +76,45 @@
     .rectangle {
         height: auto;
     }
+}
+
+@media(max-width: 420px) {
+    #section-three-title > .title {
+        text-align: center;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 46px; /* 184% */
+        text-transform: uppercase;
+    }
+
+    .rectangle {
+        width: 296px;
+        height: 224px;
+        flex-shrink: 0;
+    }
+
+    .whatwedo-icon {
+        margin: 32px 0px 26px 16px !important;
+        width: 20px;
+        height: 20px;
+        padding-right: 9px !important;
+    }
+
+    .whatwedo-title {
+        margin-top: 19px !important;
+        font-size: 17px;
+        line-height: 46px; /* 270.588% */
+        padding-left: 0px !important;
+    }
+
+    .whatwedo-text {
+        font-size: 12px;
+        line-height: 15px;
+        width: 278px;
+        height: 105px;
+        margin-left: 12px !important;
+        margin-top: 0px !important;
+    }
+
 }
