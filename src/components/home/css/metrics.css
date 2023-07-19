@@ -16,7 +16,7 @@
 .value-wrapper {
     color: #3A4A01;
     font-family: 'Montserrat', sans-serif;
-    font-size: 70px;
+    /* font-size: 70px; */
     font-style: normal;
     font-weight: 500;
     line-height: 100px;
@@ -53,6 +53,7 @@ hr {
     padding-left: 0.15em;
     position: relative;
     margin-left: 22px;
+    margin-bottom: 40px;
 }
 
 .metric-icon {
@@ -79,4 +80,50 @@ hr {
     .metrics > .col {
         display: inline-block;
     }
+
+    .square {
+        width: 216px;
+        height: 200px;
+    }
+
+    .value-wrapper {
+        line-height: 58px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .metric-value {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 58px;
+        margin-left: 14px;
+        margin-bottom: 0;
+    }
+
+    hr {
+        width: 188px !important;
+    }
+
+    .line {
+        line-height: 18px;
+    }
+
+    .square > .title {
+        margin-left: 14px;
+        white-space: break-spaces;
+        width: 134px;
+        margin-bottom: 0px;
+    }
+
+    .metric-icon > svg{
+        width: 74px;
+        height: 74px;
+        justify-self: end;
+    }
+
+    .houses-title {
+        width: 150px !important;
+    }
+
       }
