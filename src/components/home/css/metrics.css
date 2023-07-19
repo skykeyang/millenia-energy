@@ -68,13 +68,13 @@ hr {
     justify-self: end;
 }
 
-@media(max-width: 420px) {
+@media(max-width: 950px) {
     .metrics-container {
         box-sizing: content-box;
     }
 
     .metrics {
-        overflow-x: scroll visible !important;
+        overflow-x:  visible !important;
         overflow-y: hidden !important;
         white-space: nowrap;
         flex-wrap: unset !important; 

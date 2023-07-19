@@ -76,20 +76,20 @@ html,body
 
 @media(max-width: 1180px) {
     .maintitle {
-       top: 40vh;
+       top: 15vh;
        justify-self: left;
        /* font-size: auto; */
        font-size: 2.4rem ;
     }
 
     .subtitle {
-        top: 40vh;
+        top: 15vh;
         justify-self: left;
         font-size: 1.5rem;
     }
 
     .morebutton {
-        top: 40vh;
+        top: 15vh;
         justify-self: left;
         font-size: 1rem;
     }
