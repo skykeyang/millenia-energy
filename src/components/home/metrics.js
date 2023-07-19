@@ -119,7 +119,7 @@ export default function Metrics() {
               <div className='row line'>
                   <hr />
               </div>
-              <div className='row title gx-0'>
+              <div className='row title gx-0 houses-title'>
                 Number of Houses Powered
               </div>
               <div className='row'>
