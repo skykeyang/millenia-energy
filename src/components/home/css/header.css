@@ -210,6 +210,7 @@ nav ul li a:hover {
           justify-content: center;
           padding:0;
           backdrop-filter: blur(5px) contrast(99%);
+          -webkit-backdrop-filter: blur(5px) contrast(99%);
     }
 
     nav.black ul {
