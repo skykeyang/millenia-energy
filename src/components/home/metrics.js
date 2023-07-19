@@ -35,7 +35,7 @@ export default function Metrics() {
 
 
       return (
-        <div className='container'>
+        <div className='container metrics-container'>
         <div className='row metrics'>
             <div className='col d-flex justify-content-center'>
               <div className='square'>
