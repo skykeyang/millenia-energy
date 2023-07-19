@@ -36,7 +36,7 @@ const Navbar = () => {
                   </div>
                {/* <div className={`menu navbarrow ${IsMobile ? 'col-8':''}`}> */}
                <div className= 'menu navbarrow col-8'>
-                  <ul className= {isShowing ? 'showing':null}>
+                  <ul className= {`backblurred ${isShowing ? 'showing':null}`} >
                     <li id="about"><Link to ="/about"> about </Link></li>
                     <li id="investors"><Link to ="/investors"> investors </Link></li>
                     <li id="media"><Link to ="/media"> media </Link></li>
