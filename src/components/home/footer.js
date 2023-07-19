@@ -16,18 +16,18 @@ const Footer = () => {
                   
                       <div className="col-4 site-links">
                           <ul className="list-unstyled">
-                          <li><Link to="/"> Home </Link></li>
-                          <li><Link to ="/about"> About </Link></li>
+                          <li className='site-link-item'><Link to="/"> Home </Link></li>
+                          <li className='site-link-item'><Link to ="/about"> About </Link></li>
                           </ul>
                       </div>
                       <div className='col-4 site-links'>
                         <ul className="list-unstyled">
-                          <li><Link to ="/investors"> Investors </Link></li>
-                          <li><Link to ="/media"> Media </Link></li>
+                          <li className='site-link-item'><Link to ="/investors"> Investors </Link></li>
+                          <li className='site-link-item'><Link to ="/media"> Media </Link></li>
                         </ul>
                       </div>
                       <div className='col-4 empty-col'>
-                        
+
                       </div>
                     
                   </div>
