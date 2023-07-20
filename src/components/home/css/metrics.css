@@ -55,6 +55,7 @@ hr {
     margin-left: 22px;
     margin-bottom: 40px;
     height: 57px;
+    text-transform: capitalize;
 }
 
 .metric-icon {
