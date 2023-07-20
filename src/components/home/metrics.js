@@ -12,22 +12,29 @@ export default function Metrics() {
     const [active, setActive ] = useState(true);
     const [state, setState] = useState(true);
 
-    const [trees, setTrees] = useState(null);
-    const [cars, setCars] = useState(null);
-    const [houses, setHouses] = useState(null);
+    const [value1, setValue1] = useState(null);
+    const [value2, setValue2] = useState(null);
+    const [value3, setValue3] = useState(null);
+
+    const [title1, setTitle1] = useState(null);
+    const [title2, setTitle2] = useState(null);
+    const [title3, setTitle3] = useState(null);
 
     useEffect(() => {
         fetch('https://lsw8ocv4a5.execute-api.ap-southeast-1.amazonaws.com/staging/metrics')
           .then(response => response.json())
-          .then(json => json.forEach(element => {
-              if(element[0] == 'Number of trees saved') {
-                setTrees(element[1])
+          .then(json => json.forEach((element,index) => {
+              if(index == 0) {
+                setTitle1(element[0])
+                setValue1(element[1])  
               }
-              if(element[0] == 'Number of cars powered') {
-                setCars(element[1])
+              else if(index == 1) {
+                setTitle2(element[0])
+                setValue2(element[1])
               }
-              if(element[0] == 'Number of houses powered') {
-                setHouses(element[1])
+              else if(index == 2) {
+                setTitle3(element[0])
+                setValue3(element[1])
               }
           }))
           .catch(error => console.error(error));
@@ -40,8 +47,8 @@ export default function Metrics() {
             <div className='col d-flex justify-content-center'>
               <div className='square'>
                 <div className='row value-wrapper'>
-              {trees ? <pre className='metric-value'>
-                <CountUp start={0} end={trees} duration={1.5} scrollSpyDelay={10} enableScrollSpy={true} scrollSpyOnce={true}>
+              {value1 ? <pre className='metric-value'>
+                <CountUp start={0} end={value1} duration={1.5} scrollSpyDelay={10} enableScrollSpy={true} scrollSpyOnce={true}>
                   {({countUpRef, start}) => (
                     <span ref={countUpRef} ></span>
                   )}
@@ -52,7 +59,7 @@ export default function Metrics() {
                   <hr />
                 </div>
                 <div className='row title gx-0'>
-                  Number of Trees Saved
+                  {title1}
                 </div>
                 <div className='row'>
                 <div className='row metric-icon'>
@@ -74,8 +81,8 @@ export default function Metrics() {
             <div className='col d-flex justify-content-center'>
               <div className='square'>
                 <div className='row value-wrapper'>
-              {cars ? <pre className='metric-value'>
-              <CountUp start={state ? 0: cars} end={cars} duration={1.5} scrollSpyDelay={10} enableScrollSpy={true} scrollSpyOnce={true}>
+              {value2 ? <pre className='metric-value'>
+              <CountUp start={0} end={value2} duration={1.5} scrollSpyDelay={10} enableScrollSpy={true} scrollSpyOnce={true}>
                 {({countUpRef, start}) => (
                   <span ref={countUpRef} ></span>
                 )}
@@ -86,7 +93,7 @@ export default function Metrics() {
                   <hr />
                 </div>
                 <div className='row title gx-0'>
-                  Number of Cars Powered
+                  {title2}
                 </div>
                 <div className='row'>
                   <div className='row metric-icon'>
@@ -108,8 +115,8 @@ export default function Metrics() {
             <div className='col d-flex justify-content-center'>
              <div className='square'>
               <div className='row value-wrapper'>
-              {houses ? <pre className='metric-value'>
-              <CountUp start={state ? 0: houses} end={houses} duration={1.5} scrollSpyDelay={10} enableScrollSpy={true} scrollSpyOnce={true}>
+              {value3 ? <pre className='metric-value'>
+              <CountUp start={0} end={value3} duration={1.5} scrollSpyDelay={10} enableScrollSpy={true} scrollSpyOnce={true}>
                   {({countUpRef, start}) => (
                     <span ref={countUpRef} ></span>
                   )}
@@ -120,7 +127,7 @@ export default function Metrics() {
                   <hr />
               </div>
               <div className='row title gx-0 houses-title'>
-                Number of Houses Powered
+                {title3}
               </div>
               <div className='row'>
               <div className='row metric-icon'>
