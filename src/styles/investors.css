@@ -51,3 +51,33 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
+
+@media(max-width:920px) {
+    .investor-content-image {
+        text-align: center;
+    }
+
+    .investors-content {
+        margin-top: 16px !important;
+        margin-bottom: 122px !important;
+    }
+
+    .investor-content-image > img {
+        object-fit: contain !important;
+        width: 100% !important;
+        height: 100% !important;
+
+    }
+    
+    .investor-content-text {
+        text-align: center;
+    }
+
+    .investor-content-text > p {
+        width: auto !important;
+    }
+
+    .button-wrapper {
+        width: auto !important;
+    }
+}
