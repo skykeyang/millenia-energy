@@ -1,0 +1,308 @@
+/* @import url('https://fonts.googleapis.com/css?family='Montserrat', sans-serif'); */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+}
+
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background: transparent;
+    background-size: cover;
+}
+
+.logo {
+    line-height: 191px;
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    /* margin-left: 35px; */
+    margin-right: 22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    z-index: 10;
+}
+
+.navlogo {
+    max-height: 78px;
+    max-width: 316px;
+    
+}
+
+nav {
+    position: static;
+    width: 100%;
+    line-height: 191px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    transition:  0.5s cubic-bezier(0.17, 0.55, 0.55, 1);
+    
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline;
+    padding-top: 79px;
+}
+
+#about {
+    padding-right: 81px;
+}
+
+#investors {
+    padding-right: 81px;
+}
+
+#media {
+    padding-right: 81px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid currentColor;
+    color: black;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    cursor: pointer;
+    color: #000;
+    display: none;
+}
+
+
+.wrapper {
+    z-index: 5;
+    position: absolute;
+    top: 0vh;
+    width: inherit;
+}
+
+
+.navcontainer {
+    margin: 0px !important;
+    padding:0px !important;
+    height: 191px;
+    ;
+
+}
+
+.navbarrow {
+    padding-top: 67px;
+    justify-content: right;
+    position: relative;
+}
+
+.banner-wrapper {
+    overflow: hidden;
+}
+
+.banner-wrapper > .container {
+    overflow: hidden;
+}
+
+@media(max-width: 1919px) {
+    .navbarrow {
+        padding-right: 50px;
+    }
+}
+
+@media(max-width: 1903px) {
+    .navbarrow {
+        padding-top: 79px;
+        padding-right: 0px;
+        width: auto !important;
+        justify-content: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    #about {
+        padding: 30px;
+    }
+    
+    #investors {
+        padding: 30px;
+    }
+    
+    #media {
+        padding: 30px;
+    }
+
+    #portfolio {
+        padding:30px;
+    }
+
+    nav ul li {
+        display: inline;
+        padding-top: 49px;
+    }
+
+}
+
+
+@media(max-width: 1300px) {
+    .logo {
+          position: absolute;
+          top: 0;
+          margin-top: 0;
+          visibility: hidden;
+    }
+    .menu {
+        width: 100vw !important;
+        position: relative;
+        margin: 0px;
+        padding:0px;
+        right:0px;
+        left:0px;
+    }
+
+    .navbarrow {
+        padding-top: 90px;
+        margin:0;
+        position: relative;
+        
+    }
+    /* .backblurred {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+      }
+      
+      .backblurred::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;      
+        background-image: url("../../../images/white.jpg");
+        background-size: cover;
+        filter: blur(20px);
+        opacity: 0.8;
+        z-index: -1;
+      } */
+    nav ul {
+          max-height: 0px;
+          background: rgba(255,255,255, 0.69);
+          z-index: 9;
+          justify-content: center;
+          padding:0;
+          line-height: 20px;
+          backdrop-filter: blur(5px) contrast(99%);
+          -webkit-backdrop-filter: blur(5px) contrast(99%);
+          
+    }
+
+    nav.black ul {
+          background: rgba(255, 255, 255, 0.5);
+          
+    }
+
+    .showing {
+          max-height: 34em;
+          filter: unset;
+              }
+
+    nav ul li {
+          /* box-sizing: border-box; */
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+          display:list-item;
+    }
+
+    nav ul li a {
+        color: black;
+        z-index: 10;
+    }
+
+    .menu-icon {
+          display: block;
+          background: rgba(255, 255, 255, 0.5);
+          padding-left: 0;
+          position: absolute;
+          width: 100%;
+          z-index: 15;
+          
+    }
+
+    .smalllogo {
+        visibility: visible;
+        height: 0;
+        text-align: left;
+        top:0;
+        position: absolute;
+        
+    }
+
+    .navlogo {
+        max-width: 85% !important;
+        height: auto;
+        position: relative;
+        top: 10px;
+        margin-left: 5%;
+    }
+
+    .bi-list {
+        padding-right: 5%;
+    }
+
+    /* BAND-AID FIX FOR MOBILE BELOW */
+    .wrapper {
+        width: 100vw;
+        left:0px;
+        z-index: 100;
+    }
+
+}
+
+@media(max-width: 420px) {
+    .navlogo {
+        max-width: 50% !important;
+    }
+
+    [class*=" bi-"]::before {
+        vertical-align: 0em !important;
+    }
+}

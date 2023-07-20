@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/metrics": {
+      "name": "/metrics",
+      "lambdaFunction": "milleniaenergy9b718375",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

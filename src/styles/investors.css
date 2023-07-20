@@ -1,0 +1,83 @@
+.investors-title {
+    color: #3A4A01;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    text-transform: uppercase;
+    margin-top: 46px !important;
+}
+
+.investors-content {
+    margin-top: 113px !important;
+    margin-bottom: 122px !important;
+}
+
+.investor-content-image {
+    width: 525px;
+    height: 381px;
+    flex-shrink: 0;
+}
+
+.investor-content-text {
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    vertical-align: text-top !important;
+}
+
+.investor-content-text > p {
+    width: 496px !important;
+}
+.button-wrapper {
+    width: 496px !important;
+}
+.investbutton {
+    width: 345px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #58A528 !important;
+    border-color: #58A528 !important;
+    color: #000 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+@media(max-width:920px) {
+    .investor-content-image {
+        text-align: center;
+    }
+
+    .investors-content {
+        margin-top: 16px !important;
+        margin-bottom: 122px !important;
+    }
+
+    .investor-content-image > img {
+        object-fit: contain !important;
+        width: 100% !important;
+        height: 100% !important;
+
+    }
+    
+    .investor-content-text {
+        text-align: center;
+    }
+
+    .investor-content-text > p {
+        width: auto !important;
+    }
+
+    .button-wrapper {
+        width: auto !important;
+    }
+}

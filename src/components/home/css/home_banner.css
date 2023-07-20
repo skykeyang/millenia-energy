@@ -1,0 +1,35 @@
+.homebanner {
+    position: static;
+    top: 0px;
+    overflow: hidden;
+    width: 100vw;
+    height: auto;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+  }
+
+.banner-wrapper {
+    /* max-height: 1vh; */
+    overflow:hidden;
+    position: relative;
+}
+
+@media(max-width: 900px) {
+    .homebanner {
+        width: 100vw;
+        height: 50vh;
+    }
+}
+
+@media(max-width: 420px) {
+    .homebanner {
+        backface-visibility: hidden; 
+        -ms-transform: translateZ(0); /* IE 9 */
+        -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+        transform: translateZ(0);
+        height: 100vh;
+    }
+}
