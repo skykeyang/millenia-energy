@@ -8,22 +8,22 @@ import { motion } from "framer-motion";
 const Footer = () => {
     return (
       <footer className="footer">
-      <div className="container">
+      <div className="container footer-container">
           <div className="row">
-              <div className="col-md-6">
-                  <img src={require("../../images/logobanner_nobg.png").default} className='footer-logo'></img>
-                  <div className="row">
+              <div className="col-md-6 footer-content-wrapper">
+                  <Link to="/" ><img src={require("../../images/logobanner_nobg2.png").default} className='footer-logo'></img></Link>
+                  <div className="row site-links-row">
                   
-                      <div className="col-4 site-links">
+                      <div className="col-4 site-links left-site-links">
                           <ul className="list-unstyled">
-                          <li className='site-link-item'><Link to="/"> Home </Link></li>
-                          <li className='site-link-item'><Link to ="/about"> About </Link></li>
+                          <li className='site-link-item'><Link to="/about"> About </Link></li>
+                          <li className='site-link-item'><Link to ="/media"> Media </Link></li>
                           </ul>
                       </div>
-                      <div className='col-4 site-links'>
+                      <div className='col-4 site-links right-site-links'>
                         <ul className="list-unstyled">
                           <li className='site-link-item'><Link to ="/investors"> Investors </Link></li>
-                          <li className='site-link-item'><Link to ="/media"> Media </Link></li>
+                          <li className='site-link-item'><Link to ="/portfolio"> Portfolio </Link></li>
                         </ul>
                       </div>
                       <div className='col-4 empty-col'>
@@ -33,39 +33,30 @@ const Footer = () => {
                   </div>
                   <ul className="nav socials">
                       <li className="nav-item"><a href="https://www.facebook.com/" className="nav-link firsticon"><i className="bi bi-facebook fa-lg greyscale"></i></a></li>
-                      <li className="nav-item"><a href="https://twitter.com/" className="nav-link"><i className="bi bi-twitter fa-lg greyscale"></i></a></li>
                       <li className="nav-item"><a href="https://www.linkedin.com/" className="nav-link"><i className="bi bi-linkedin fa-lg greyscale"></i></a></li>
                       <li className="nav-item"><a href="https://www.youtube.com/" className="nav-link"><i className="bi bi-youtube fa-lg greyscale"></i></a></li>
                   </ul>
                   
                   <br />
               </div>
-              <div className='col-md-6 d-flex justify-content-center'>
-                <table className='footertable'>
-                  <tbody>
-                  <tr>
-                    <td className='footertd'>
-                      <h1><i className='bi bi-geo-alt-fill'></i></h1>
-                    </td>
-                    <td className='footertd'>
-                      1 Yishun Industrial Street 1, #08-16A POSH Bizhub, Singapore 768160
-                    </td>
+              <div className='col-md-6 footer-right'>
+                    <div className='row empty-row'></div>
+                    <div className='row location-row'>
+                      <div className='location-content'>
+                    <i className='bi bi-geo-alt location-icon'></i><span className='location-text'>1 Yishun Industrial Street 1, #08-16A POSH Bizhub, Singapore 768160</span>
+                      </div>
+                    </div>
+  
+                    <div className='row info-row'>
+                      <div className='info-content'>
+                    <i className="bi bi-info-circle info-icon"></i><span className='info-text'>info@millenia-energy.com</span>
+                      </div>
+                    </div>
                   
-                    <td className='footertd'>
-                      <h1><i className="bi bi-info-circle-fill"></i></h1>
-                    </td>
-                    <td className='footertd'>
-                      info@millenia-energy.com
-                    </td>
-                  </tr>
-                  </tbody>
-                </table>
               </div>
-            <div className='col-xl copyright'>
-            <span>Copyright 2023 Millenia Energy. All rights reserved</span>
-            </div>
           </div>
       </div>
+      <span className='copyright'>Copyright 2023 Millenia Energy. All rights reserved</span>
   </footer>
     )
 }

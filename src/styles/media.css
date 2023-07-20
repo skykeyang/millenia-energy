@@ -27,3 +27,31 @@
     line-height: 65px;
     text-transform: uppercase;
 }
+
+@media(max-width:920px) {
+    .empty-left-col {
+        display: none;
+    }
+
+    .media-title {
+        font-size: 25px !important;
+        line-height: 46px;
+        margin-top: 53px !important;
+        margin-bottom: 41px !important;
+    }
+
+    .media-content {
+        width: 295px;
+        font-size: 30px;
+        margin-bottom: 42px !important;
+        flex: unset !important;
+        text-transform: capitalize;
+    }
+
+    .media-placeholder-image  > img{
+        object-fit: contain;
+        width: 100% !important;
+        height: 100% !important;
+        flex: unset !important;
+    }
+}
