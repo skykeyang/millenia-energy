@@ -12,14 +12,14 @@ body {
   bottom: 0;
   /* Set the fixed height of the footer here */
   height: 370px;
-  border-color: #102434;
+  border-color: #3A4A01;
 }
 
 /* Sticky footer style and color
 -------------------------------------------------- */
 footer {
   padding-top: 30px;
-  background-color: #102434;
+  background: #3A4A01;
   color: white;
 }
 
@@ -103,7 +103,7 @@ footer a:hover, footer a:focus {
   padding-right: 40px !important;
   position: absolute;
   width: 100vw;
-  background-color: #102434;
+  background-color: #3A4A01;
   font-family: 'Montserrat', sans-serif;
   bottom: 0px;
 }
@@ -185,7 +185,7 @@ footer a:hover, footer a:focus {
       font-size: 6px;
       line-height: 26px; /* 520% */
       text-align: right;
-      border-color: #102434;
+      border-color: #3A4A01;
     }
 
     .empty-row {
@@ -221,7 +221,7 @@ footer a:hover, footer a:focus {
     }
 
     .footer-container {
-      border-color: #102434;
+      border-color: #3A4A01;
     }
 }
 
