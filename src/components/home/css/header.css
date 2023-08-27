@@ -85,15 +85,29 @@ nav ul li {
     padding-bottom: 5%;
 }
 
+#investors:hover {
+    border-bottom: 1px solid currentColor;
+    color: #589000;
+}
+
 .dropdown-ul {
     list-style: none;
     padding: unset;
     margin: unset;
   }
 
-.dropdown-li {
+.dropdown-item {
     padding: 14px;
     transition: all linear 0.3s;
+    border: 1px solid rgba(0, 0, 0,0.25) !important;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 10px; */
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 17.949px; */
+    text-transform: capitalize;
+
   }
 
 .dropdown-item:hover {
