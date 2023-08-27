@@ -14,10 +14,12 @@ import "../assets/vendor/boxicons/css/boxicons.min.css"
 const IndexPage = () => {
   return (
     <>
+    <div className="container">
+    <Navbar />
+    </div>
     <div className="row main gx-0">
     <HomeBanner>
-    <div className="container">
-    <Navbar /> 
+    <div className="container"> 
     <div className="title-wrapper col-lg-4">
       <h1 className="maintitle">We are Millenia Energy</h1>
       <h2 className="subtitle">The Future Is Green</h2>

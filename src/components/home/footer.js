@@ -31,11 +31,11 @@ const Footer = () => {
                       </div>
                     
                   </div>
-                  <ul className="nav socials">
+                  {/* <ul className="nav socials">
                       <li className="nav-item"><a href="https://www.facebook.com/" className="nav-link firsticon"><i className="bi bi-facebook fa-lg greyscale"></i></a></li>
                       <li className="nav-item"><a href="https://www.linkedin.com/" className="nav-link"><i className="bi bi-linkedin fa-lg greyscale"></i></a></li>
                       <li className="nav-item"><a href="https://www.youtube.com/" className="nav-link"><i className="bi bi-youtube fa-lg greyscale"></i></a></li>
-                  </ul>
+                  </ul> */}
                   
                   <br />
               </div>
