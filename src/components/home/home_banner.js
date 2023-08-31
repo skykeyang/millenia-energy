@@ -20,11 +20,12 @@ export default function HomeBanner({children}) {
     }, []);
 
     return (
-    <div className=''banner-wrapper gx-0>
-    {children}
-        <video ref={videoRef} autoPlay loop muted width="1920px" height='auto' className='homebanner'>
+    <div className='banner-wrapper gx-0'>
+        {children}
+        <video ref={videoRef} autoPlay loop muted  className='homebanner'>
             <source src={Preloader} type='video/mp4' />
         </video>
+        
     </div>
     )
 }

@@ -107,7 +107,7 @@ nav ul li {
     font-weight: 500;
     /* line-height: 17.949px; */
     text-transform: capitalize;
-
+    z-index: 1000;
   }
 
 .dropdown-item:hover {
@@ -124,6 +124,7 @@ nav ul li {
     /* display:block !important; */
     right: 15%;
     padding: 0 !important;
+    z-index: 1000 !important;
   }
 
 #media {
