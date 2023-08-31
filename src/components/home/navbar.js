@@ -44,7 +44,7 @@ const Navbar = () => {
                      <Link to="/"><img src={require("../../images/logobanner_nobg2.png").default} className= 'navlogo' alt='logo'></img></Link>
                   </div>
                {/* <div className={`menu navbarrow ${IsMobile ? 'col-8':''}`}> */}
-               <div className= 'menu navbarrow'>
+               <div className= 'menu navbarrow col'>
                   <ul className= {`backblurred ${isShowing ? 'showing': null}`} >
                     <li id="about"><Link to ="/about"> about </Link></li>
                     <li id="investors" onMouseEnter = {handleMouseEnter} onMouseLeave={handleMouseLeave}> 
