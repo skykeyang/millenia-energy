@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import Preloader from "../../images/solarbackgroundmoving.mp4";
+// import Preloader from "../../images/solarbackgroundmoving.mp4";
+// import Preloader from "https://media.githubusercontent.com/media/skykeyang/millenia-energy/Dev/src/images/solarbackgroundmoving.mp4";
 import "./css/home_banner.css";
 import "../../styles/styles.css";
 
@@ -23,7 +24,7 @@ export default function HomeBanner({children}) {
     <div className='banner-wrapper gx-0'>
         {children}
         <video ref={videoRef} autoPlay loop muted  className='homebanner'>
-            <source src={Preloader} type='video/mp4' />
+            <source src="https://media.githubusercontent.com/media/skykeyang/millenia-energy/Dev/src/images/solarbackgroundmoving.mp4" type='video/mp4' />
         </video>
         
     </div>
