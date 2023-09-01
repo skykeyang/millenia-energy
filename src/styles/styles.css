@@ -66,7 +66,7 @@ html,body
     position: absolute;
     z-index: 5;
     text-align: center;
-    top: 262px;
+    top: 26vh;
 }
 
 .button-wrapper {
@@ -93,6 +93,7 @@ html,body
 }
 
 @media(max-width: 1180px) {
+
     .maintitle {
        top: 15vh;
        justify-self: left;
