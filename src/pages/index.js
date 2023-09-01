@@ -3,33 +3,39 @@ import Navbar from "../components/home/navbar"
 import Footer from "../components/home/footer"
 import HomeBanner from "../components/home/home_banner"
 import Mission from "../components/home/mission"
-import Metrics from "../components/home/metrics"
-import Whatwedo from "../components/home/whatwedo"
+// import Metrics from "../components/home/metrics"
+import Whatwedo from "../components/home/ourexpertise"
+import Metrics2 from "../components/home/metrics2"
 import "./../styles/styles.css"
 import "../assets/vendor/bootstrap/css/bootstrap.min.css"
 import "../assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "../assets/vendor/boxicons/css/boxicons.min.css"
+import OurExpertise from "../components/home/ourexpertise"
 
 
 const IndexPage = () => {
   return (
     <>
+    <div className="container">
+    <Navbar />
+    </div>
     <div className="row main gx-0">
     <HomeBanner>
-    <div className="container">
-    <Navbar /> 
-    <div className="title-wrapper col-lg-4">
+    <div className="container"> 
+    
+    <div className="title-wrapper container">
       <h1 className="maintitle">We are Millenia Energy</h1>
       <h2 className="subtitle">The Future Is Green</h2>
-      <a href='#mission'><button type="button" className="btn btn-primary morebutton rounded-pill">Read More</button></a>
+      <a href='#mission' className="button-wrapper"><button type="button" className="btn btn-primary morebutton rounded-pill">Talk To Us</button></a>
     </div>
-    <div className="col-lg-8"></div>
+    <Metrics2 />
+  
     </div>
     </HomeBanner>
     </div>
+    <OurExpertise />
     <Mission/>
-    <Whatwedo />
-    <Metrics />
+    
     
     <Footer />
 

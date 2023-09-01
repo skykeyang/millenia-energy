@@ -1,10 +1,10 @@
 import React from "react";
 import { useRef } from "react";
-import "./css/whatwedo.css";
+import "./css/ourexpertise.css";
 import "../../styles/styles.css";
 import { useInView } from "framer-motion";
 
-export default function Whatwedo() {
+export default function OurExpertise() {
 
     const row1 = useRef(null);
     const row2 = useRef(null);
@@ -16,7 +16,7 @@ export default function Whatwedo() {
     return (
         <div className="container section-three">
             <div className="row" id="section-three-title">
-                <h2 className="col title">WHAT WE DO?</h2>
+                <h2 className="col title">Our Expertise</h2>
             </div>
 
             <div className="row" ref={row1}>
@@ -25,21 +25,22 @@ export default function Whatwedo() {
                     style={{transform: isInViewRow1 ? "none" : "translateX(-200px)",
                     opacity: isInViewRow1 ? 1 : 0,
                     transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"}} >
+                        {/* <div className="container"> */}
                         <div className="row">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none" className="col-1 whatwedo-icon">
                             <path d="M26.5625 9.37503C18.8867 9.37503 12.3926 14.4043 10.1855 21.3379C13.4668 19.6778 17.168 18.75 21.0938 18.75H29.6875C30.5469 18.75 31.25 19.4532 31.25 20.3125C31.25 21.1719 30.5469 21.875 29.6875 21.875H28.125H21.0938C19.4727 21.875 17.9004 22.0606 16.3867 22.4024C13.8574 22.9785 11.5039 24.0039 9.41406 25.4004C3.74023 29.1797 0 35.6348 0 42.9688V44.5313C0 45.8301 1.04492 46.875 2.34375 46.875C3.64258 46.875 4.6875 45.8301 4.6875 44.5313V42.9688C4.6875 38.2129 6.70898 33.9356 9.94141 30.9375C11.875 38.3106 18.584 43.75 26.5625 43.75H26.6602C39.5605 43.6817 50 30.9668 50 15.293C50 11.1328 49.2676 7.17776 47.9395 3.61331C47.6855 2.93948 46.6992 2.96878 46.3574 3.60354C44.5215 7.04104 40.8887 9.37503 36.7188 9.37503H26.5625Z" fill="#3A4A01"/>
                         </svg>
                         <h3 className="col whatwedo-title">
-                            Decarbonise Organisation
+                            Decarbonising Organisations
                         </h3>
                         </div>
                         <div className="row">
                             <div className="col whatwedo-text">
-                                As an integral component of its sustainability and carbon reduction strategy, Millenia Energy collaborates with 
-                                customers throughout its portfolio to support their efforts in diminishing carbon emissions and enhancing the 
-                                performance of their property assets.
+                            At the core of our sustainability strategy, Millenia Energy actively partners with customers throughout its portfolio, 
+                            offering dedicated support in their journey to diminish carbon emissions and enhance the performance of their property assets.
                             </div>
                         </div>
+                        {/* </div> */}
                     </div>
                 <div className="col-1"></div>
             </div>
@@ -67,10 +68,8 @@ export default function Whatwedo() {
                         </div>
                         <div className="row">
                             <div className="col whatwedo-text" >
-                            We actively promote the global transition towards sustainable energy infrastructure and has introduced various 
-                            initiatives to drive the advancement of renewable energy development. These initiatives include the implementation of on-site 
-                            solar installations across our real estate portfolio, alongside the integration of battery storage systems 
-                            and depot charging solutions for electric vehicles.
+                            Championing global sustainability, Millenia Energy leverages its extensive real estate portfolio to drive renewable energy 
+                            development through on-site solar installations, battery storage integration, and depot charging solutions for electric vehicles.
                             </div>
                         </div>
                     </div>
@@ -93,9 +92,9 @@ export default function Whatwedo() {
                         </div>
                         <div className="row">
                             <div className="col whatwedo-text">
-                            Millenia Energy offers clean energy to our customers at a substantial discount compared to standard utility rates. 
-                            Any excess energy is directed back into the electricity grid, thereby alleviating the burden on local power grids 
-                            and creating positive effects within our communities.
+                            Millenia Energy not only provides customers with clean energy at a significant discount compared to 
+                            standard utility rates but also contributes surplus energy back into the grid. This approach effectively eases 
+                            the strain on local power grids, creating positive impacts within our communities.
                             </div>
                         </div>
                     </div>

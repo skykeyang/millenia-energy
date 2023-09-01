@@ -10,10 +10,11 @@ import "../assets/vendor/boxicons/css/boxicons.min.css"
 const MediaPage = () => {
     return (
         <div className="main">
-            <div className="banner">
             <div className="container">
                 <Navbar />
             </div>
+            <div className="banner">
+            
             </div>
             <div className="container-flex">
                 <div className="row justify-content-center media-title">

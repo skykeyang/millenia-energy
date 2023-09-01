@@ -2,6 +2,7 @@
     display: block;
     position: relative;
     width: 100%;
+    padding-top: 4em;
 }
 .missionvision {
     background-color: #FFFFFF;
@@ -15,11 +16,12 @@
 
 .missiontitle {
     color: #3A4A01;
-    font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
     padding-left: 92px;
-    padding-top: 10vh;
+    flex-wrap: nowrap;
+    /* padding-top: 10vh; */
 }
 
 .together {
@@ -37,8 +39,9 @@
     padding-top: 97px;
     padding-left: 89px;
     color: #3A4A01;
-    font-size: 22px;
+    font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     line-height: 26px;
     display: flex;
     flex-direction: column;
@@ -53,12 +56,67 @@
     padding-left: 89px;
 }
 
+.ourvision {
+    padding-top: 97px;
+    /* padding-left: 89px; */
+    color: #3A4A01;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.visioncontent {
+    color: #6E992E;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 89px; */
+}
+
+.ourcommitment {
+    padding-top: 97px;
+    padding-left: 89px;
+    color: #3A4A01;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.commitmentcontent {
+    color: #6E992E;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 89px;
+}
+.turbine-image {
+    width: 462.601px;
+    height: 286.193px;
+}
+
+.coastal-turbine-image {
+    width: 397.879px !important;
+    /* height: 280.21px !important; */
+    padding-top: 2em;
+    flex-shrink: 0;
+    
+}
 .solar-image {
     width: 100%;
 }
 
-#image-main {
+#mission-right {
     display: unset;
+    padding-top: 5em;
 }
 
 #image-mobile {
