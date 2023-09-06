@@ -1,8 +1,46 @@
 .banner {
-    background: url("solarbackgroundcropped.jpg");
-    height: 402px;
+    background: url("about-banner.jpg");
+    height: 417px;
     background-size:cover;
     position: relative;
+    width: 100%;
+    padding-top: 115px;
+}
+
+.about-banner-box {
+    width: 886px;
+    height: 186px;
+    border-radius: 20px;
+    background: rgba(88, 144, 0, 0.80);
+    backdrop-filter: blur(2px);
+    margin: auto;
+    position: relative;
+    display:flex;
+}
+
+.about-banner-title {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    padding-top: 43px;
+    margin-left: 27px;
+}
+
+.about-banner-quote {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+    padding-top: 49px;
+}
+
+.about-banner-title-line {
+    margin-left: 27px;
 }
 
 .title-wrapper {
@@ -11,29 +49,25 @@
 
 .about-title {
     color: #3A4A01;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: 46px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding: 38px 0px 15px 0px;
 }
 
-#about-quote {
-    max-width: 855px;
-    text-align: center !important;
-}
 
 .about-quote {
-    color: #000;
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-style: italic;
+    color: #3A4A01;
+    font-size: 16px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 25px;
+    width: 1046px;
 }
 
 .about-text {

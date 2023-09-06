@@ -9,7 +9,7 @@ import "../assets/vendor/boxicons/css/boxicons.min.css"
 
 const InvestorsPage = () => {
     return (
-        <div className="main">
+        <div>
             <div className="container">
                 <Navbar />
             </div>
