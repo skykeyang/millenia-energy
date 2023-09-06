@@ -46,18 +46,38 @@ const AboutPage = () => {
                 we are passionate about empowering sustainable futures through innovative and impactful solutions.</p>
             </div>
             </div>
+
                 <div className="container-fluid about-squares-container">
+                <div className="row values-title-wrapper">
+                <div className="col values-title">
+                    Our Values
+                </div>
+                
+                <div className="row">
+                <div className="col values-subtitle">
+                    Guiding Principles for Excellence
+                </div>
+                </div>
+                </div>
                 <div className="row squares-wrapper">
                     <div className="col d-flex justify-content-center">
                         <div className="about-square">
-                            <div className="row about-icon justify-content-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
-                                <path d="M8.75 8.75C8.75 6.33008 6.79492 4.375 4.375 4.375C1.95508 4.375 0 6.33008 0 8.75V54.6875C0 60.7305 4.89453 65.625 10.9375 65.625H65.625C68.0449 65.625 70 63.6699 70 61.25C70 58.8301 68.0449 56.875 65.625 56.875H10.9375C9.73437 56.875 8.75 55.8906 8.75 54.6875V8.75ZM64.3398 20.5898C66.0488 18.8809 66.0488 16.1055 64.3398 14.3965C62.6309 12.6875 59.8555 12.6875 58.1465 14.3965L43.75 28.8066L35.9023 20.959C34.1934 19.25 31.418 19.25 29.709 20.959L14.3965 36.2715C12.6875 37.9805 12.6875 40.7559 14.3965 42.4648C16.1055 44.1738 18.8809 44.1738 20.5898 42.4648L32.8125 30.2559L40.6602 38.1035C42.3691 39.8125 45.1445 39.8125 46.8535 38.1035L64.3535 20.6035L64.3398 20.5898Z" fill="#3A4A01"/>
+                            <div className="row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <g clip-path="url(#clip0_72_38)">
+                                <path d="M1.875 15C1.875 18.481 3.25781 21.8194 5.71922 24.2808C8.18064 26.7422 11.519 28.125 15 28.125C18.481 28.125 21.8194 26.7422 24.2808 24.2808C26.7422 21.8194 28.125 18.481 28.125 15C28.125 11.519 26.7422 8.18064 24.2808 5.71922C21.8194 3.25781 18.481 1.875 15 1.875C11.519 1.875 8.18064 3.25781 5.71922 5.71922C3.25781 8.18064 1.875 11.519 1.875 15ZM30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15ZM17.4056 7.50375V22.5H14.9456V10.0087H14.8238L11.385 12.48V10.0969L14.9456 7.50375H17.4056Z" fill="#3A4A01"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_72_38">
+                                <rect width="30" height="30" fill="white"/>
+                                </clipPath>
+                            </defs>
                             </svg>
+                            <div className="about-square-title">
+                                Integrity
                             </div>
-                            <div className="row about-square-title justify-content-center">
-                                Quality And Expertise
                             </div>
+                            
                             <div className="row about-square-text justify-content-center gx-0">
                                 <span className="col">
                                 Our extensive expertise and strategic industry partnerships enable us to identify and pursue well-balanced, 
