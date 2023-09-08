@@ -62,7 +62,8 @@ const AboutPage = () => {
                 <div className="row squares-wrapper">
                     <div className="col d-flex justify-content-center">
                         <div className="about-square">
-                            <div className="row">
+
+                            <div className="no-wrap">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <g clip-path="url(#clip0_72_38)">
                                 <path d="M1.875 15C1.875 18.481 3.25781 21.8194 5.71922 24.2808C8.18064 26.7422 11.519 28.125 15 28.125C18.481 28.125 21.8194 26.7422 24.2808 24.2808C26.7422 21.8194 28.125 18.481 28.125 15C28.125 11.519 26.7422 8.18064 24.2808 5.71922C21.8194 3.25781 18.481 1.875 15 1.875C11.519 1.875 8.18064 3.25781 5.71922 5.71922C3.25781 8.18064 1.875 11.519 1.875 15ZM30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15ZM17.4056 7.50375V22.5H14.9456V10.0087H14.8238L11.385 12.48V10.0969L14.9456 7.50375H17.4056Z" fill="#3A4A01"/>
@@ -80,8 +81,9 @@ const AboutPage = () => {
                             
                             <div className="row about-square-text justify-content-center gx-0">
                                 <span className="col">
-                                Our extensive expertise and strategic industry partnerships enable us to identify and pursue well-balanced, 
-                                high-quality investment opportunities that mitigate risks, ensuring favorable outcomes for our valued investors
+                                Millenia Energy upholds the highest standards of trust, honesty, and sincerity in 
+                                all our endeavours. We believe that transparency and integrity is key to fostering 
+                                lasting relationships with mutual respect and ethical practices.
                                 </span>
                             </div>
                         </div>
@@ -89,25 +91,28 @@ const AboutPage = () => {
 
                     <div className="col d-flex justify-content-center">
                         <div className="about-square">
-                            <div className="row about-icon justify-content-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
-                                <g clip-path="url(#clip0_90_61)">
-                                    <path d="M70 48.8594C59.9557 70.2188 35.8932 57.2969 35.8932 57.2969C28.5104 70.0781 16.3151 78.2969 2.2422 78.3438C-0.6927 78.3438 -0.783846 74.5312 2.2422 74.5312C13.9818 74.4844 24.2083 67.8594 30.8984 57.3281C23.4063 59.8125 9.27866 61.6875 1.44011 44.4844C21.3099 37.4688 30.4427 46.2344 33.9427 51.5938C35.7474 47.7813 37.0417 43.6406 37.8802 39.1406C37.8802 39.1406 12.4141 42.5625 10.6276 23.8125C32.3386 16.3281 38.4453 35.7969 38.4453 35.7969C38.737 33.1875 39.0469 27.5781 39.0469 27.4531C39.0469 27.4531 19.6693 15.9375 32.1016 1.64062C54.8151 8.35938 43.2943 27.0156 43.2943 27.0156C43.3854 27.2656 43.3854 30.7344 43.2943 32.2344C43.2943 32.2344 51.5339 18.3281 68.1589 23.25C67.3932 44.1875 42.2917 39.875 42.2917 39.875C41.4896 44.1562 40.25 48.2188 38.6458 51.9844C38.6458 51.9844 53.7761 37.6406 70 48.8594Z" fill="#3A4A01"/>
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_90_61">
-                                    <rect width="70" height="80" fill="white"/>
-                                    </clipPath>
-                                </defs>
-                            </svg>
+
+                        <div className="no-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <g clip-path="url(#clip0_72_41)">
+                            <path d="M1.875 15C1.875 18.481 3.25781 21.8194 5.71922 24.2808C8.18064 26.7422 11.519 28.125 15 28.125C18.481 28.125 21.8194 26.7422 24.2808 24.2808C26.7422 21.8194 28.125 18.481 28.125 15C28.125 11.519 26.7422 8.18064 24.2808 5.71922C21.8194 3.25781 18.481 1.875 15 1.875C11.519 1.875 8.18064 3.25781 5.71922 5.71922C3.25781 8.18064 1.875 11.519 1.875 15ZM30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15ZM12.4613 11.7V11.8313H10.0781V11.7112C10.0781 9.43687 11.7262 7.2075 15.0225 7.2075C17.9888 7.2075 19.9219 8.98687 19.9219 11.3606C19.9219 13.2394 18.7969 14.4863 17.5088 15.9169L17.3287 16.1175L13.6275 20.28V20.4244H20.1862V22.5H10.1663V20.94L15.735 14.7656C16.5487 13.875 17.4281 12.8756 17.4281 11.5688C17.4281 10.1737 16.3837 9.25125 14.9662 9.25125C13.3856 9.25125 12.4613 10.4044 12.4613 11.7Z" fill="#3A4A01"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_72_41">
+                            <rect width="30" height="30" fill="white"/>
+                            </clipPath>
+                        </defs>
+                        </svg>
+                            <div className="about-square-title">
+                                Safety
                             </div>
-                            <div className="row about-square-title justify-content-center">
-                                Sustainability
                             </div>
+
                             <div className="row about-square-text justify-content-center gx-0">
                                 <span className="col">
-                                We curate investments that align with your personal values, carefully constructing portfolios that prioritize your environmental, 
-                                social, and governance considerations.
+                                Safety is of utmost importance to us. We are committed to maintaining a safe work environment, 
+                                implementing stringent safety measures, and adhering to industry best practices to ensure that 
+                                everyone involved in our projects feels secure and protected.
                                 </span>
                             </div>
                             </div>
@@ -116,21 +121,65 @@ const AboutPage = () => {
 
                     <div className="col d-flex justify-content-center">
                         <div className="about-square">
-                            <div className="row about-icon justify-content-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
-                                    <path d="M34.025 10.0937L27.6375 18.0781C25.725 18.7344 23.95 19.9375 22.45 21.5938L19.125 25.2969C17.85 26.7188 16.1875 27.5 14.475 27.5H12V47.5C14.55 47.5938 16.975 48.8906 18.7875 51.1562L23.2375 56.7188L24.1125 57.8125L27.4875 62.0312C28.2625 63 29.5375 63 30.3125 62.0312C30.525 61.7656 30.6875 61.4531 30.775 61.125C31.125 59.9219 31.9375 59.0156 32.9375 58.7344C33.9375 58.4531 34.9875 58.8281 35.7125 59.75L37.0625 61.4062C38.5125 63.2188 40.8625 63.2188 42.3 61.4062C42.975 60.5625 43.3375 59.4844 43.375 58.375C43.425 57 44.075 55.7812 45.075 55.1875C46.075 54.5938 47.2375 54.7188 48.125 55.5156C49.3 56.5625 50.9375 56.4219 51.9875 55.1094C53.1625 53.6406 53.1625 51.2656 51.9875 49.8125L42.5125 37.9688L38.0375 43.125C34.625 47.0625 29.3875 47.125 25.9125 43.2656C21.95 38.8594 21.8625 31.1719 25.7125 26.625L34.475 
-                                    16.2812C37.9 12.25 42.425 10 47.1375 10C51.65 10 56.0125 12.0781 59.375 15.8125L63.1375 20H68H73H78C79.1 20 80 21.125 80 22.5V55C80 57.7656 78.2125 60 76 60H72C70.525 60 69.225 59 68.5375 57.5H57.925C57.5 58.5469 56.9375 59.5469 56.2375 60.4219C54.1 63.0938 51.1375 64.1406 48.3625 63.5625C47.9125 64.7031 47.3 65.7656 46.5375 66.7188C43.125 70.9844 37.7875 71.4062 33.9875 67.9844C30.85 71.2344 26.175 71.0312 23.2375 67.3438L19.875 63.125L19 62.0312L14.55 56.4688C13.8625 55.6094 12.9625 55.1094 12 55.0156C12 57.7656 10.2 60 8 60H4C1.7875 60 0 57.7656 0 55V22.5C0 21.125 0.9 20 2 20H7H12H14.475C14.725 20 14.9625 19.8906 15.1375 19.6875L18.45 16C21.9375 12.1406 26.425 10 31.0875 10H32.375C32.925 10 33.4875 10.0312 34.025 10.0937ZM68 50V27.5H62C61.2625 27.5 60.55 27.1562 60.0125 26.5469L55.4 21.4219C53.125 18.8906 50.1875 17.5 47.1375 17.5C43.9625 17.5 40.9125 19.0156 38.6 21.7344L29.8375 32.0781C28.55 33.6094 28.575 36.1875 29.9 37.6562C31.0625 38.9531 32.825 38.9219 33.9625 37.6094L42.95 27.2344C44.1625 25.8281 46.0625 25.9219 47.1875 27.4531C48.3125 28.9844 48.2375 31.3438 47.0125 32.75L46.9125 32.875L56.2125 44.5C57.4625 46.0625 58.275 47.9844 58.6375 49.9844H68V50ZM8 52.5C8 51.837 7.78929 51.2011 7.41421 50.7322C7.03914 50.2634 6.53043 50 6 50C5.46957 50 4.96086 50.2634 4.58579 50.7322C4.21071 51.2011 4 51.837 4 52.5C4 53.163 4.21071 53.7989 4.58579 54.2678C4.96086 54.7366 5.46957 55 6 55C6.53043 55 7.03914 54.7366 7.41421 54.2678C7.78929 53.7989 8 53.163 8 52.5ZM74 55C74.5304 55 75.0391 54.7366 75.4142 54.2678C75.7893 53.7989 76 53.163 76 52.5C76 51.837 75.7893 51.2011 75.4142 50.7322C75.0391 50.2634 74.5304 50 74 50C73.4696 50 72.9609 50.2634 72.5858 50.7322C72.2107 51.2011 72 51.837 72 52.5C72 53.163 72.2107 53.7989 72.5858 54.2678C72.9609 54.7366 73.4696 55 74 55Z" fill="#3A4A01"/>
-                                </svg>
+
+                        <div className="no-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <g clip-path="url(#clip0_72_44)">
+                            <path d="M14.8463 15.7762H13.1981V13.7662H14.7694C16.2319 13.7662 17.2969 12.7875 17.2856 11.4469C17.2856 10.1175 16.23 9.20625 14.7581 9.20625C13.2769 9.20625 12.2981 10.14 12.2306 11.1844H9.89065C9.95815 9.0525 11.6719 7.21875 14.8125 7.2075C17.8013 7.185 19.7025 8.86687 19.7569 11.0737C19.8 13.2056 18.0975 14.4037 16.9781 14.5894V14.7206C18.2963 14.8519 20.1844 15.9206 20.2294 18.315C20.2744 21.0506 17.835 22.8075 14.7356 22.8075C11.5388 22.8075 9.66002 20.9944 9.5719 18.7875H11.8688C11.9794 19.9069 13.1438 20.775 14.7581 20.7862C16.5825 20.7975 17.7581 19.7306 17.7356 18.2475C17.7244 16.7869 16.5713 15.7762 14.8463 15.7762Z" fill="#3A4A01"/>
+                            <path d="M30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15ZM1.875 15C1.875 18.481 3.25781 21.8194 5.71922 24.2808C8.18064 26.7422 11.519 28.125 15 28.125C18.481 28.125 21.8194 26.7422 24.2808 24.2808C26.7422 21.8194 28.125 18.481 28.125 15C28.125 11.519 26.7422 8.18064 24.2808 5.71922C21.8194 3.25781 18.481 1.875 15 1.875C11.519 1.875 8.18064 3.25781 5.71922 5.71922C3.25781 8.18064 1.875 11.519 1.875 15Z" fill="#3A4A01"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_72_44">
+                            <rect width="30" height="30" fill="white"/>
+                            </clipPath>
+                        </defs>
+                        </svg>
+                            <div className="about-square-title">
+                                Collaboration
                             </div>
-                            <div className="row about-square-title justify-content-center">
-                                Strong Partnerships
                             </div>
+                            
                             <div className="row about-square-text justify-content-center gx-0">
                                 <span className="col">
-                                We leverage our extensive network of private investors and family offices to offer robust financing support to our project, 
-                                ensuring their successful realization
+                                We touch on the power of collaboration to seek partnerships with trusted companies. 
+                                Together, we shall unlock the potential for innovative solutions and sustainable growth, 
+                                forging a united front in creating a greener and more resilient future for all.
                                 </span>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="about-banner-2">
+                    <div className="container justify-content-center">
+                        <div className="about-banner2-box">
+                            <div className="about-banner2-title col-4">
+                                Area of Excellence
+                            </div>
+                            <div className="about-banner2-content col-8">
+
+                                <div className="areas-of-excellence-image"></div>
+                            </div>
+
+                        </div>
+                    </div>
+            </div>
+
+            <div className="our-team">
+                <div className="container justify-content-center">
+                    <div className="our-team-box container">
+                        <div className="team-content-wrapper">
+                        <div className="row our-team-title">
+                            OUR TEAM
+                        </div>
+                        <div className="row our-team-content">
+                        At Millenia Energy, our team boasts a wealth of experience in development, 
+                        financial acumen, and a wide network of connections in the clean energy industry. 
+                        With a shared passion for sustainable solutions, we are committed to driving positive change in the renewable energy landscape.
+                        </div>
+                        <div className="row learn-more btn btn-primary rounded-pill">
+                            LEARN MORE
+                        </div>
                         </div>
                     </div>
                 </div>

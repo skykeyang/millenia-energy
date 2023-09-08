@@ -108,8 +108,15 @@
 }
 
 .squares-wrapper {
-    margin-bottom: 265px;
+    margin-bottom: 100px;
     margin-top: 17px !important;
+}
+
+.no-wrap {
+    display: inline-flex;
+    margin-top: 28px;
+    margin-left: 16px;
+    margin-bottom: 34px;
 }
 
 .about-icon {
@@ -123,6 +130,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 30px; /* 166.667% */
+    margin-left: 14px;
 }
 
 .about-square-text {
@@ -134,6 +142,8 @@
     font-weight: 400;
     line-height: 30px;
     width: 99%;
+    padding-left: 23px;
+    padding-right: 18px;
 }
 
 .values-title-wrapper {
@@ -158,6 +168,100 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
+}
+
+.about-banner2-box {
+    width: 100%;
+    height: 317px;
+    border-radius: 20px;
+    background: rgba(226, 241, 227, 0.80);
+    backdrop-filter: blur(2px);
+    margin: auto;
+    position: relative;
+    display:flex;
+    line-height: inherit;
+}
+
+.about-banner-2 {
+    background: url("about-banner-2.jpg");
+    height: 417px;
+    background-size:cover;
+    position: relative;
+    width: 100%;
+    margin-bottom: 8vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-banner2-title {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.927px; /* 92.596% */
+    margin: auto;
+    transform: translateX(17%);
+}
+
+.areas-of-excellence-image {
+    background: url("./areas_of_excellence.png"), lightgray 50%;
+    opacity: 50%;
+    background-blend-mode: inherit;
+    mix-blend-mode: multiply;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    width: 40em;
+    height: 16em;
+    margin: auto;
+    margin-top:1.5em;
+}
+
+.our-team-box {
+    /* width: 100%; */
+    height: 244px;
+    border-radius: 20px;
+    background: #E2EEE2;
+    backdrop-filter: blur(2px);
+    margin: auto;
+    margin-bottom: 8vh;
+}
+
+.team-content-wrapper {
+    padding-left: 3em;
+    padding-top: 30px;
+}
+
+.our-team-title {
+    color: #3A4A01;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.our-team-content {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    height: 82px;
+    width: 50vw;
+    margin-bottom: 15px;
+}
+
+.learn-more {
+    width: 162px;
+    /* height: 45px; */
+    flex-shrink: 0;
+    background: #58A528 !important;
+    border-radius: 50%;
+    z-index: 10;
 }
 
 @media(max-width: 950px)   {
