@@ -1,4 +1,5 @@
 import * as React from "react"
+import { useState } from "react"
 import Navbar from "../components/home/navbar"
 import Footer from "../components/home/footer"
 import "../styles/about.css"
@@ -8,6 +9,18 @@ import "../assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "../assets/vendor/boxicons/css/boxicons.min.css"
 
 const AboutPage = () => {
+    const [isModalVisible, setModal] = useState("none");
+
+    const toggleModal = () => {
+        setModal("block");
+        
+    }
+
+    const closeModal = () => {
+        setModal("none");
+    }
+
+
     return (
         <div>
         <div className="container">
@@ -166,6 +179,15 @@ const AboutPage = () => {
             </div>
 
             <div className="our-team">
+
+            {/* Modal content */}
+            <div className="modal" style={{display: `${isModalVisible}`}}>
+                <div className="modal-cover" onClick={closeModal}></div>
+                <div className="modal-content">
+                    <img src={require("../styles/team-structure.png").default}></img>
+                </div>
+            </div>
+
                 <div className="container justify-content-center">
                     <div className="our-team-box container">
                         <div className="team-content-wrapper">
@@ -177,7 +199,7 @@ const AboutPage = () => {
                         financial acumen, and a wide network of connections in the clean energy industry. 
                         With a shared passion for sustainable solutions, we are committed to driving positive change in the renewable energy landscape.
                         </div>
-                        <div className="row learn-more btn btn-primary rounded-pill">
+                        <div className="row learn-more btn btn-primary rounded-pill" onClick={toggleModal}>
                             LEARN MORE
                         </div>
                         </div>
