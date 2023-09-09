@@ -1,4 +1,6 @@
 import * as React from "react"
+import { useState } from 'react';
+import { Lightbox } from "react-modal-image"
 import Navbar from "../components/home/navbar"
 import Footer from "../components/home/footer"
 import "../styles/about.css"
@@ -7,7 +9,12 @@ import "../assets/vendor/bootstrap/css/bootstrap.min.css"
 import "../assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "../assets/vendor/boxicons/css/boxicons.min.css"
 
+
 const AboutPage = () => {
+    const [isLightboxVisible, setLightboxVisible] = useState('none')
+    const openLightbox = () => {
+        setLightboxVisible('visible');
+      };
     return (
         <div>
         <div className="container">
@@ -165,6 +172,8 @@ const AboutPage = () => {
                     </div>
             </div>
 
+            <Lightbox large={require("../styles/team_structure.png").default} alt="LEARN MORE"  style={{display: `${isLightboxVisible}`}}/>
+
             <div className="our-team">
                 <div className="container justify-content-center">
                     <div className="our-team-box container">
@@ -177,9 +186,12 @@ const AboutPage = () => {
                         financial acumen, and a wide network of connections in the clean energy industry. 
                         With a shared passion for sustainable solutions, we are committed to driving positive change in the renewable energy landscape.
                         </div>
-                        <div className="row learn-more btn btn-primary rounded-pill">
-                            LEARN MORE
+                        
+                        <div className="row btn btn-primary rounded-pill" onClick={openLightbox}>
+                        LEARN MORE
                         </div>
+                        
+                        
                         </div>
                     </div>
                 </div>
