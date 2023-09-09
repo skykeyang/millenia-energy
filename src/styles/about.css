@@ -264,11 +264,6 @@
     z-index: 10;
 }
 
-.__react_modal_image__modal_container {
-    position: fixed;
-    height: 100vh !important;
-}
-
 @media(max-width: 950px)   {
     .squares-wrapper {
         overflow-x:  visible !important;
@@ -282,8 +277,6 @@
     .about-squares-container {
         box-sizing: content-box;
     }
-
-
 
 
 }
