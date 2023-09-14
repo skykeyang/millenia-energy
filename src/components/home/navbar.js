@@ -48,15 +48,15 @@ const Navbar = () => {
                   <ul className= {`backblurred ${isShowing ? 'showing': null}`} >
                     <li id="about"><Link to ="/about"> about </Link></li>
                     <li id="investors" onMouseEnter = {handleMouseEnter} onMouseLeave={handleMouseLeave}> 
-                                          <Link to="/investors">investors</Link> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" fill="none">
+                                          <Link to="/investors/funding_initiatives">investors</Link> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" fill="none">
                                                       <path d="M5.85217 9L0.656021 0.75L11.0483 0.75L5.85217 9Z" fill="#3A4A01" fill-opacity="0.8"/>
                                                    </svg>
                                           
                      </li>
                      <div className="dropdown-menu" style={{display: `${isDropdownVisible}`}}  onMouseEnter = {handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                              
-                                          <Link to="/investors" className='dropdown-item'>Funding Initiatives</Link>
-                                          <Link to="/investors" className='dropdown-item'>Investment Opportunities</Link>
+                                          <Link to="/investors/funding_initiatives" className='dropdown-item'>Funding Initiatives</Link>
+                                          <Link to="/investors/investment_opportunities" className='dropdown-item'>Investment Opportunities</Link>
                                              
                      </div>
                     <li id="media"><Link to ="/media"> media </Link></li>
