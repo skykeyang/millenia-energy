@@ -1,17 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-// import Preloader from "../../images/solarbackgroundmoving.mp4";
-// import Preloader from "https://media.githubusercontent.com/media/skykeyang/millenia-energy/Dev/src/images/solarbackgroundmoving.mp4";
 import "./css/home_banner.css";
 import "../../styles/styles.css";
 
-// export default function HomeBanner({children}) {
-//     return (
-//         <div className='banner-wrapper gx-0'>
-//             {children}
-//             <img className='homebanner' src={require("../../images/solarbackgroundcropped.jpg").default} alt='Logo'/>
-//         </div>
-//     )
-// }
 
 export default function HomeBanner({children}) {
     const videoRef = useRef(null);
@@ -24,11 +14,9 @@ export default function HomeBanner({children}) {
     <div className='banner-wrapper gx-0'>
         {children}
         <video ref={videoRef} autoPlay loop muted  className='homebanner' preload>
-            <source src="https://media.githubusercontent.com/media/skykeyang/millenia-energy/Dev/src/images/solarbackgroundmoving.mp4" type='video/mp4' />
+            <source src="https://millenia-energy-asset.s3.ap-southeast-1.amazonaws.com/solarbackgroundmoving.mp4" type='video/mp4' />
         </video>
         
     </div>
     )
 }
-
-// export default HomeBanner
