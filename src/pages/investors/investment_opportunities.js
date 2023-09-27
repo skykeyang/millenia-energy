@@ -1,28 +1,27 @@
 import * as React from "react"
-import Navbar from "../components/home/navbar"
-import Footer from "../components/home/footer"
-import "./../styles/styles.css"
-import "./../styles/investors.css"
-import "../assets/vendor/bootstrap/css/bootstrap.min.css"
-import "../assets/vendor/bootstrap-icons/bootstrap-icons.css"
-import "../assets/vendor/boxicons/css/boxicons.min.css"
+import Navbar from "../../components/home/navbar"
+import Footer from "../../components/home/footer"
+import FundingBanner from "../../components/misc/funding_banner"
+import "./../../styles/styles.css"
+import "./../../styles/investors.css"
+import "../../assets/vendor/bootstrap/css/bootstrap.min.css"
+import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+import "../../assets/vendor/boxicons/css/boxicons.min.css"
 
-const InvestorsPage = () => {
+const FundingInitiativesPage = () => {
     return (
-        <div className="main">
+        <div>
             <div className="container">
                 <Navbar />
             </div>
-            <div className="banner">
-            
-            </div>
+            < FundingBanner />  
             <div className="container">
                 <div className="row justify-content-center investors-title">
                     Investors
                 </div>
                 <div className="row justify-content-center investors-content">
                     <div className="col investor-content-image">
-                        <img src={require("../styles/investors-image.jpg").default}></img>
+                        <img src={require("../../styles/investors-image.jpg").default}></img>
                     </div>
                     <div className="col-xl investor-content-text">
                     <p>Renewable energy investments often present complexities that can introduce uncertainties for investors. 
@@ -41,4 +40,4 @@ const InvestorsPage = () => {
     )
 }
 
-export default InvestorsPage;
+export default FundingInitiativesPage;

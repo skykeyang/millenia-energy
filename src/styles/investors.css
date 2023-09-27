@@ -1,3 +1,16 @@
+.funding-banner {
+    background: url("funding_banner.jpg");
+    height: 417px;
+    background-size:cover;
+    position: relative;
+    width: 100%;
+    padding-top: 115px;
+}
+
+.funding-content-container {
+    margin-top: 58px;
+}
+
 .investors-title {
     color: #3A4A01;
     text-align: center;
@@ -8,6 +21,22 @@
     line-height: 46px;
     text-transform: uppercase;
     margin-top: 46px !important;
+}
+
+.funding-banner-title {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px; /* 136% */
+    width: 303px;
+    padding-left: 23px;
+    padding-top: 14px;
+}
+
+.funding-banner-title-line {
+    margin-left: 127px;
 }
 
 .investors-content {
@@ -37,9 +66,11 @@
 .investor-content-text > p {
     width: 496px !important;
 }
+
 .button-wrapper {
     width: 496px !important;
 }
+
 .investbutton {
     width: 345px;
     height: 57px;
@@ -50,6 +81,32 @@
     color: #000 !important;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+}
+
+.funding-initiatives-square {
+    width: 345px;
+    height: 329px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(164, 192, 166, 0.60);
+}
+
+.btn-success {
+    background-color: #58A528 !important;
+    border-color: #58A528 !important;
+    border-radius: 28px !important;
+    width: 211px !important;
+    height: 44px !important;
+    flex-shrink: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-bottom: 15vh;
+}
+
+.contact-form-wrapper {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: #E2F1E3;
 }
 
 @media(max-width:920px) {
