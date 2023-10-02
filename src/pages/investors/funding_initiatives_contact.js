@@ -12,36 +12,21 @@ import "../../assets/vendor/boxicons/css/boxicons.min.css"
 const FundingInitiativesPage = () => {
    
 
-    const [name, setName] = React.useState("");
-    const [company, setCompany] = React.useState("");
-    const [email, setEmail] = React.useState("");
-    const [message, setMessage] = React.useState("");
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const formData = new FormData(form);
+        const formJson = Object.fromEntries(formData.entries());
+        console.log(formJson);
 
-    const handleNameChange = (event) => {
-        setName(event.target.value);
-        console.log(event.target.value);
-    }
-
-    const handleCompanyChange = (event) => {
-        setCompany(event.target.value);
-    }
-
-    const handleEmailChange = (event) => {
-        setEmail(event.target.value);
-    }
-
-    const handleMessageChange = (event) => {
-        setMessage(event.target.value);
-    }
-
-    const handleSubmit = () => {
-        axios.post("https://og188mg535.execute-api.ap-southeast-1.amazonaws.com/default/SES_Send_Email", 
-        {body: {senderName: name, senderCompany: company, senderEmail: email, senderMessage: message}})
-            
+        axios.post("https://og188mg535.execute-api.ap-southeast-1.amazonaws.com/default/SES_Send_Email", {body: formJson})
+        
 
         .then((response) => {
+            console.log(response);
             if (response.data.status === 'success') {
                 alert("Message Sent.");
+                
                 
                 // this.context.router.history.push('/success')
             } else if (response.data.status === 'fail') {
@@ -89,26 +74,26 @@ const FundingInitiativesPage = () => {
                                 <div className="row">
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label for="name" className="form-label" onChange={handleNameChange}>Name</label>
-                                            <input type="text" className="form-control" id="name" placeholder="Enter your name" required ></input>
+                                            <label for="name" className="form-label" >Name</label>
+                                            <input type="text" className="form-control" name="senderName" placeholder="Enter your name" required ></input>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label for="company" className="form-label" onChange={handleCompanyChange}>Company</label>
-                                            <input type="text" className="form-control" id="company" placeholder="Enter your company name" required ></input>
+                                            <label for="company" className="form-label" >Company</label>
+                                            <input type="text" className="form-control" name="senderCompany" placeholder="Enter your company name" required ></input>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label for="email" className="form-label" onChange={handleEmailChange}>Email</label>
-                                            <input type="email" className="form-control" id="email" placeholder="Enter your email" required ></input>
+                                            <label for="email" className="form-label">Email</label>
+                                            <input type="email" className="form-control" name="senderEmail" placeholder="Enter your email" required ></input>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label for="message" className="form-label" onChange={handleMessageChange}>Message</label>
-                                            <textarea className="form-control" id="message" rows="6" placeholder="Enter your message" required ></textarea>
+                                            <label for="message" className="form-label">Message</label>
+                                            <textarea className="form-control" name="message" rows="6" placeholder="Enter your message" required ></textarea>
                                         </div>
                                     </div>
                                     <div className="col-12">
