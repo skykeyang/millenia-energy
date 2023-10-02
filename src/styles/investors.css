@@ -109,6 +109,43 @@
     background-color: #E2F1E3;
 }
 
+.contact-form-text {
+    padding-left: 10vw;
+    padding-right: 5vw;
+    margin-bottom: 113px;
+}
+
+.contact-form-title {
+    padding-left: 10vw;
+    padding-right: 5vw;
+    margin-top: 80px;
+}
+
+.contact-form {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 60px;
+}
+
+.btn-primary {
+    background-color: #548548 !important;
+    border-color: #548548 !important;
+    border-radius: 10px !important;
+    width: 109px;
+    height: 50px;
+}
+
+
+.contact-form-button {
+    color: #FFF;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 200% */
+}
+
 @media(max-width:920px) {
     .investor-content-image {
         text-align: center;
