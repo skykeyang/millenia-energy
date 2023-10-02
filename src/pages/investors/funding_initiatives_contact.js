@@ -36,7 +36,7 @@ const FundingInitiativesPage = () => {
 
     const handleSubmit = () => {
         axios.post("https://og188mg535.execute-api.ap-southeast-1.amazonaws.com/default/SES_Send_Email", 
-        {header:"",body: {senderName: name, senderCompany: company, senderEmail: email, senderMessage: message}})
+        {body: {senderName: name, senderCompany: company, senderEmail: email, senderMessage: message}})
             
 
         .then((response) => {
