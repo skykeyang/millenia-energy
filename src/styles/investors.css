@@ -146,6 +146,20 @@
     line-height: 28px; /* 200% */
 }
 
+.success-form-text {
+    padding-left: 10vw;
+    padding-right: 5vw;
+    margin-bottom: 50px;
+}
+
+.back-to-home {
+    margin-bottom: 50px;
+}
+
+.bth-button {
+    width: 150px;
+}
+
 @media(max-width:920px) {
     .investor-content-image {
         text-align: center;
