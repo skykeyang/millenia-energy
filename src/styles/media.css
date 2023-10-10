@@ -29,7 +29,7 @@
 }
 
 .media-banner {
-    background: url("media_banner.jpeg");
+    background: url("./media_banner.jpg");
     height: 417px;
     background-size:cover;
     position: relative;
