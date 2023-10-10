@@ -52,7 +52,7 @@ html,body
     background-color: #58a528 !important;
     border-color: #58a528 !important;
     z-index: 5;
-    width: 179px;
+    width: 179px !important;
     height: 53px;
     font-family: 'Montserrat', sans-serif;
     position: relative !important;

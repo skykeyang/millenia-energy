@@ -26,7 +26,7 @@ const IndexPage = () => {
     <div className="title-wrapper container">
       <h1 className="maintitle">We are Millenia Energy</h1>
       <h2 className="subtitle">The Future Is Green</h2>
-      <Link to="investors/investment_opportunities" className="button-wrapper"><button type="button" className="btn btn-primary morebutton rounded-pill">Talk To Us</button></Link>
+      <Link to="investors/investment_opportunities" className="button-wrapper"><button type="button" className="btn btn-primary morebutton rounded-pill"><b>Talk To Us</b></button></Link>
     </div>
     <Metrics2 />
   
