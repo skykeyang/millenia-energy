@@ -3,14 +3,14 @@ import { Link } from 'gatsby'
 import "./css/footer.css"
 import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "../../styles/styles.css"
-import { motion } from "framer-motion";
 
 const Footer = () => {
     return (
       <footer className="footer">
       <div className="container footer-container">
           <div className="row">
-              <div className="col-md-6 footer-content-wrapper">
+              <div className="col-md-1"></div>
+              <div className="col-md-5 footer-content-wrapper">
                   <Link to="/" ><img src={require("../../images/logobanner_nobg2.png").default} className='footer-logo'></img></Link>
                   <div className="row site-links-row">
                   
@@ -39,7 +39,10 @@ const Footer = () => {
                   
                   <br />
               </div>
-              <div className='col-md-6 footer-right'>
+              <div className='col-md-1'>
+
+              </div>
+              <div className='col-md-5 footer-right'>
                     <div className='row empty-row'></div>
                     <div className='row location-row'>
                       <div className='location-content'>
