@@ -2,6 +2,8 @@ import * as React from "react"
 import Navbar from "../../components/home/navbar"
 import Footer from "../../components/home/footer"
 import InvestmentOpportunitiesBanner from "../../components/misc/investment_opportunities_banner"
+import { navigate } from "gatsby"
+import axios from "axios"
 import "./../../styles/styles.css"
 import "./../../styles/investors.css"
 import "../../assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -9,6 +11,30 @@ import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "../../assets/vendor/boxicons/css/boxicons.min.css"
 
 const FundingInitiativesPage = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const formData = new FormData(form);
+        const formJson = Object.fromEntries(formData.entries());
+        console.log(formJson);
+
+        axios.post("https://og188mg535.execute-api.ap-southeast-1.amazonaws.com/default/SES_Send_Email", {body: formJson})
+        
+
+        .then((response) => {
+            console.log(response);
+            if (response.data.status === 'success') {
+                alert("Message Sent.");
+                
+                
+                // this.context.router.history.push('/success')
+            } else if (response.data.status === 'fail') {
+                alert("Message failed to send.")
+            }
+            navigate("/investors/success")
+        })
+    }
+
     return (
         <div>
             <div className="container">
@@ -31,7 +57,7 @@ const FundingInitiativesPage = () => {
                 <div className="container">
                     <div className="row">
                         <div className="form-wrapper">
-                            <form className="contact-form" >
+                            <form className="contact-form" onSubmit={ handleSubmit }>
                                 <div className="row d-flex justify-content-center">
                                     <div className="col-10">
                                         <div className="share-projects-header-box">
@@ -48,7 +74,7 @@ const FundingInitiativesPage = () => {
                                         At Millenia Energy, we aim to collaborate with esteemed developer/installer partners to acquire projects. 
                                         Through our invested capital, we strive to unlock the full potential of your project. <br></br><br></br>
 
-                                        Our acquisition would be subjected to satisfying the pre-requites to our contract. <br></br><br></br>
+                                        Our acquisition would be subjected to satisfying the pre-requisites to our contract. <br></br><br></br>
 
                                         
                                         </p>
@@ -62,25 +88,25 @@ const FundingInitiativesPage = () => {
                                     </div>
                                     <div className="col-8">
                                         <div className="mb-3">
-                                            <label for="company" className="form-label" >Company</label>
-                                            <input type="text" className="form-control" name="senderCompany" placeholder="Enter your company name" required ></input>
-                                        </div>
-                                    </div>
-                                    <div className="col-8">
-                                        <div className="mb-3">
                                             <label for="email" className="form-label">Email</label>
                                             <input type="email" className="form-control" name="senderEmail" placeholder="Enter your email" required ></input>
                                         </div>
                                     </div>
                                     <div className="col-8">
                                         <div className="mb-3">
-                                            <label for="message" className="form-label">Message</label>
+                                            <label for="company" className="form-label" >Company</label>
+                                            <input type="text" className="form-control" name="senderCompany" placeholder="Enter your company name" required ></input>
+                                        </div>
+                                    </div>
+                                    <div className="col-8">
+                                        <div className="mb-3">
+                                            <label for="message" className="form-label">Tell Us About Your Project</label>
                                             <textarea className="form-control" name="message" rows="6" placeholder="Enter your message" required ></textarea>
                                         </div>
                                     </div>
                                     <div className="col-8">
-                                        <div>
-                                            <button type="submit" className="btn btn-primary rounded-pill contact-form-button">SUBMIT</button>
+                                        <div className="contact-button-wrapper">
+                                            <button type="submit" className="btn btn-primary rounded-pill contact-form-button-2">Share Your Project</button>
                                         </div>
                                     </div>
                                 </div>
