@@ -22,7 +22,7 @@ const Footer = () => {
                       </div>
                       <div className='col-4 site-links right-site-links'>
                         <ul className="list-unstyled">
-                          <li className='site-link-item'><Link to ="/investors"> Investors </Link></li>
+                          <li className='site-link-item'><Link to ="/investors/investment_opportunities"> Investors </Link></li>
                           <li className='site-link-item'><Link to ="/portfolio"> Portfolio </Link></li>
                         </ul>
                       </div>

@@ -1,4 +1,5 @@
 import * as React from "react"
+import { navigate } from "gatsby"
 import axios from "axios"
 import Navbar from "../../components/home/navbar"
 import Footer from "../../components/home/footer"
@@ -32,10 +33,10 @@ const FundingInitiativesPage = () => {
             } else if (response.data.status === 'fail') {
                 alert("Message failed to send.")
             }
+            navigate("/investors/success")
         })
     }
     
-
     return (
         <div>
             <div className="container">

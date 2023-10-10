@@ -4,13 +4,13 @@ import Footer from "../components/home/footer"
 import HomeBanner from "../components/home/home_banner"
 import Mission from "../components/home/mission"
 // import Metrics from "../components/home/metrics"
-import Whatwedo from "../components/home/ourexpertise"
 import Metrics2 from "../components/home/metrics2"
 import "./../styles/styles.css"
 import "../assets/vendor/bootstrap/css/bootstrap.min.css"
 import "../assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "../assets/vendor/boxicons/css/boxicons.min.css"
 import OurExpertise from "../components/home/ourexpertise"
+import { Link } from "gatsby"
 
 
 const IndexPage = () => {
@@ -26,7 +26,7 @@ const IndexPage = () => {
     <div className="title-wrapper container">
       <h1 className="maintitle">We are Millenia Energy</h1>
       <h2 className="subtitle">The Future Is Green</h2>
-      <a href='#mission' className="button-wrapper"><button type="button" className="btn btn-primary morebutton rounded-pill">Talk To Us</button></a>
+      <Link to="investors/investment_opportunities" className="button-wrapper"><button type="button" className="btn btn-primary morebutton rounded-pill">Talk To Us</button></Link>
     </div>
     <Metrics2 />
   

@@ -256,8 +256,8 @@
 }
 
 .learn-more {
-    width: 162px;
-    /* height: 45px; */
+    width: 162px !important;
+    height: 45px !important;
     flex-shrink: 0;
     background: #58A528 !important;
     border-radius: 50%;

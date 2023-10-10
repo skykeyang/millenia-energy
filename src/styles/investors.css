@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@400;600;700&display=swap');
 .funding-banner {
     background: url("funding_banner.jpg");
     height: 417px;
@@ -21,6 +22,18 @@
     line-height: 46px;
     text-transform: uppercase;
     margin-top: 46px !important;
+}
+
+.investment-banner-title {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px; /* 136% */
+    width: 596px;
+    padding-left: 23px;
+    padding-top: 14px;
 }
 
 .funding-banner-title {
@@ -144,6 +157,87 @@
     font-style: normal;
     font-weight: 700;
     line-height: 28px; /* 200% */
+}
+
+.success-form-text {
+    padding-left: 10vw;
+    padding-right: 5vw;
+    margin-bottom: 50px;
+}
+
+.back-to-home {
+    margin-bottom: 50px;
+}
+
+.bth-button {
+    width: 150px;
+}
+
+.share-projects-header-box {
+    width: 828px;
+    height: 94px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-bottom: 3vh;
+    flex-shrink: 0;
+    border: 3px solid #3A4A01;
+    background: rgba(217, 217, 217, 0.00);
+    text-align: center;
+    color: #3A4A01;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-style:normal;
+    font-weight: 700;
+    line-height: 25.927px; /* 64.817% */
+}
+
+.share-projects-header {
+    vertical-align: middle;
+}
+
+.share-projects-subheader {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 2vh;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+}
+
+.share-projects-text-1 {
+    color: #3A4A01;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+}
+
+.share-projects-text-2 {
+    color: #3A4A01;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.contact-button-wrapper {
+    margin-bottom: 5vh;
+    justify-content: center !important;
+    display: flex;
+}
+
+.contact-form-button-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 200% */
+    width: 174px;
 }
 
 @media(max-width:920px) {
