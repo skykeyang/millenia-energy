@@ -380,7 +380,7 @@ const AboutPage = () => {
                         <div className="row our-team-content">
                         At Millenia Energy, our team boasts a wealth of experience in development, 
                         financial acumen, and a wide network of connections in the clean energy industry. 
-                        With a shared passion for sustainable solutions, we are committed to driving positive change in the renewable energy landscape.
+                        <br></br>With a shared passion for sustainable solutions, we are committed to driving positive change in the renewable energy landscape.
                         </div>
                         <div className="row learn-more btn btn-primary rounded-pill" onClick={toggleModal}>
                             LEARN MORE

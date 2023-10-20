@@ -8,6 +8,8 @@ import "./../styles/media.css"
 import "../assets/vendor/bootstrap/css/bootstrap.min.css"
 import "../assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "../assets/vendor/boxicons/css/boxicons.min.css"
+import { Link } from "gatsby"
+import PortfolioBanner from "../components/misc/portfolio-banner"
 
 const PortfolioPage = () => {
     return (
@@ -15,9 +17,7 @@ const PortfolioPage = () => {
             <div className="container">
                 <Navbar />
             </div>
-            <div className="banner">
-            
-            </div>
+            <PortfolioBanner />
             <div className="container about-text-container">
             <div className="row">
                 <h2 className="about-title">Our Projects</h2>
@@ -40,16 +40,16 @@ const PortfolioPage = () => {
                         
                         <div className="article-wrapper">
                             <div className="row article-image">
-                                <img src={require("../images/articles/article1.png").default} alt="article1" className="article-image"/>
+                                <img src={require("../images/portfolio/portfoliomain1.png").default} alt="article1" className="article-image"/>
                                 {/* <div className="image-overlay">
                                     {articles[0].length}
                                 </div> */}
                             </div>
-                            <a className="article-link"href="https://www.jtc.gov.sg/about-jtc/news-and-stories/feature-stories/solar-vision-the-future-looks-bright-for-singapore" target="_blank" rel="noreferrer">
+                            <Link to="portfolio1"className="article-link" target="_blank" rel="noreferrer">
                             <div className="row article-title">
                                 62 Senoko Road
                             </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     {/* ITEM 2 */}

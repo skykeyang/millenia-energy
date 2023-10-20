@@ -75,6 +75,7 @@
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
+    width: 85%;
     /* padding-left: 89px; */
 }
 

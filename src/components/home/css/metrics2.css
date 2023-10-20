@@ -58,31 +58,6 @@
     text-align: right;
     padding-right: 36px !important;
 }
-/* 
-hr {
-    width: 334px !important;
-    size: 1px;
-    color: black;
-} */
-
-/* .line {
-    align-items: center;
-    justify-content: center;
-} */
-
-/* .square > .title {
-    color: #3A4A01;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    padding-left: 0.15em;
-    position: relative;
-    margin-left: 22px;
-    margin-bottom: 40px;
-    height: 57px;
-    text-transform: capitalize;
-} */
 
 .metric-icon {
     width: unset !important;
@@ -161,4 +136,41 @@ hr {
         width: 170px !important;
     }
 
+    .smallIcon {
+        display: none;
+    }
+
       }
+
+@media(max-width: 425px) {
+
+    .metrics {
+        margin-top: 50vh;
+        overflow-y: visible !important;
+    }
+
+    .circle {
+        width: 27px !important;
+        height: 25px;
+        right: 0px;
+    }
+
+    .metric-rectangle {
+        width: 107px;
+        height: 24px;
+        border-radius: 6.2px;
+    }
+
+    .metric-icon > svg{
+        height: 18px;
+    }
+
+    .bigIcon {
+        display: none;
+    }
+
+    .smallIcon {
+        display: unset;
+    }
+
+}
