@@ -75,6 +75,10 @@ html,body
     /* top: 352px; */
 }
 
+.break {
+    display: none;
+}
+
 @media(max-width: 1500px)   {
     .title-wrapper {
         top: 24vh;
@@ -112,42 +116,51 @@ html,body
         justify-self: left;
         font-size: 1rem;
     }
+
+    .title-wrapper {
+        top: 0vh;
+    }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 425px) {
     .navlogo {
         margin-left: 0;
         left: 5vb;
     }
 
+    .title-wrapper {
+        top: 0vh;
+    }
 
     .maintitle {
-        top: 20vh;
-        left: 5vb;
-        font-size: 48px;
+        top: 8vh;
+        /* left: 5vb; */
+        font-size: 26px;
         font-style: normal;
         font-weight: 700;
-        height: 150px; /* 120.833% */
-        width: 30vb;
+        height: auto;
+        width: 100vw;
         white-space: normal;
-        word-break: keep-all;
-        text-transform: capitalize;
-        
+        word-break:break-all;
+        text-transform: uppercase;
     }
 
     .subtitle {
-        top: 20vh;
-        left: 5vb;
+        top: 10vh;
+        width: 100vw;
         font-size: 20px;
-        margin-top: 34px;
     }
 
     .morebutton {
-        top: 20vh;
-        left: 5vb;
+        top: 10vh;
+        /* left: 5vb; */
         font-size: 18px;
         width: 40vw;
         height: 47px;
         font-weight: 700;
+    }
+
+    .break {
+        display: block;
     }
 }

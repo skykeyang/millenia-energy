@@ -59,6 +59,8 @@ const Navbar = () => {
                                           <Link to="/investors/investment_opportunities" className='dropdown-item'>Investment Opportunities</Link>
                                              
                      </div>
+                     <li id="funding-initiatives"><Link to ="/investors/funding_initiatives"> Funding Initiatives </Link></li>
+                    <li id="investment-opportunities"><Link to ="/investors/investment_opportunities"> Investment Opportunities </Link></li>
                     <li id="media"><Link to ="/media"> media </Link></li>
                     <li id="portfolio"><Link to ="/portfolio"> portfolio </Link></li>
                   </ul>

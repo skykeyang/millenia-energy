@@ -40,6 +40,57 @@
     margin-bottom: 5em;
 }
 
+.portfolio-banner {
+    background: url("./portfolio-banner.jpeg");
+    height: 417px;
+    background-size:cover;
+    position: relative;
+    width: 100%;
+    padding-top: 115px;
+}
+
+.project-title {
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 107.143% */
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 49px;
+    margin-left: 120px;
+}
+
+.project-content-wrapper {
+    justify-content: center !important;
+}
+
+.project-main-image {
+    margin-bottom: 70px;
+}
+
+.project-description {
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    width: 1065px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.project-secondary-images {
+    margin-left: 105px;
+    margin-bottom: 70px;
+    overflow-x: auto;
+    border-spacing: 15px 42px;
+    border-collapse: unset;
+}
+
+
 @media(max-width:920px) {
     .empty-right-col {
         display: none;
