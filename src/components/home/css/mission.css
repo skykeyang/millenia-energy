@@ -4,6 +4,11 @@
     width: 100%;
     padding-top: 4em;
 }
+
+.section-two-mobile {
+    display: none;
+}
+
 .missionvision {
     background-color: #FFFFFF;
     position: relative;
@@ -165,42 +170,97 @@
     }
 }
 
+
 @media(max-width:420px) {
 
-    .missiontitle {
-        display: none;
+    .section-two-container {
+        height: 700px;
     }
 
-    .together {
-        display: none;
+    .section-two-mobile {
+        position: relative;
+        top: -190px;
+        padding-top: 0;
+        display: block;
+    }
+
+    .section-two {
+        display: none !important;
+    }
+
+    .missiontitle {
+        font-size: 13px;
+        padding-left: 0px;
+        flex-wrap: nowrap;
+        justify-content: center;
+        /* padding-top: 10vh; */
     }
 
     .ourmission {
-        color: #3A4A01;
-        /* text-align: center; */
-        font-family: 'Montserrat', sans-serif;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 46px; /* 184% */
-        text-transform: uppercase;
-        padding: 0;
-        margin-top: 56px;
-        margin-left: 26px;
-    }
-
-    #image-main {
-        display: none;
-    }
-
-    #image-mobile {
-        display: unset;
-        margin-left: 10px;
+        font-size: 13px;
+        margin-top: 23px;
+        text-transform: capitalize;
     }
 
     .missioncontent {
-        padding: 0;
+        color: #3A4A01;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13.376px; /* 148.625% */
+    }
+
+    .turbine-image {
+        margin-top: 21px !important;
+        width: 179px !important;
+        height: 119px !important;
+        flex-shrink: 0;
+    }
+
+    .coastal-turbine-image {
+        width: 209px !important;
+        height: 175px !important;
+        flex-shrink: 0;
+    }
+
+    .ourvision {
+        color: #3A4A01;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 24.227px; /* 220.249% */
+        padding-top: 10px;
+        margin-left: 26px;
+    }
+
+    .visioncontent {
+        color: #3A4A01;
+        font-size: 9px;
+        font-style: normal;
+        line-height: 13.167px; /* 146.301% */
+        margin-left: 26px;
+    }
+
+    .solar-image {
+        width: 245px !important;
+        height: 173px !important;
+        flex-shrink: 0;
+    }
+
+    .ourcommitment {
+        font-size: 13px;
+        color: #3A4A01;
+        padding-top: 10px;
+        margin-left: 26px;
+        padding-left: 0px;
+    }
+
+    .commitmentcontent {
+        color: #3A4A01;
+        font-size: 9px;
+        line-height: 13.333px; /* 148.148% */
         margin-left: 26px;
     }
 
 }
+
+
