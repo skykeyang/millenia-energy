@@ -35,18 +35,18 @@ const Portfolio1 = () => {
             <table className="project-secondary-images justify-content-center">
                 <tr>
                     <td>
-                    <img src={require("../../images/portfolio/portfolio1image2.png").default} alt="image"/>
+                    <img src={require("../../images/portfolio/portfolio1image2.png").default} alt="image" className="project-secondary-image"/>
                     </td>
                     <td>
-                    <img src={require("../../images/portfolio/portfolio1image3.png").default} alt="image"/>
+                    <img src={require("../../images/portfolio/portfolio1image3.png").default} alt="image" className="project-secondary-image"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src={require("../../images/portfolio/portfolio1image4.png").default} alt="image"/>
+                        <img src={require("../../images/portfolio/portfolio1image4.png").default} alt="image" className="project-secondary-image"/>
                     </td>
                     <td>
-                        <img src={require("../../images/portfolio/portfolio1image5.png").default} alt="image"/>
+                        <img src={require("../../images/portfolio/portfolio1image5.png").default} alt="image" className="project-secondary-image"/>
                     </td>
                 </tr>
             </table>
