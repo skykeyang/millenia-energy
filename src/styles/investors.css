@@ -285,6 +285,11 @@
         width: 100% !important;
     }
 
+    .funding-banner {
+        height: 280px !important;
+        padding-top: 70px !important;
+    }
+
     .funding-banner-title {
         height: 15px;
         width: 190px;
