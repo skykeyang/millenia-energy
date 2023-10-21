@@ -110,6 +110,18 @@
     text-align: start;
 }
 
+.media-banner-quote {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+    padding-top: 49px;
+    width: 400px;
+    padding-top: 25px;
+}
+
 @media(max-width:920px) {
     .empty-left-col {
         display: none;
@@ -136,4 +148,19 @@
         height: 100% !important;
         flex: unset !important;
     }
+
+    .media-banner-quote {
+        color: #FFF;
+        font-family: "Lato", sans-serif;
+        font-size: 11px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 15px; /* 136.364% */
+        position: relative;
+        padding-bottom: 18px;
+        margin-left: 12px;
+        padding-top: 0;
+        width: 300px;
+    }
+
 }
