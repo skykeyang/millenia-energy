@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import bannerVideo from "../../styles/solarbackgroundmoving.mp4";
 import "./css/home_banner.css";
 import "../../styles/styles.css";
 
@@ -16,7 +15,7 @@ export default function HomeBanner({children}) {
         {children}
         <video ref={videoRef} autoPlay loop muted  className='homebanner' preload>
             {/* <source src="https://millenia-energy-asset.s3.ap-southeast-1.amazonaws.com/solarbackgroundmoving.mp4" type='video/mp4' /> */}
-            <source autoPlay={true} muted={true} playsInline src={bannerVideo} type='video/mp4' />
+            <source autoPlay={true} muted={true} playsInline src={require("../../styles/solarbackgroundmoving.mp4").default} type='video/mp4' />
         </video>
         
     </div>
