@@ -47,7 +47,7 @@ const FundingInitiativesPage = () => {
             <div className="container-fluid contact-form-wrapper gx-0">
                 <div className="container">
                     <div className="row">
-                        <div className="col-6 col-md-6">
+                        <div className="col-12 col-md-6">
                             <div className="row">
                                 <div className="col-12">
                                     <h2 className="contact-form-title">
@@ -70,7 +70,7 @@ const FundingInitiativesPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6 col-md-6">
+                        <div className="col-12 col-md-6">
                             <form className="contact-form" onSubmit={handleSubmit}>
                                 <div className="row">
                                     <div className="col-12">
