@@ -280,6 +280,7 @@ nav ul li a:hover {
     #investment-opportunities {
         display: block;
     }
+
     nav ul {
           max-height: 0px;
           background: rgba(255,255,255, 0.69);
@@ -290,6 +291,10 @@ nav ul li a:hover {
           backdrop-filter: blur(5px) contrast(99%);
           -webkit-backdrop-filter: blur(5px) contrast(99%);
           
+    }
+
+    .opaque {
+        background: rgba(255,255,255) !important;
     }
 
     nav.black ul {
