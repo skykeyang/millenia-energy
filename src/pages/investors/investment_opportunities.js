@@ -59,7 +59,7 @@ const FundingInitiativesPage = () => {
                         <div className="form-wrapper">
                             <form className="contact-form" onSubmit={ handleSubmit }>
                                 <div className="row d-flex justify-content-center">
-                                    <div className="col-10">
+                                    <div className="col-10 share-projects-header-box-wrapper">
                                         <div className="share-projects-header-box">
                                             <h2 className="share-projects-header"><b>Share Your Projects With Us</b></h2>
                                         </div>

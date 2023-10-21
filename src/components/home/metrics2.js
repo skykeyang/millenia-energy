@@ -12,6 +12,18 @@ export default function Metrics2() {
     const [active, setActive ] = useState(true);
     const [state, setState] = useState(true);
 
+    const [isLong1, setLong1] = useState(false);
+    const toggleLong1 = () => {
+        setLong1(!isLong1);};
+
+    const [isLong2, setLong2] = useState(false);
+    const toggleLong2 = () => {
+    setLong2(!isLong2);};
+
+    const [isLong3, setLong3] = useState(false);
+    const toggleLong3 = () => {
+    setLong3(!isLong3);};
+
     const [value1, setValue1] = useState(null);
     const [value2, setValue2] = useState(null);
     const [value3, setValue3] = useState(null);
@@ -25,14 +37,23 @@ export default function Metrics2() {
           .then(response => response.json())
           .then(json => json.forEach((element,index) => {
               if(index == 0) {
+                if (element[1] / 1000000 >= 1) {
+                  toggleLong1();
+                }
                 setTitle1(element[0])
                 setValue1(element[1])  
               }
               else if(index == 1) {
+                if (element[1] / 1000000 >= 1) {
+                  toggleLong2();
+                }
                 setTitle2(element[0])
                 setValue2(element[1])
               }
               else if(index == 2) {
+                if (element[1] / 1000000 >= 1) {
+                  toggleLong3();
+                }
                 setTitle3(element[0])
                 setValue3(element[1])
               }
@@ -173,7 +194,7 @@ export default function Metrics2() {
 
               <div className='row metric-rectangle gx-0'>
                 <div className='row value-wrapper'>
-              {value1 ? <pre className='metric-value'>
+              {value1 ? <pre className={ isLong3 ? 'metric-value-long':'metric-value'}>
                 <CountUp start={0} end={value3} duration={1.5} scrollSpyDelay={10} enableScrollSpy={true} scrollSpyOnce={true}>
                   {({countUpRef, start}) => (
                     <span ref={countUpRef} ></span>

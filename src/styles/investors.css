@@ -157,6 +157,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 28px; /* 200% */
+    margin-bottom: 10px;
 }
 
 .success-form-text {
@@ -268,4 +269,19 @@
     .button-wrapper {
         width: auto !important;
     }
+
+@media(max-width:420px) {
+    .share-projects-header-box {
+        width: 296px;
+        height: 94px;
+        flex-shrink: 0;
+    }
+
+    .col-10 {
+        width: 100% !important;
+    }
+    /* .share-projects-header-box-wrapper {
+        width: 100% !important;
+    } */
+}
 }
