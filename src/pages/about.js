@@ -143,13 +143,13 @@ const AboutPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="about-banner-2">
+            <div className="about-banner-2 d-flex justify-content-center">
                     <div className="container justify-content-center">
-                        <div className="about-banner2-box">
-                            <div className="about-banner2-title col-4">
+                        <div className="about-banner2-box row">
+                            <div className="about-banner2-title col-sm-4 col-12">
                                 Area of Excellence
                             </div>
-                            <div className="about-banner2-content col-8">
+                            <div className="about-banner2-content col-sm-8 col-12">
                                 <div className="row justify-content-center">
                                     <div className="col-4 about-items">
                                         <div className="row">
