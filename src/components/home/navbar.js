@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react';
 import { Link } from 'gatsby'
 import "./css/header.css"
 
 
 const Navbar = () => {
+
+   const [isIOS, setUserAgent] = useState(false);
+
+   const detectUserAgent = () => { 
+   if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+      setUserAgent(true);
+   }
+   console.log(isIOS);
+   }
+
+   useEffect(() => {
+      detectUserAgent();
+   }, []);
 
     const [IsMobile, setIsMobile] = useState(false);
     const toggleMobile = () => {
@@ -45,7 +58,7 @@ const Navbar = () => {
                   </div>
                {/* <div className={`menu navbarrow ${IsMobile ? 'col-8':''}`}> */}
                <div className= 'menu navbarrow col'>
-                  <ul className= {`backblurred ${isShowing ? 'showing': null}`} >
+                  <ul className= {`backblurred ${isShowing ? 'showing': null} ${isIOS ? 'opaque' : null}`} >
                     <li id="about"><Link to ="/about"> about </Link></li>
                     <li id="investors" onMouseEnter = {handleMouseEnter} onMouseLeave={handleMouseLeave}> 
                                           <Link to="/investors/funding_initiatives">investors</Link> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" fill="none">
