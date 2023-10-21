@@ -8,8 +8,8 @@ export default function AboutBanner() {
 return (
 <div className="banner">
                 <div className="container justify-content-center">
-                    <div className="about-banner-box ">
-                        <div className="col-5">
+                    <div className="about-banner-box">
+                        <div className="col-12 col-sm-5 about-banner-title-wrapper">
                             <h1 className="about-banner-title">
                                 ABOUT US
                             </h1>
@@ -17,7 +17,7 @@ return (
                             <path d="M4 4H172.899" stroke="white" stroke-width="7" stroke-linecap="round"/>
                             </svg>
                         </div>
-                        <div className="col-7">
+                        <div className="col-12 col-sm-7 about-banner-quote-wrapper">
                             <p className="about-banner-quote">
                             We are dedicated to mitigating climate change and creating a positive environmental, social and governance 
                             (ESG) impact, paving the way for a brighter future
