@@ -163,4 +163,12 @@
         width: 300px;
     }
 
+    @media(max-width:450px) {
+
+        .media-banner {
+            height: 280px !important;
+            padding-top: 70px !important;
+        }
+    }
+
 }
