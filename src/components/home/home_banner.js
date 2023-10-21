@@ -13,8 +13,9 @@ export default function HomeBanner({children}) {
     return (
     <div className='banner-wrapper gx-0'>
         {children}
-        <video ref={videoRef} autoPlay loop muted  className='homebanner' preload>
+        <video ref={videoRef} autoPlay loop muted playsInline className='homebanner' preload>
             <source src="https://millenia-energy-asset.s3.ap-southeast-1.amazonaws.com/solarbackgroundmoving.mp4" type='video/mp4' />
+            {/* <source src={require("../../styles/solarbackgroundmoving.mp4").default} type='video/mp4' /> */}
         </video>
         
     </div>
