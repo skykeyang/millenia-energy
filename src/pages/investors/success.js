@@ -19,7 +19,7 @@ const SuccessPage = () => {
             <FundingBanner />
         
         <div className="container-fluid contact-form-wrapper gx-0">
-            <div className="container d-flex justify-content-center">
+            <div className="container d-flex justify-content-center success-wrapper">
                         <div className="row">
                             <div className="col-12">
                                 <h2 className="contact-form-title">

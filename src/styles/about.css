@@ -492,7 +492,7 @@
 
     .our-team-content {
         font-size: 14px;
-        line-height: 15px;
+        line-height: 17px;
         height: 115px;
         margin-bottom: 15px;
     }
@@ -504,7 +504,15 @@
     @media(max-width:350px) {
         .about-banner-box {
             width: 280px;
-            
+        }
+
+        .our-team-content{
+        margin-bottom: 35px;
+        
+        }
+
+        .our-team-box {
+            height: 270px;
         }
     }
 
