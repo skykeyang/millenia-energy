@@ -37,7 +37,7 @@ const PortfolioPage = () => {
                 <div className="row justify-content-center">
                     {/* ITEM 1 */}
                     <div className="col-sm-4" align="center">
-                        
+                    <Link to="portfolio1"className="article-link" target="_blank" rel="noreferrer">
                         <div className="article-wrapper">
                             <div className="row article-image">
                                 <img src={require("../images/portfolio/portfoliomain1.png").default} alt="article1" className="article-image"/>
@@ -51,6 +51,7 @@ const PortfolioPage = () => {
                             </div>
                             </Link>
                         </div>
+                    </Link>
                     </div>
                     {/* ITEM 2 */}
                     <div className="col-sm-4" align="center">
