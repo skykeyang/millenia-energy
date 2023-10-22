@@ -75,7 +75,7 @@ const MediaPage = () => {
                 <div className="row justify-content-center">
                     {/* ARTICLE 1 */}
                     <div className="col-sm-12 col-lg-4" align="center">
-                        
+                        <a href={articles[0].url} target="_blank" rel="noreferrer" className="unstyled-a">
                         <div className="article-wrapper">
                             <div className="row article-image">
                                 <img src={require("../images/articles/article1.png").default} alt="article1" className="article-image"/>
@@ -83,7 +83,7 @@ const MediaPage = () => {
                                     {articles[0].length}
                                 </div>
                             </div>
-                            <a className="article-link"href="https://www.jtc.gov.sg/about-jtc/news-and-stories/feature-stories/solar-vision-the-future-looks-bright-for-singapore" target="_blank" rel="noreferrer">
+                            <a className="article-link"href={articles[0].url} target="_blank" rel="noreferrer">
                             <div className="row article-title">
                                 {articles[0].title}
                             </div>
@@ -92,9 +92,11 @@ const MediaPage = () => {
                                 Written by: {articles[0].author}
                             </div>
                         </div>
+                    </a>
                     </div>
                     {/* ARTICLE 2 */}
                     <div className="col-sm-12 col-lg-4" align="center">
+                        <a href={articles[1].url} target="_blank" rel="noreferrer" className="unstyled-a">
                         <div className="article-wrapper">
                         <div className="row article-image">
                                 <img src={require("../images/articles/article2.png").default} alt="article1" className="article-image"/>
@@ -102,7 +104,7 @@ const MediaPage = () => {
                                     {articles[1].length}
                                 </div>
                             </div>
-                            <a className="article-link"href="https://www.straitstimes.com/business/renewable-energy-main-draw-for-green-investments-in-south-east-asia" target="_blank" rel="noreferrer">
+                            <a className="article-link"href={articles[1].url} target="_blank" rel="noreferrer">
                             <div className="row article-title">
                                 {articles[1].title}
                             </div>
@@ -111,9 +113,11 @@ const MediaPage = () => {
                                 Written by: {articles[1].author}
                             </div>
                         </div>
+                        </a>
                     </div>
                     {/* ARTICLE 3 */}
                     <div className="col-sm-12 col-lg-4" align="center">
+                        <a href={articles[2].url} target="_blank" rel="noreferrer" className="unstyled-a">
                         <div className="article-wrapper">
                         <div className="row article-image">
                                 <img src={require("../images/articles/article3.png").default} alt="article1" className="article-image"/>
@@ -130,6 +134,7 @@ const MediaPage = () => {
                                 Written by: {articles[2].author}
                             </div>
                         </div>
+                        </a>
                     </div>
                 </div>
 
@@ -137,7 +142,7 @@ const MediaPage = () => {
                 <div className="row justify-content-center">
                     {/* ARTICLE 4 */}
                     <div className="col-sm-12 col-lg-4" align="center">
-                        
+                        <a href={articles[3].url} target="_blank" rel="noreferrer" className="unstyled-a">
                         <div className="article-wrapper">
                             <div className="row article-image">
                                 <img src={require("../images/articles/article4.png").default} alt="article1" className="article-image"/>
@@ -154,9 +159,11 @@ const MediaPage = () => {
                                 Written by: {articles[3].author}
                             </div>
                         </div>
+                        </a>
                     </div>
                     {/* ARTICLE 5 */}
                     <div className="col-sm-12 col-lg-4" align="center">
+                        <a href={articles[4].url} target="_blank" rel="noreferrer" className="unstyled-a">
                         <div className="article-wrapper">
                         <div className="row article-image">
                                 <img src={require("../images/articles/article5.png").default} alt="article1" className="article-image"/>
@@ -173,9 +180,11 @@ const MediaPage = () => {
                                 {articles[4].author}
                             </div>
                         </div>
+                        </a>
                     </div>
                     {/* ARTICLE 6 */}
                     <div className="col-sm-12 col-lg-4" align="center">
+                        <a href={articles[5].url} target="_blank" rel="noreferrer" className="unstyled-a">
                         <div className="article-wrapper">
                         <div className="row article-image">
                                 <img src={require("../images/articles/article6.png").default} alt="article1" className="article-image"/>
@@ -192,6 +201,7 @@ const MediaPage = () => {
                                 {articles[5].author}
                             </div>
                         </div>
+                        </a>
                     </div>
                 </div>
                 
@@ -199,7 +209,7 @@ const MediaPage = () => {
                 <div className="row justify-content-center">
                     {/* ARTICLE 7 */}
                     <div className="col-sm-12 col-lg-4" align="center">
-                        
+                        <a href={articles[6].url} target="_blank" rel="noreferrer" className="unstyled-a">
                         <div className="article-wrapper">
                             <div className="row article-image">
                                 <img src={require("../images/articles/article7.png").default} alt="article1" className="article-image"/>
@@ -216,6 +226,7 @@ const MediaPage = () => {
                                 {articles[6].author}
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div className="col-4" align="center"></div>
                     <div className="col-4" align="center"></div>

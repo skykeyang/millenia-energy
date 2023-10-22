@@ -122,6 +122,10 @@
     padding-top: 25px;
 }
 
+.unstyled-a {
+    text-decoration: none;
+}
+
 @media(max-width:920px) {
     .empty-left-col {
         display: none;

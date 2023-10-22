@@ -97,7 +97,7 @@ export default function Metrics2() {
               </div>
 
               <div className='row metric-rectangle gx-0'>
-                <div className='row value-wrapper'>
+                <div className='row value-wrapper gx-0'>
               {value1 ? <pre className='metric-value'>
                 <CountUp start={0} end={value1} duration={1.5} scrollSpyDelay={10} enableScrollSpy={true} scrollSpyOnce={true}>
                   {({countUpRef, start}) => (
