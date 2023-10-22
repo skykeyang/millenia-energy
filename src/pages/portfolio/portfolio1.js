@@ -28,25 +28,26 @@ const Portfolio1 = () => {
             </div>
             <div className="project-description">
             <p>
-            62 Senoko Road is located in the North region of Singapore. 
-            This pioneering project by Millenia Energy showcases our commitment to harnessing the power of the sun to create a brighter, greener future.
+            62 Senoko Road is located in the North region of Singapore. <br></br>
+            It is a 250KWp solar PV system that is installed on the rooftop of an industrial building,
+            capable of generating 320,000KWh of clean energy annually.
             </p>
             </div>
             <table className="project-secondary-images justify-content-center">
                 <tr>
                     <td>
-                    <img src={require("../../images/portfolio/portfolio1image2.png").default} alt="image" className="project-secondary-image"/>
+                    <img src={require("../../images/portfolio/PF1IMG1.jpg").default} alt="image" className="project-secondary-image"/>
                     </td>
                     <td>
-                    <img src={require("../../images/portfolio/portfolio1image3.png").default} alt="image" className="project-secondary-image"/>
+                    <img src={require("../../images/portfolio/PF1IMG2.jpg").default} alt="image" className="project-secondary-image"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src={require("../../images/portfolio/portfolio1image4.png").default} alt="image" className="project-secondary-image"/>
+                        <img src={require("../../images/portfolio/PF1IMG3.jpg").default} alt="image" className="project-secondary-image"/>
                     </td>
                     <td>
-                        <img src={require("../../images/portfolio/portfolio1image5.png").default} alt="image" className="project-secondary-image"/>
+                        <img src={require("../../images/portfolio/PF1IMG4.jpg").default} alt="image" className="project-secondary-image"/>
                     </td>
                 </tr>
             </table>

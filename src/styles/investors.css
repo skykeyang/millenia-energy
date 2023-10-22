@@ -274,6 +274,10 @@
         width: auto !important;
     }
 
+    .share-projects-header-box {
+        width: 500px;
+    }
+
 @media(max-width:450px) {
     .share-projects-header-box {
         width: 296px;

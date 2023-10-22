@@ -81,7 +81,22 @@
     }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 900px) {
+    .section-three {
+        position: relative;
+        top: -30vh;
+    }
+
+    .whatwedo-title {
+        margin-top: 30px !important;
+    }
+
+    .whatwedo-text {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 450px) {
 
     .section-three {
         position: relative;
@@ -132,6 +147,7 @@
         padding-right: 42px;
         margin-left: 24px !important;
         margin-top: 0px !important;
+        margin-bottom: 0px !important;
         z-index: 100;
     }
 

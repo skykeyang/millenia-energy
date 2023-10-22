@@ -130,48 +130,105 @@
 }
 
 @media(max-width:950px) {
-    .missionvision {
-        width: 100% !important;
-    }
-    .missiontitle {
-        display: none;
+    .section-two-container {
+        height: 1250px;
     }
 
-    .together {
-        display: none;
+    .section-two-mobile {
+        position: relative;
+        top: -190px;
+        padding-top: 0;
+        display: block;
+    }
+
+    .section-two {
+        display: none !important;
+    }
+
+    .missiontitle {
+        font-size: 30px;
+        padding-left: 0px;
+        flex-wrap: nowrap;
+        justify-content: center;
+        /* padding-top: 10vh; */
     }
 
     .ourmission {
-        color: #3A4A01;
-        /* text-align: center; */
-        font-family: 'Montserrat', sans-serif;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 46px; /* 184% */
-        text-transform: uppercase;
-        padding: 0;
-        margin-top: 56px;
+        font-size: 20px;
+        margin-top: 0px;
+        text-transform: capitalize;
         margin-left: 26px;
-    }
-
-    #image-main {
-        display: none;
-    }
-
-    #image-mobile {
-        display: unset;
-        margin-left: 10px;
+        padding-left: 0;
     }
 
     .missioncontent {
-        padding: 0;
+        color: #3A4A01;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 148.625% */
         margin-left: 26px;
+        padding-left: 0;
+    }
+
+    .turbine-image {
+        margin-top: 21px !important;
+        width: 300px !important;
+        height: 200px !important;
+        flex-shrink: 0;
+    }
+
+    .coastal-turbine-image {
+        width: 300px !important;
+        height: 250px !important;
+        flex-shrink: 0;
+    }
+
+    .ourvision {
+        font-size: 20px;
+        margin-top: 0px;
+        text-transform: capitalize;
+        margin-left: 26px;
+        padding-left: 0;
+    }
+
+    .visioncontent {
+        color: #3A4A01;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 148.625% */
+        margin-left: 26px;
+        padding-left: 0;
+    }
+
+    .solar-image {
+        width: 300px !important;
+        height: 200px !important;
+        flex-shrink: 0;
+    }
+
+    .ourcommitment {
+        font-size: 20px;
+        margin-top: 0px;
+        text-transform: capitalize;
+        margin-left: 26px;
+        padding-left: 0;
+    }
+
+    .commitmentcontent {
+        color: #3A4A01;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 148.625% */
+        margin-left: 26px;
+        padding-left: 0;
     }
 }
 
 
-@media(max-width:420px) {
+@media(max-width:450px) {
 
     .section-two-container {
         height: 700px;
