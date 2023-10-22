@@ -120,6 +120,10 @@ html,body
     .title-wrapper {
         top: 0vh;
     }
+
+    .success-wrapper {
+        height: 400px;
+    }
 }
 
 @media(max-width: 450px) {
