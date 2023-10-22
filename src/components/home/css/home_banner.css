@@ -21,11 +21,11 @@
 @media(max-width: 900px) {
     .homebanner {
         width: 100vw;
-        height: 50vh;
+        height: 70vh;
     }
 }
 
-@media(max-width: 425px) {
+@media(max-width: 450px) {
     .homebanner {
         backface-visibility: hidden; 
         -ms-transform: translateZ(0); /* IE 9 */

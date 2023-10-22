@@ -102,6 +102,10 @@
     border-collapse: unset;
 }
 
+.project-secondary-image {
+    max-width: 500px;
+}
+
 
 @media(max-width:920px) {
     .empty-right-col {
@@ -115,23 +119,51 @@
         margin-bottom: 41px !important;
     }
 
-    .portfolio-content {
-        width: 295px;
-        font-size: 30px;
-        margin-bottom: 42px !important;
-        flex: unset !important;
-        text-transform: capitalize;
+    .project-title {
+        color: #000;
+        font-family: "Lato", sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 107.143% */
+        text-transform: uppercase;
+        margin-top: 60px;
+        margin-bottom: 49px;
+        margin-left: 0px;
     }
 
-    .portfolio-placeholder-image {
-        flex: unset !important;
+    .project-main-image {
+        margin-bottom: 17px;
+        width: 696px;
+        height: 400px;
+        margin: auto;
+    }
+    
+    .project-description {
+        color: #000;
+        font-family: "Lato", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+        width: 696px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .project-secondary-images {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        overflow-x: auto;
+        border-spacing: 4px 12px;
+        border-collapse: unset;
+    }
+    .project-secondary-image {
+        max-width: 300px;
+        max-height: 512px;
     }
 
-    .portfolio-placeholder-image > img{
-        object-fit: contain;
-        width: 100% !important;
-        height: 100% !important;
-    }
 }
 
     @media(max-width:450px) {
@@ -170,6 +202,7 @@
             line-height: 30px; /* 150% */
             width: 296px;
             margin: auto;
+            margin-top: 0;
         }
         
         .project-secondary-images {
@@ -181,8 +214,8 @@
             border-collapse: unset;
         }
         .project-secondary-image {
-            max-width: 146px;
-            height: 110px;
+            max-width: 150px;
+            max-height: 250px;
         }
 
         .portfolio-banner-title {

@@ -74,7 +74,7 @@ const MediaPage = () => {
                 {/* ROW OF ARTICLES */}
                 <div className="row justify-content-center">
                     {/* ARTICLE 1 */}
-                    <div className="col-sm-4" align="center">
+                    <div className="col-sm-12 col-lg-4" align="center">
                         
                         <div className="article-wrapper">
                             <div className="row article-image">
@@ -94,7 +94,7 @@ const MediaPage = () => {
                         </div>
                     </div>
                     {/* ARTICLE 2 */}
-                    <div className="col-sm-4" align="center">
+                    <div className="col-sm-12 col-lg-4" align="center">
                         <div className="article-wrapper">
                         <div className="row article-image">
                                 <img src={require("../images/articles/article2.png").default} alt="article1" className="article-image"/>
@@ -113,7 +113,7 @@ const MediaPage = () => {
                         </div>
                     </div>
                     {/* ARTICLE 3 */}
-                    <div className="col-sm-4" align="center">
+                    <div className="col-sm-12 col-lg-4" align="center">
                         <div className="article-wrapper">
                         <div className="row article-image">
                                 <img src={require("../images/articles/article3.png").default} alt="article1" className="article-image"/>
@@ -136,7 +136,7 @@ const MediaPage = () => {
                 {/* ROW OF ARTICLES */}
                 <div className="row justify-content-center">
                     {/* ARTICLE 4 */}
-                    <div className="col-sm-4" align="center">
+                    <div className="col-sm-12 col-lg-4" align="center">
                         
                         <div className="article-wrapper">
                             <div className="row article-image">
@@ -156,7 +156,7 @@ const MediaPage = () => {
                         </div>
                     </div>
                     {/* ARTICLE 5 */}
-                    <div className="col-sm-4" align="center">
+                    <div className="col-sm-12 col-lg-4" align="center">
                         <div className="article-wrapper">
                         <div className="row article-image">
                                 <img src={require("../images/articles/article5.png").default} alt="article1" className="article-image"/>
@@ -175,7 +175,7 @@ const MediaPage = () => {
                         </div>
                     </div>
                     {/* ARTICLE 6 */}
-                    <div className="col-sm-4" align="center">
+                    <div className="col-sm-12 col-lg-4" align="center">
                         <div className="article-wrapper">
                         <div className="row article-image">
                                 <img src={require("../images/articles/article6.png").default} alt="article1" className="article-image"/>
@@ -198,7 +198,7 @@ const MediaPage = () => {
                 {/* ROW OF ARTICLES */}
                 <div className="row justify-content-center">
                     {/* ARTICLE 7 */}
-                    <div className="col-sm-4" align="center">
+                    <div className="col-sm-12 col-lg-4" align="center">
                         
                         <div className="article-wrapper">
                             <div className="row article-image">
