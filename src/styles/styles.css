@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@400;600;700&display=swap');
 html,body
 {
     /* width: 100%; */
@@ -12,44 +12,50 @@ html,body
 
 .main {
     box-sizing: border-box;
-    position: relative;
+    position: relative !important;
+    height: 85vh;
 }
 
 .maintitle {
-    color: #3a4a01;
-    font-size: 70px;
+    color: #FFF;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-style: normal;
     font-weight: 700;
-    position: relative;
-    top: 352px;
+    /* line-height: 45.871px; 65.53% */
+    text-transform: uppercase;
+    /* top: 352px; */
     z-index: 5;
     white-space: nowrap;
+    position: relative;
 }
 
 .subtitle {
-    color: #3a4a01;
-    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     /* padding-top: 5px; */
     position: relative;
     z-index: 5;
-    top: 352px;
+    /* top: 352px; */
     white-space: nowrap;
     margin-bottom: 20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45.871px; /* 229.354% */
+    text-transform: capitalize;
 }
 
 .morebutton {
     background-color: #58a528 !important;
     border-color: #58a528 !important;
-    position: relative;
-    top: 352px;
-    padding-top: 91px;
     z-index: 5;
-    font-weight: 700;
-    width: 179px;
+    width: 179px !important;
     height: 53px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    position: relative !important;
 }
 
 .btn {
@@ -58,10 +64,26 @@ html,body
 
 .title-wrapper {
     position: absolute;
+    z-index: 5;
+    text-align: center;
+    top: 26vh;
+}
+
+.button-wrapper {
+    position: relative;
+    text-align: center;
+    /* top: 352px; */
+}
+
+.break {
+    display: none;
 }
 
 @media(max-width: 1500px)   {
-    .maintitle {
+    .title-wrapper {
+        top: 24vh;
+    }
+    /* .maintitle {
         top: 30vh;
     }
     
@@ -71,10 +93,11 @@ html,body
     
     .morebutton {
         top: 30vh;
-    }
+    } */
 }
 
 @media(max-width: 1180px) {
+
     .maintitle {
        top: 15vh;
        justify-self: left;
@@ -93,42 +116,55 @@ html,body
         justify-self: left;
         font-size: 1rem;
     }
+
+    .title-wrapper {
+        top: 0vh;
+    }
+
+    .success-wrapper {
+        height: 400px;
+    }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 450px) {
     .navlogo {
         margin-left: 0;
         left: 5vb;
     }
 
+    .title-wrapper {
+        top: 0vh;
+    }
 
     .maintitle {
-        top: 20vh;
-        left: 5vb;
-        font-size: 48px;
+        top: 8vh;
+        /* left: 5vb; */
+        font-size: 26px;
         font-style: normal;
         font-weight: 700;
-        height: 150px; /* 120.833% */
-        width: 30vb;
+        height: auto;
+        width: 100vw;
         white-space: normal;
-        word-break: keep-all;
-        text-transform: capitalize;
-        
+        word-break:break-all;
+        text-transform: uppercase;
     }
 
     .subtitle {
-        top: 20vh;
-        left: 5vb;
+        top: 10vh;
+        width: 100vw;
         font-size: 20px;
-        margin-top: 34px;
     }
 
     .morebutton {
-        top: 20vh;
-        left: 5vb;
+        top: 10vh;
+        /* left: 5vb; */
         font-size: 18px;
         width: 40vw;
         height: 47px;
         font-weight: 700;
+    }
+
+    .break {
+        display: block;
     }
 }

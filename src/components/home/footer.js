@@ -3,14 +3,14 @@ import { Link } from 'gatsby'
 import "./css/footer.css"
 import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "../../styles/styles.css"
-import { motion } from "framer-motion";
 
 const Footer = () => {
     return (
       <footer className="footer">
       <div className="container footer-container">
           <div className="row">
-              <div className="col-md-6 footer-content-wrapper">
+              <div className="col-md-1"></div>
+              <div className="col-md-5 footer-content-wrapper">
                   <Link to="/" ><img src={require("../../images/logobanner_nobg2.png").default} className='footer-logo'></img></Link>
                   <div className="row site-links-row">
                   
@@ -22,7 +22,7 @@ const Footer = () => {
                       </div>
                       <div className='col-4 site-links right-site-links'>
                         <ul className="list-unstyled">
-                          <li className='site-link-item'><Link to ="/investors"> Investors </Link></li>
+                          <li className='site-link-item'><Link to ="/investors/investment_opportunities"> Investors </Link></li>
                           <li className='site-link-item'><Link to ="/portfolio"> Portfolio </Link></li>
                         </ul>
                       </div>
@@ -31,15 +31,18 @@ const Footer = () => {
                       </div>
                     
                   </div>
-                  <ul className="nav socials">
+                  {/* <ul className="nav socials">
                       <li className="nav-item"><a href="https://www.facebook.com/" className="nav-link firsticon"><i className="bi bi-facebook fa-lg greyscale"></i></a></li>
                       <li className="nav-item"><a href="https://www.linkedin.com/" className="nav-link"><i className="bi bi-linkedin fa-lg greyscale"></i></a></li>
                       <li className="nav-item"><a href="https://www.youtube.com/" className="nav-link"><i className="bi bi-youtube fa-lg greyscale"></i></a></li>
-                  </ul>
+                  </ul> */}
                   
                   <br />
               </div>
-              <div className='col-md-6 footer-right'>
+              <div className='col-md-1'>
+
+              </div>
+              <div className='col-md-5 footer-right'>
                     <div className='row empty-row'></div>
                     <div className='row location-row'>
                       <div className='location-content'>

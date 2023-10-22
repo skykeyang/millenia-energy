@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@400;600;700&display=swap');
+.funding-banner {
+    background: url("funding_banner.jpg");
+    height: 417px;
+    background-size:cover;
+    position: relative;
+    width: 100%;
+    padding-top: 115px;
+}
+
+.funding-content-container {
+    margin-top: 58px;
+}
+
 .investors-title {
     color: #3A4A01;
     text-align: center;
@@ -8,6 +22,38 @@
     line-height: 46px;
     text-transform: uppercase;
     margin-top: 46px !important;
+}
+
+.investment-banner-title {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px; /* 136% */
+    width: 596px;
+    padding-left: 23px;
+    padding-top: 14px;
+}
+
+.funding-banner-title {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px; /* 136% */
+    width: 303px;
+    padding-left: 23px;
+    padding-top: 14px;
+}
+
+.funding-banner-title-line {
+    margin-left: 23px;
+}
+
+.investment-banner-title-line {
+    margin-left: 23px;
 }
 
 .investors-content {
@@ -37,9 +83,11 @@
 .investor-content-text > p {
     width: 496px !important;
 }
+
 .button-wrapper {
     width: 496px !important;
 }
+
 .investbutton {
     width: 345px;
     height: 57px;
@@ -50,6 +98,151 @@
     color: #000 !important;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+}
+
+.funding-initiatives-square {
+    width: 345px;
+    height: 329px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(164, 192, 166, 0.60);
+}
+
+.btn-success {
+    background-color: #58A528 !important;
+    border-color: #58A528 !important;
+    border-radius: 28px !important;
+    width: 211px !important;
+    height: 44px !important;
+    flex-shrink: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-bottom: 15vh;
+}
+
+.contact-form-wrapper {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: #E2F1E3;
+}
+
+.contact-form-text {
+    padding-left: 10vw;
+    padding-right: 5vw;
+    margin-bottom: 113px;
+}
+
+.contact-form-title {
+    padding-left: 10vw;
+    padding-right: 5vw;
+    margin-top: 80px;
+}
+
+.contact-form {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 60px;
+}
+
+.btn-primary {
+    background-color: #548548 !important;
+    border-color: #548548 !important;
+    border-radius: 10px !important;
+    width: 109px;
+    height: 50px;
+}
+
+
+.contact-form-button {
+    color: #FFF;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 200% */
+    margin-bottom: 10px;
+}
+
+.success-form-text {
+    padding-left: 10vw;
+    padding-right: 5vw;
+    margin-bottom: 50px;
+}
+
+.back-to-home {
+    margin-bottom: 50px;
+}
+
+.bth-button {
+    width: 150px;
+}
+
+.share-projects-header-box {
+    width: 828px;
+    height: 94px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin-bottom: 3vh;
+    flex-shrink: 0;
+    border: 3px solid #3A4A01;
+    background: rgba(217, 217, 217, 0.00);
+    text-align: center;
+    color: #3A4A01;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-style:normal;
+    font-weight: 700;
+    line-height: 25.927px; /* 64.817% */
+}
+
+.share-projects-header {
+    vertical-align: middle;
+}
+
+.share-projects-subheader {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 2vh;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+}
+
+.share-projects-text-1 {
+    color: #3A4A01;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+}
+
+.share-projects-text-2 {
+    color: #3A4A01;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.contact-button-wrapper {
+    margin-bottom: 5vh;
+    justify-content: center !important;
+    display: flex;
+}
+
+.contact-form-button-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 200% */
+    width: 174px;
 }
 
 @media(max-width:920px) {
@@ -79,5 +272,81 @@
 
     .button-wrapper {
         width: auto !important;
+    }
+
+    .share-projects-header-box {
+        width: 500px;
+    }
+
+@media(max-width:450px) {
+    .share-projects-header-box {
+        width: 296px;
+        height: 94px;
+        flex-shrink: 0;
+    }
+
+    .col-10 {
+        width: 100% !important;
+    }
+
+    .funding-banner {
+        height: 280px !important;
+        padding-top: 70px !important;
+    }
+
+    .funding-banner-title {
+        height: 15px;
+        width: 190px;
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 18px;
+        margin-left: 12px;
+    }
+    .funding-banner-title-line {
+        width: 46.978px;
+        height: 8px;
+        flex-shrink: 0;
+        stroke-width: 8px;
+        margin-left: 110px;
+        margin-top: 55px;
+    }
+
+    .funding-initiatives-square {
+        height: 240px;
+    }
+
+    .investment-banner-title {
+        height: 15px;
+        width: 300px;
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 12px;
+        margin-left: 6px;
+    }
+
+    .investment-banner-title-line {
+        margin-top: 80px;
+        flex-shrink: 0;
+        height: 8px !important;
+    }
+
+    .funding-content-container {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        overflow-x: visible !important; ;
+    }
+    
+    }
+
+    @media(max-width:350px) {
+        .share-projects-header-box {
+            width: 270px;
+        }
+
+        .squares-wrapper > .col {
+            margin-right: 30px !important;
+        }
     }
 }
