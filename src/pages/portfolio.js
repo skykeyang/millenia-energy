@@ -55,9 +55,67 @@ const PortfolioPage = () => {
                     </div>
                     {/* ITEM 2 */}
                     <div className="col-sm-4" align="center">
-                        
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                            <div className="article-wrapper">
+                                <div className="row article-image">
+                                    <img src={require("../images/portfolio/32Senoko.png").default} alt="article1" className="article-image"/>
+                                    <div className="image-overlay">
+                                        Work In Progress
+                                    </div>
+                                </div>
+                                <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                <div className="row article-title">
+                                    32 Senoko Road
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     {/* ITEM 3 */}
+                    <div className="col-sm-4" align="center">
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                            <div className="article-wrapper">
+                                <div className="row article-image">
+                                    <img src={require("../images/portfolio/TuasSouthStreet.png").default} alt="article1" className="article-image"/>
+                                    <div className="image-overlay">
+                                        Work In Progress
+                                    </div>
+                                </div>
+                                <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                <div className="row article-title">
+                                    7 & 9 Tuas South Street 1
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* ROW OF ITEMS */}
+                <div className="row justify-content-center">
+                    {/* ITEM 4 */}
+                    <div className="col-sm-4" align="center">
+                    <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                        <div className="article-wrapper">
+                            <div className="row article-image">
+                                <img src={require("../images/portfolio/chinbee.png").default} alt="article1" className="article-image"/>
+                                <div className="image-overlay">
+                                        Work In Progress
+                                </div>
+                            </div>
+                            <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                            <div className="row article-title">
+                                21 Chin Bee Ave
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    {/* ITEM 5 */}
+                    <div className="col-sm-4" align="center">
+                        
+                    </div>
+                    {/* ITEM 6 */}
                     <div className="col-sm-4" align="center">
                         
                     </div>
