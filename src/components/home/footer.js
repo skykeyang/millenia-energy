@@ -17,13 +17,14 @@ const Footer = () => {
                       <div className="col-4 site-links left-site-links">
                           <ul className="list-unstyled">
                           <li className='site-link-item'><Link to="/about"> About </Link></li>
-                          <li className='site-link-item'><Link to ="/media"> Media </Link></li>
+                          <li className='site-link-item'><Link to ="/investors/funding_initiatives"> Funding </Link></li>
+                          <li className='site-link-item'><Link to ="/portfolio"> Portfolio </Link></li>
                           </ul>
                       </div>
                       <div className='col-4 site-links right-site-links'>
                         <ul className="list-unstyled">
-                          <li className='site-link-item'><Link to ="/investors/investment_opportunities"> Investors </Link></li>
-                          <li className='site-link-item'><Link to ="/portfolio"> Portfolio </Link></li>
+                          <li className='site-link-item'><Link to ="/investors/investment_opportunities"> Invest </Link></li>
+                          <li className='site-link-item'><Link to ="/media"> Media </Link></li>
                         </ul>
                       </div>
                       <div className='col-4 empty-col'>
@@ -49,7 +50,15 @@ const Footer = () => {
                     <i className='bi bi-geo-alt location-icon'></i><span className='location-text'>1 Yishun Industrial Street 1, #08-16A POSH Bizhub, Singapore 768160</span>
                       </div>
                     </div>
-  
+
+                    {/* <div className='row location-row'>
+                      <div className='location-content'>
+                    <i className='bi bi-geo-alt location-icon'></i><span className='location-text'>Room B, 16/F, Wah Kit Commercial Centre, 302 Des Voeux Road Central,Sheung Wan, Hong Kong</span>
+                      </div>
+                    </div>
+
+                    <div className='row empty-row'></div> */}
+
                     <div className='row info-row'>
                       <div className='info-content'>
                     <i className="bi bi-info-circle info-icon"></i><span className='info-text'>info@millenia-energy.com</span>
