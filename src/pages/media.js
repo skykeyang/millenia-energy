@@ -263,6 +263,27 @@ const MediaPage = () => {
                         </div>
                         </a>
                     </div>
+                    {/* ARTICLE 9 */}
+                    <div className="col-sm-12 col-lg-4" align="center">
+                        <a href={articles[8].url} target="_blank" rel="noreferrer" className="unstyled-a">
+                        <div className="article-wrapper">
+                            <div className="row article-image">
+                                <img src={require("../images/articles/article7.png").default} alt="article1" className="article-image"/>
+                                <div className="image-overlay">
+                                    {articles[8].length}
+                                </div>
+                            </div>
+                            <a className="article-link" href={articles[8].url} target="_blank" rel="noreferrer">
+                            <div className="row article-title">
+                                {articles[8].title}
+                            </div>
+                            </a>
+                            <div className="row article-author">
+                                {articles[8].author}
+                            </div>
+                        </div>
+                        </a>
+                    </div>
                 </div>
             </div>
             <Footer />
