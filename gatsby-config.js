@@ -17,6 +17,10 @@ module.exports = {
     },
     __key: "images"
   },
+  {resolve: 'gatsby-plugin-manifest',
+options: {
+  icon: './src/images/logo_nobg.png'
+}},
   {
     resolve: `gatsby-omni-font-loader`,
     options: {
