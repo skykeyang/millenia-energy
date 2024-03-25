@@ -11,7 +11,7 @@ import "../../assets/vendor/bootstrap-icons/bootstrap-icons.css"
 import "../../assets/vendor/boxicons/css/boxicons.min.css"
 
 
-const Portfolio1 = () => {
+const Portfolio2 = () => {
     return (
         <div>
             <div className="container">
@@ -21,33 +21,32 @@ const Portfolio1 = () => {
             <div className="container">
             <div className="project-content-wrapper">
             <h3 className="project-title">
-                62 SENOKO ROAD
+                21 CHIN BEE AVENUE
             </h3>
             <div className="project-main-image d-flex justify-content-center">
-                <img src={require("../../images/portfolio/portfoliomainlarge1.png").default} alt="article1"/>
+                <img src={require("../../images/portfolio/PF2IMG3.png").default} alt="article2"/>
             </div>
             <div className="project-description">
             <p>
-            62 Senoko Road is located in the North region of Singapore. <br></br><br/>
-            It is a 250kWp solar PV system that is installed on the rooftop of an industrial building,
-            capable of generating 320,000KWh of clean energy annually.
+            Located in the industrial precinct of Chin Bee Avenue in western Singapore, this solar panel site features a robust 105 kWp capacity setup. <br></br><br/>
+            Positioned atop an industrial building, it annually generates an impressive 126,000 kWh of renewable energy.
             </p>
             </div>
             <table className="project-secondary-images justify-content-center">
                 <tr>
                     <td>
-                    <img src={require("../../images/portfolio/PF1IMG1.jpg").default} alt="image" className="project-secondary-image"/>
+                    <img src={require("../../images/portfolio/PF2IMG2.png").default} alt="image" className="project-secondary-image"/>
                     </td>
                     <td>
-                    <img src={require("../../images/portfolio/PF1IMG2.jpg").default} alt="image" className="project-secondary-image"/>
+                    <img src={require("../../images/portfolio/PF2IMG4.png").default} alt="image" className="project-secondary-image"/>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src={require("../../images/portfolio/PF1IMG3.jpg").default} alt="image" className="project-secondary-image"/>
+                        <img src={require("../../images/portfolio/PF2IMG5.png").default} alt="image" className="project-secondary-image"/>
                     </td>
                     <td>
-                        <img src={require("../../images/portfolio/PF1IMG4.jpg").default} alt="image" className="project-secondary-image"/>
+                        <img src={require("../../images/portfolio/PF2IMG6.png").default} alt="image" className="project-secondary-image"/>
                     </td>
                 </tr>
             </table>
@@ -58,4 +57,4 @@ const Portfolio1 = () => {
     )
 }
 
-export default Portfolio1;
+export default Portfolio2;
