@@ -55,21 +55,19 @@ const PortfolioPage = () => {
                     </div>
                     {/* ITEM 2 */}
                     <div className="col-sm-4" align="center">
-                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
-                            <div className="article-wrapper">
-                                <div className="row article-image">
-                                    <img src={require("../images/portfolio/32Senoko.png").default} alt="article1" className="article-image"/>
-                                    <div className="image-overlay">
-                                        Work In Progress
-                                    </div>
-                                </div>
-                                <div to="#"className="article-link" target="_blank" rel="noreferrer">
-                                <div className="row article-title">
-                                    32 Senoko Road
-                                </div>
-                                </div>
+                    <Link to="portfolio2" className="article-link" target="_blank" rel="noreferrer">
+                        <div className="article-wrapper">
+                            <div className="row article-image">
+                                <img src={require("../images/portfolio/chinbee.png").default} alt="article1" className="article-image"/>
+                                
+                            </div>
+                            <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                            <div className="row article-title">
+                                21 Chin Bee Ave
+                            </div>
                             </div>
                         </div>
+                    </Link>
                     </div>
                     {/* ITEM 3 */}
                     <div className="col-sm-4" align="center">
@@ -95,21 +93,21 @@ const PortfolioPage = () => {
                 <div className="row justify-content-center">
                     {/* ITEM 4 */}
                     <div className="col-sm-4" align="center">
-                    <div to="#"className="article-link" target="_blank" rel="noreferrer">
-                        <div className="article-wrapper">
-                            <div className="row article-image">
-                                <img src={require("../images/portfolio/chinbee.png").default} alt="article1" className="article-image"/>
-                                <div className="image-overlay">
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                            <div className="article-wrapper">
+                                <div className="row article-image">
+                                    <img src={require("../images/portfolio/32Senoko.png").default} alt="article1" className="article-image"/>
+                                    <div className="image-overlay">
                                         Work In Progress
+                                    </div>
+                                </div>
+                                <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                <div className="row article-title">
+                                    32 Senoko Road
+                                </div>
                                 </div>
                             </div>
-                            <div to="#"className="article-link" target="_blank" rel="noreferrer">
-                            <div className="row article-title">
-                                21 Chin Bee Ave
-                            </div>
-                            </div>
                         </div>
-                    </div>
                     </div>
                     {/* ITEM 5 */}
                     <div className="col-sm-4" align="center">
@@ -131,7 +129,50 @@ const PortfolioPage = () => {
                     </div>
                     {/* ITEM 6 */}
                     <div className="col-sm-4" align="center">
-                        
+                    <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                        <div className="article-wrapper">
+                            <div className="row article-image">
+                                <img src={require("../images/portfolio/34JooKoonCir.png").default} alt="article1" className="article-image"/>
+                                <div className="image-overlay">
+                                        Work In Progress
+                                </div>
+                            </div>
+                            <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                            <div className="row article-title">
+                                34 Joo Koon Circle
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                {/* ROW OF ITEMS */}
+                <div className="row justify-content-center">
+                    {/* ITEM 7 */}
+                    <div className="col-sm-4" align="center">
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                            <div className="article-wrapper">
+                                <div className="row article-image">
+                                    <img src={require("../images/portfolio/30KianTeckDr.png").default} alt="article1" className="article-image"/>
+                                    <div className="image-overlay">
+                                        Work In Progress
+                                    </div>
+                                </div>
+                                <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                <div className="row article-title">
+                                    30 Kian Teck Drive
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* ITEM 8 */}
+                    <div className="col-sm-4" align="center">
+                    
+                    </div>
+                    {/* ITEM 9 */}
+                    <div className="col-sm-4" align="center">
+                    
                     </div>
                 </div>
                 </div>
