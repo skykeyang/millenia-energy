@@ -71,13 +71,10 @@ const PortfolioPage = () => {
                     </div>
                     {/* ITEM 3 */}
                     <div className="col-sm-4" align="center">
-                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                        <Link to="portfolio3"className="article-link" target="_blank" rel="noreferrer">
                             <div className="article-wrapper">
                                 <div className="row article-image">
                                     <img src={require("../images/portfolio/TuasSouthStreet.png").default} alt="article1" className="article-image"/>
-                                    <div className="image-overlay">
-                                        Work In Progress
-                                    </div>
                                 </div>
                                 <div to="#"className="article-link" target="_blank" rel="noreferrer">
                                 <div className="row article-title">
@@ -85,7 +82,7 @@ const PortfolioPage = () => {
                                 </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
 
