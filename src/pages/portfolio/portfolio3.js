@@ -24,7 +24,7 @@ const Portfolio3 = () => {
                 7 & 9 TUAS SOUTH STREET 1
             </h3>
             <div className="project-main-image d-flex justify-content-center">
-                <img src={require("../../images/portfolio/PF3IMG1.jpeg").default} alt="article3"/>
+                <img src={require("../../images/portfolio/PF3IMG1.jpg").default} alt="article3"/>
             </div>
             <div className="project-description">
             <p>
@@ -35,10 +35,10 @@ const Portfolio3 = () => {
             <table className="project-secondary-images justify-content-center">
                 <tr>
                     <td>
-                    <img src={require("../../images/portfolio/PF3IMG2.jpeg").default} alt="image" className="project-secondary-image"/>
+                    <img src={require("../../images/portfolio/PF3IMG2.jpg").default} alt="image" className="project-secondary-image"/>
                     </td>
                     <td>
-                    <img src={require("../../images/portfolio/PF3IMG3.jpeg").default} alt="image" className="project-secondary-image"/>
+                    <img src={require("../../images/portfolio/PF3IMG3.jpg").default} alt="image" className="project-secondary-image"/>
                     </td>
                 </tr>
             </table>
