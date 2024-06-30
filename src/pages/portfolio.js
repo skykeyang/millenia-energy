@@ -165,7 +165,21 @@ const PortfolioPage = () => {
                     </div>
                     {/* ITEM 8 */}
                     <div className="col-sm-4" align="center">
-                    
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                <div className="article-wrapper">
+                                    <div className="row article-image">
+                                        <img src={require("../images/portfolio/5TuasSouthStreet.png").default} alt="article1" className="article-image"/>
+                                        <div className="image-overlay">
+                                            Work In Progress
+                                        </div>
+                                    </div>
+                                    <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                    <div className="row article-title">
+                                        5 Tuas South Street 1
+                                    </div>
+                                    </div>
+                                </div>
+                        </div>
                     </div>
                     {/* ITEM 9 */}
                     <div className="col-sm-4" align="center">
