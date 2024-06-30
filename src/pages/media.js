@@ -74,6 +74,20 @@ const MediaPage = () => {
             "author": "MIDA",
             "length": "3 mins read"
             },
+        {
+            "title": "What Selection Criteria Can Companies Use to Purchase Renewable Energy Certificates?",
+            "image-link": "../images/articles/article10.png",
+            "url": "https://redex.eco/what-selection-criteria-can-companies-use-to-purchase-renewable-energy-certificates/",
+            "author": "REDEX",
+            "length": "5 mins read"
+            },
+        {
+            "title": "The Economics of Renewable Energy Investment: Costs, Savings, and ROI",
+            "image-link": "../images/articles/article11.png",
+            "url": "https://redex.eco/the-economics-of-renewable-energy-investment-costs-savings-and-roi/",
+            "author": "REDEX",
+            "length": "5 mins read"
+            },
         ]
     
         
@@ -283,6 +297,72 @@ const MediaPage = () => {
                             </div>
                         </div>
                         </a>
+                    </div>
+                </div>
+                {/* ROW OF ARTICLES */}
+                <div className="row justify-content-center">
+                    {/* ARTICLE 10 */}
+                    <div className="col-sm-12 col-lg-4" align="center">
+                        <a href={articles[9].url} target="_blank" rel="noreferrer" className="unstyled-a">
+                        <div className="article-wrapper">
+                            <div className="row article-image">
+                                <img src={require("../images/articles/article10.png").default} alt="article1" className="article-image"/>
+                                <div className="image-overlay">
+                                    {articles[9].length}
+                                </div>
+                            </div>
+                            <a className="article-link" href={articles[9].url} target="_blank" rel="noreferrer">
+                            <div className="row article-title">
+                                {articles[9].title}
+                            </div>
+                            </a>
+                            <div className="row article-author">
+                                {articles[9].author}
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    {/* ARTICLE 11 */}
+                    <div className="col-sm-12 col-lg-4" align="center">
+                        <a href={articles[10].url} target="_blank" rel="noreferrer" className="unstyled-a">
+                        <div className="article-wrapper">
+                            <div className="row article-image">
+                                <img src={require("../images/articles/article11.png").default} alt="article1" className="article-image"/>
+                                <div className="image-overlay">
+                                    {articles[10].length}
+                                </div>
+                            </div>
+                            <a className="article-link" href={articles[10].url} target="_blank" rel="noreferrer">
+                            <div className="row article-title">
+                                {articles[10].title}
+                            </div>
+                            </a>
+                            <div className="row article-author">
+                                {articles[10].author}
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    {/* ARTICLE 12 */}
+                    <div className="col-sm-12 col-lg-4" align="center">
+                        {/* <a href={articles[8].url} target="_blank" rel="noreferrer" className="unstyled-a">
+                        <div className="article-wrapper">
+                            <div className="row article-image">
+                                <img src={require("../images/articles/article7.png").default} alt="article1" className="article-image"/>
+                                <div className="image-overlay">
+                                    {articles[8].length}
+                                </div>
+                            </div>
+                            <a className="article-link" href={articles[8].url} target="_blank" rel="noreferrer">
+                            <div className="row article-title">
+                                {articles[8].title}
+                            </div>
+                            </a>
+                            <div className="row article-author">
+                                {articles[8].author}
+                            </div>
+                        </div>
+                        </a> */}
                     </div>
                 </div>
             </div>
