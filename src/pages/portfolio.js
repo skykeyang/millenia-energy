@@ -90,13 +90,10 @@ const PortfolioPage = () => {
                 <div className="row justify-content-center">
                     {/* ITEM 4 */}
                     <div className="col-sm-4" align="center">
-                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                        <Link to="portfolio4"className="article-link" target="_blank" rel="noreferrer">
                             <div className="article-wrapper">
                                 <div className="row article-image">
-                                    <img src={require("../images/portfolio/32Senoko.png").default} alt="article1" className="article-image"/>
-                                    <div className="image-overlay">
-                                        Work In Progress
-                                    </div>
+                                    <img src={require("../images/portfolio/PF4IMG1.jpg").default} alt="article1" className="article-image"/>
                                 </div>
                                 <div to="#"className="article-link" target="_blank" rel="noreferrer">
                                 <div className="row article-title">
@@ -104,7 +101,7 @@ const PortfolioPage = () => {
                                 </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     {/* ITEM 5 */}
                     <div className="col-sm-4" align="center">
