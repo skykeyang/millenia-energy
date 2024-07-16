@@ -48,6 +48,8 @@
 
 .article-image {
     position: relative;
+    width: 369px;
+    height: 205px;
 }
 
 .image-overlay {
