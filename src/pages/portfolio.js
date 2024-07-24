@@ -105,6 +105,23 @@ const PortfolioPage = () => {
                     </div>
                     {/* ITEM 5 */}
                     <div className="col-sm-4" align="center">
+                    <Link to="portfolio5"className="article-link" target="_blank" rel="noreferrer">
+                        <div className="article-wrapper">
+                            <div className="row article-image">
+                                <img src={require("../images/portfolio/PF5IMG1.jpg").default} alt="article1" className="article-image"/>
+                                
+                            </div>
+                            <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                            <div className="row article-title">
+                                34 Joo Koon Circle
+                            </div>
+                            </div>
+                        </div>
+                    </Link>
+                    </div>
+                    
+                    {/* ITEM 6 */}
+                    <div className="col-sm-4" align="center">
                     <div to="#"className="article-link" target="_blank" rel="noreferrer">
                         <div className="article-wrapper">
                             <div className="row article-image">
@@ -116,24 +133,6 @@ const PortfolioPage = () => {
                             <div to="#"className="article-link" target="_blank" rel="noreferrer">
                             <div className="row article-title">
                                 3 Tuas Avenue 10
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    {/* ITEM 6 */}
-                    <div className="col-sm-4" align="center">
-                    <div to="#"className="article-link" target="_blank" rel="noreferrer">
-                        <div className="article-wrapper">
-                            <div className="row article-image">
-                                <img src={require("../images/portfolio/34JooKoonCir.png").default} alt="article1" className="article-image"/>
-                                <div className="image-overlay">
-                                        Work In Progress
-                                </div>
-                            </div>
-                            <div to="#"className="article-link" target="_blank" rel="noreferrer">
-                            <div className="row article-title">
-                                34 Joo Koon Circle
                             </div>
                             </div>
                         </div>
