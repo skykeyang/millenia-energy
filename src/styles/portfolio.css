@@ -80,6 +80,8 @@
 
 .project-main-image {
     margin-bottom: 70px;
+    height: 607px;
+
 }
 
 .project-description {
@@ -103,7 +105,8 @@
 }
 
 .project-secondary-image {
-    max-width: 500px;
+    width: 500px;
+    height: 666px;
 }
 
 
