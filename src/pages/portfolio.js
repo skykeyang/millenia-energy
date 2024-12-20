@@ -179,7 +179,135 @@ const PortfolioPage = () => {
                     </div>
                     {/* ITEM 9 */}
                     <div className="col-sm-4" align="center">
-                    
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                    <div className="article-wrapper">
+                                        <div className="row article-image">
+                                            <img src={require("../images/portfolio/66SenokoRoad.png").default} alt="article1" className="article-image"/>
+                                            <div className="image-overlay">
+                                                Work In Progress
+                                            </div>
+                                        </div>
+                                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                        <div className="row article-title">
+                                            66 Senoko Road
+                                        </div>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+                {/* ROW OF ITEMS */}
+                <div className="row justify-content-center">
+                    {/* ITEM 10 */}
+                    <div className="col-sm-4" align="center">
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                            <div className="article-wrapper">
+                                <div className="row article-image">
+                                    <img src={require("../images/portfolio/66ASenokoRoad.png").default} alt="article1" className="article-image"/>
+                                    <div className="image-overlay">
+                                        Work In Progress
+                                    </div>
+                                </div>
+                                <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                <div className="row article-title">
+                                    66A Senoko Road
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* ITEM 11 */}
+                    <div className="col-sm-4" align="center">
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                <div className="article-wrapper">
+                                    <div className="row article-image">
+                                        <img src={require("../images/portfolio/62SungeiKadutLoop.png").default} alt="article1" className="article-image"/>
+                                        <div className="image-overlay">
+                                            Work In Progress
+                                        </div>
+                                    </div>
+                                    <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                    <div className="row article-title">
+                                        62 Sungei Kadut Loop
+                                    </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    {/* ITEM 12 */}
+                    <div className="col-sm-4" align="center">
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                    <div className="article-wrapper">
+                                        <div className="row article-image">
+                                            <img src={require("../images/portfolio/19WoodlandsIndustrialParkE1.png").default} alt="article1" className="article-image"/>
+                                            <div className="image-overlay">
+                                                Work In Progress
+                                            </div>
+                                        </div>
+                                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                        <div className="row article-title">
+                                            19 Woodlands Industrial Park E1
+                                        </div>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+                {/* ROW OF ITEMS */}
+                <div className="row justify-content-center">
+                    {/* ITEM 13 */}
+                    <div className="col-sm-4" align="center">
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                            <div className="article-wrapper">
+                                <div className="row article-image">
+                                    <img src={require("../images/portfolio/21WoodlandsIndustrialParkE1.png").default} alt="article1" className="article-image"/>
+                                    <div className="image-overlay">
+                                        Work In Progress
+                                    </div>
+                                </div>
+                                <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                <div className="row article-title">
+                                    21 Woodlands Industrial Park E1
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* ITEM 14 */}
+                    <div className="col-sm-4" align="center">
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                <div className="article-wrapper">
+                                    <div className="row article-image">
+                                        <img src={require("../images/portfolio/No1WoodlandsIndustrialParkE1.png").default} alt="article1" className="article-image"/>
+                                        <div className="image-overlay">
+                                            Work In Progress
+                                        </div>
+                                    </div>
+                                    <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                    <div className="row article-title">
+                                        No.1 Woodlands Industrial Park E1
+                                    </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    {/* ITEM 15 */}
+                    <div className="col-sm-4" align="center">
+                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                    <div className="article-wrapper">
+                                        <div className="row article-image">
+                                            <img src={require("../images/portfolio/No3WoodlandsIndustrialParkE1.png").default} alt="article1" className="article-image"/>
+                                            <div className="image-overlay">
+                                                Work In Progress
+                                            </div>
+                                        </div>
+                                        <div to="#"className="article-link" target="_blank" rel="noreferrer">
+                                        <div className="row article-title">
+                                            No.3 Woodlands Industrial Park E1
+                                        </div>
+                                        </div>
+                                    </div>
+                            </div>
                     </div>
                 </div>
                 </div>
